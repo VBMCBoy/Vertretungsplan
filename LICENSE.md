@@ -24,7 +24,7 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
 OR OTHER DEALINGS IN THE SOFTWARE.
 
-#Anhang
+##Anhang
 
 Desweiteren erlaube ich jedem die App zu verändern, weiterzugeben oder zu veröffentlichen, solange
 sie NICHT FÜR KOMMERZIELLE ZWECKE genutzt wird.
