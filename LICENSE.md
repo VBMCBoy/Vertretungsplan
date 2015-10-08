@@ -1,4 +1,4 @@
-#Lizenz für Jsoup:
+﻿#Lizenz für Jsoup:
 
 The jsoup code-base (include source and compiled packages) are distributed under the open source MIT license as described below.
 
@@ -27,9 +27,9 @@ OR OTHER DEALINGS IN THE SOFTWARE.
 #Anhang
 
 Desweiteren erlaube ich jedem die App zu verändern, weiterzugeben oder zu veröffentlichen, solange
-sie NICHT FÜR KOMMERZIELLE ZWECKE genutzt wird.
+sie NICHT FÜR KOMMERZIELLE ZWECKE genutzt wird (Dies gilt natürlich nicht für Jsoup, dessen Lizenz steht oben).
 
 English:
 
 Furthermore I allow everyone to modify, distribute or publish the application, AS LONG AS IT IS NOT USED
-FOR COMMERCIAL USE.
+FOR COMMERCIAL USE (This does not apply to Jsoup. The license for Jsoup is at the top.)
