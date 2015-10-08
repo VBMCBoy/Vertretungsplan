@@ -1,4 +1,6 @@
-#Lizenz für Jsoup:
+#Lizenzen
+
+##Lizenz für Jsoup
 
 The jsoup code-base (include source and compiled packages) are distributed under the open source MIT license as described below.
 
