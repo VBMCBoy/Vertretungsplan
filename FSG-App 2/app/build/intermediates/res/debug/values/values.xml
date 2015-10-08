@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/D:/Bibliotheken/Dokumente/Android%20Studio%20Projects/FSG-App%202/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/D:/Bibliotheken/Dokumente/GitHub/Vertretungsplan/FSG-App%202/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/D:/Bibliotheken/Dokumente/Android%20Studio%20Projects/FSG-App%202/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/D:/Bibliotheken/Dokumente/GitHub/Vertretungsplan/FSG-App%202/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="Datum_beachten">Immer das Datum des Vertretungsplanes überprüfen!</string>
     <string name="Warnung">Achtung! Stellen Sie bitte in den Einstellungen alles ein und gehen Sie dann von dort zum Vertretungsplan!</string>
@@ -24,7 +24,7 @@
     <string name="name">Benutzername:</string>
     <string name="passwort">Passwort:</string>
     <string name="title_activity_viewer2">Viewer2Activity</string>
-    <!-- From: file:/D:/Bibliotheken/Dokumente/Android%20Studio%20Projects/FSG-App%202/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/D:/Bibliotheken/Dokumente/GitHub/Vertretungsplan/FSG-App%202/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
