@@ -1,5 +1,4 @@
-﻿#Lizenz für Jsoup:
-#Lizenzen
+﻿#Lizenzen
 
 ##Lizenz für Jsoup
 
