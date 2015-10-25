@@ -39,9 +39,9 @@ public class SettingsActivity extends Activity {
 			new AlertDialog.Builder(this)
 					.setTitle("Kontakt")
 					.setMessage(
-							"Sie k�nnen mich unter kakaoh6@gmail.com erreichen."
+							"Sie können mich unter kakaoh6@gmail.com erreichen."
 									+ "\n"
-									+ "Die App kann leider nur den exakten Ausruck finden, gibt es z.B. Vertretung f�r 4e wird Vertretung f�r 4de ignoriert und nicht angezeigt!")
+									+ "Die App kann leider nur den exakten Ausruck finden, gibt es z.B. Vertretung für 4e wird Vertretung für 4de ignoriert und nicht angezeigt!")
 					.setPositiveButton(android.R.string.yes,
 							new DialogInterface.OnClickListener() {
 								public void onClick(DialogInterface dialog,
