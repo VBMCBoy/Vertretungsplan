@@ -72,22 +72,6 @@ public class SettingsActivity extends Activity {
 			startActivity(i1);
 
 		} else {
-
-			EditText Klasse = (EditText) findViewById(R.id.txt_klasse);
-			String wert_klasse = Klasse.getText().toString();
-			SettingsActivity.geteilt_klasse = wert_klasse;
-			// Text aus den Textfeldern holen
-			EditText Name = (EditText) findViewById(R.id.txt_BN);
-			String wert_name = Name.getText().toString();
-
-			EditText Passwort = (EditText) findViewById(R.id.txt_PW);
-			String wert_PW = Passwort.getText().toString();
-
-			Intent i2 = new Intent(this, Viewer2Activity.class);
-			i2.putExtra("PW", wert_PW);
-			i2.putExtra("BN", wert_name);
-			i2.putExtra("Kl", wert_klasse);
-			startActivity(i2);
 		}
 
 	}

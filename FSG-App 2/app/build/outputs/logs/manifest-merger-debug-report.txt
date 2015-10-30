@@ -63,9 +63,3 @@ activity#com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity
 ADDED from AndroidManifest.xml:29:9
 	android:name
 		ADDED from AndroidManifest.xml:29:19
-activity#com.KayKaprolat.Praktikum.Vertretungsplan2.Viewer2Activity
-ADDED from AndroidManifest.xml:31:9
-	android:label
-		ADDED from AndroidManifest.xml:33:13
-	android:name
-		ADDED from AndroidManifest.xml:32:13

@@ -4,7 +4,7 @@
     <string name="app_name">Vertretungsplan</string>
     <string name="hello_world">Drücken</string>
     <string name="action_settings">Settings</string>
-    <string name="abruf">Vertretungsplan heute</string>
+    <string name="abruf">Vertretungsplan</string>
     <string name="einstellungen">Einstellungen</string>
     <string name="einst_klasse">Klasse:</string>
     <string name="einst_klasse_std">KLASSE</string>

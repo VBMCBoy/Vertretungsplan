@@ -28,10 +28,6 @@
         </activity>
         <activity android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" >
         </activity>
-        <activity
-            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.Viewer2Activity"
-            android:label="@string/title_activity_viewer2" >
-        </activity>
     </application>
 
 </manifest>
