@@ -132,11 +132,7 @@ public class ViewerActivity extends Activity {
                         public void run() {
                             Document doc2 = Jsoup.parse(Plan, "windows-1252");
 
-                            Elements TEST = doc2.select("tr:contains(" // matches()
-                                    // macht
-                                    // keinen
-                                    // Unterschied
-                                    + wert_klasse + ")");
+                            Elements TEST = doc2.select("tr:has(td:eq(1):contains(" + wert_klasse + "))");
                             TEST.attr("bgcolor", "FFF007");
 
                             webView.getSettings().setBuiltInZoomControls(true);
@@ -153,7 +149,6 @@ public class ViewerActivity extends Activity {
                         @Override
                         public void run() {
                             Toast.makeText(getApplicationContext(), "Ein Fehler ist aufgetreten.", Toast.LENGTH_LONG).show();
-                            ;
                         }
                     });
                     finish();
@@ -167,6 +162,7 @@ public class ViewerActivity extends Activity {
 
 
     }
+
     public void onButtonClick(View view) {
 
         if (view.getId() == R.id.button) {
@@ -248,11 +244,7 @@ public class ViewerActivity extends Activity {
                             public void run() {
                                 Document doc2 = Jsoup.parse(Plan, "windows-1252");
 
-                                Elements TEST = doc2.select("tr:contains(" // matches()
-                                        // macht
-                                        // keinen
-                                        // Unterschied
-                                        + wert_klasse + ")");
+                                Elements TEST = doc2.select("tr:has(td:eq(1):contains(" + wert_klasse + "))");
                                 TEST.attr("bgcolor", "FFF007");
 
                                 webView.getSettings().setBuiltInZoomControls(true);
@@ -262,14 +254,12 @@ public class ViewerActivity extends Activity {
 
                             }
                         });
-
                     } catch (Exception e) {
                         e.printStackTrace();
                         runOnUiThread(new Runnable() {
                             @Override
                             public void run() {
                                 Toast.makeText(getApplicationContext(), "Ein Fehler ist aufgetreten.", Toast.LENGTH_LONG).show();
-                                ;
                             }
                         });
                         finish();
@@ -280,7 +270,6 @@ public class ViewerActivity extends Activity {
                     }
                 }
             }.start();
-
 
 
         } else {
@@ -363,11 +352,7 @@ public class ViewerActivity extends Activity {
                             public void run() {
                                 Document doc2 = Jsoup.parse(Plan, "windows-1252");
 
-                                Elements TEST = doc2.select("tr:contains(" // matches()
-                                        // macht
-                                        // keinen
-                                        // Unterschied
-                                        + wert_klasse + ")");
+                                Elements TEST = doc2.select("tr:has(td:eq(1):contains(" + wert_klasse + "))");
                                 TEST.attr("bgcolor", "FFF007");
 
                                 webView.getSettings().setBuiltInZoomControls(true);
@@ -384,7 +369,6 @@ public class ViewerActivity extends Activity {
                             @Override
                             public void run() {
                                 Toast.makeText(getApplicationContext(), "Ein Fehler ist aufgetreten.", Toast.LENGTH_LONG).show();
-                                ;
                             }
                         });
                         finish();

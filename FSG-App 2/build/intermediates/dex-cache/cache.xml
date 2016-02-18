@@ -2,32 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\kakao_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jar="D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\libs\jsoup-1.8.3.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\build\intermediates\pre-dexed\release\support-annotations-22.2.0-f5e3cba575d6cc0a70a024ff6f23f30e3f94f16b.jar" />
-    </item>
-    <item
-        jar="D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\build\intermediates\pre-dexed\release\classes-e2ed758990bf95fed7f8d9e698820114ab614232.jar" />
-    </item>
-    <item
-        jar="D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\build\intermediates\pre-dexed\release\internal_impl-22.2.0-e7be3bb55c8de4d16ddcda8f43fd7721b6ccaab1.jar" />
-    </item>
-    <item
-        jar="D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\libs\jsoup-1.8.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="580e4dd2a6125cc4037450b40623ac6a552c11df">
-        <dex dex="D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\build\intermediates\pre-dexed\release\jsoup-1.8.2-b5947fdd3d11f40a8acace76533a8ac6364a273c.jar" />
+        sha1="3a86e137575e4a45f5a9eec407f8135512e823a2">
+        <dex dex="D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\build\intermediates\pre-dexed\debug\jsoup-1.8.3-00be5aa2118ca68690d472eea754f3a291ca8d89.jar" />
     </item>
 
 </items>
