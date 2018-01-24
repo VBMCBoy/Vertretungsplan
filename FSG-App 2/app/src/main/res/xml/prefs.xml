@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditTextPreference
+        android:key="KL"
+        android:persistent="true"
+        android:summary="@string/expl_setting_klasse"
+        android:title="@string/einst_klasse" />
+    <EditTextPreference
+        android:key="BN"
+        android:title="@string/name"
+        android:persistent="true" />
+    <EditTextPreference
+        android:key="PW"
+        android:persistent="true"
+        android:title="@string/passwort" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="LE"
+        android:persistent="true"
+        android:summary="@string/expl_setting_lehrer"
+        android:title="@string/setting_lehrer" />
+
+</PreferenceScreen>

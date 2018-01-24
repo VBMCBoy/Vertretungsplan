@@ -1,12 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
+    compileSdkVersion 23
 
     defaultConfig {
         applicationId "com.KayKaprolat.Praktikum.Vertretungsplan2"
-        minSdkVersion 16
-        targetSdkVersion 21
+        minSdkVersion 17
+        targetSdkVersion 23
+        vectorDrawables.useSupportLibrary = true
     }
 
     buildTypes {
@@ -18,6 +19,8 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:22.2.0'
+    implementation 'com.android.support:support-vector-drawable:23.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
     compile files('libs/jsoup-1.8.3.jar')
+    compile 'com.android.support:preference-v7:23.4.0'
 }
