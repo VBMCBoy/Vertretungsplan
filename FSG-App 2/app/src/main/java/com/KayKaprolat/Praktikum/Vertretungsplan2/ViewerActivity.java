@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.TextView;
@@ -201,6 +202,7 @@ public class ViewerActivity extends Activity {
                         int day = calendar.get(Calendar.DAY_OF_WEEK);
                         DateFormat dateFormat = new SimpleDateFormat("dd MM yyyy");
                         final Date date = new Date();
+
                         switch (day) {
                             case 1: // Sonntag
                                 url = new URL(
@@ -208,7 +210,7 @@ public class ViewerActivity extends Activity {
                                 break;
                             case 2:  // Montag
                                 url = new URL(
-                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm");
+                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
                                 break;
                             case 3:// Dienstag
                                 url = new URL(
@@ -324,23 +326,23 @@ public class ViewerActivity extends Activity {
                                 break;
                             case 2:  // Montag
                                 url = new URL(
-                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm");
+                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Dienstag.htm");
                                 break;
                             case 3:// Dienstag
                                 url = new URL(
-                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Dienstag.htm");
+                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm");
                                 break;
                             case 4:// Mittwoch
                                 url = new URL(
-                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm");
+                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Donnerstag.htm");
                                 break;
                             case 5:  // Donnerstag
                                 url = new URL(
-                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Donnerstag.htm");
+                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Freitag.htm");
                                 break;
                             case 6: // Freitag
                                 url = new URL(
-                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Freitag.htm");
+                                        "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
                                 break;
                             case 7: // Samstag
                                 url = new URL(
@@ -404,6 +406,23 @@ public class ViewerActivity extends Activity {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.main, menu);
         return true;
+    }
+
+    public void Menu_Einstellungen(MenuItem item) {
+
+        Intent intent = new Intent(this, SettingsActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void Menu_Licenses(MenuItem item) {
+
+
+    }
+
+    public void Menu_About(MenuItem item) {
+
+
     }
 
 
