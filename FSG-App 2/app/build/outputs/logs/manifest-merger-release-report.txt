@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-35:12
+MERGED from [com.android.support:preference-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-23.4.0.aar\df132492da8f8120805eab49e328086e\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\23a4ac2e19dcb7ebe005e3812b1407f8\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\05183a43ac41fcb70fd68962085cb721\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\990e3eb97a836f4e807cc7c7a49b4771\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\19c0508f648abc363c351b3cc7442219\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\00ed9b41113e422f8fb531737e04ced9\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:3:5-57
+		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
+uses-sdk
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:preference-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-23.4.0.aar\df132492da8f8120805eab49e328086e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:preference-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-23.4.0.aar\df132492da8f8120805eab49e328086e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\23a4ac2e19dcb7ebe005e3812b1407f8\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\23a4ac2e19dcb7ebe005e3812b1407f8\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\05183a43ac41fcb70fd68962085cb721\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\05183a43ac41fcb70fd68962085cb721\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\990e3eb97a836f4e807cc7c7a49b4771\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\990e3eb97a836f4e807cc7c7a49b4771\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\19c0508f648abc363c351b3cc7442219\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\19c0508f648abc363c351b3cc7442219\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\00ed9b41113e422f8fb531737e04ced9\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\00ed9b41113e422f8fb531737e04ced9\AndroidManifest.xml:20:5-43
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\23a4ac2e19dcb7ebe005e3812b1407f8\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:14:22-77
+application
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:16:5-33:19
+MERGED from [com.android.support:preference-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-23.4.0.aar\df132492da8f8120805eab49e328086e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:preference-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-23.4.0.aar\df132492da8f8120805eab49e328086e\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\23a4ac2e19dcb7ebe005e3812b1407f8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\23a4ac2e19dcb7ebe005e3812b1407f8\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\05183a43ac41fcb70fd68962085cb721\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\05183a43ac41fcb70fd68962085cb721\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\990e3eb97a836f4e807cc7c7a49b4771\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-23.4.0.aar\990e3eb97a836f4e807cc7c7a49b4771\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\00ed9b41113e422f8fb531737e04ced9\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\00ed9b41113e422f8fb531737e04ced9\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:19:9-41
+	android:icon
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:18:9-45
+	android:allowBackup
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:21:9-28:20
+	android:label
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:23:13-44
+	android:name
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:22:13-43
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:26:27-74
+activity#com.KayKaprolat.Praktikum.Vertretungsplan2.SettingsActivity
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:29:9-32:69
+	android:parentActivityName
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:32:13-57
+	android:label
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:31:13-57
+	android:name
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:30:13-45
