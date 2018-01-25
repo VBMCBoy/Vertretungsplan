@@ -31,7 +31,7 @@
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/Viewertxt"
         android:layout_toEndOf="@+id/Viewertxt"
-        android:onClick="onButtonClick" />
+        android:onClick="BtnHeuteClick" />
 
     <Button
         android:layout_width="wrap_content"
@@ -41,6 +41,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="onButtonClick" />
+        android:onClick="BtnMorgenClick" />
 
 </RelativeLayout>

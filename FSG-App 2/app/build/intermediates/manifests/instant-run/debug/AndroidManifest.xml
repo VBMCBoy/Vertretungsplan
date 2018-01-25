@@ -33,6 +33,12 @@
             android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.SettingsActivity"
             android:label="Vertretungsplaneinstellungen"
             android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
+        <activity
+            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.LicenseActivity"
+            android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
+        <activity
+            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.AboutActivity"
+            android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
 
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"

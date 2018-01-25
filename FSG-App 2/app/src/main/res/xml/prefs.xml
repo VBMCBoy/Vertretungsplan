@@ -5,21 +5,19 @@
     <EditTextPreference
         android:key="KL"
         android:persistent="true"
-        android:summary="@string/expl_setting_klasse"
+        android:singleLine="true"
+        android:summary="Für Lehrer reicht der Nachname."
         android:title="@string/einst_klasse" />
     <EditTextPreference
+        android:inputType="textNoSuggestions"
         android:key="BN"
-        android:title="@string/name"
-        android:persistent="true" />
+        android:persistent="true"
+        android:singleLine="true"
+        android:title="@string/name" />
     <EditTextPreference
+        android:inputType="textPassword"
         android:key="PW"
         android:persistent="true"
         android:title="@string/passwort" />
-    <SwitchPreference
-        android:defaultValue="false"
-        android:key="LE"
-        android:persistent="true"
-        android:summary="@string/expl_setting_lehrer"
-        android:title="@string/setting_lehrer" />
 
 </PreferenceScreen>

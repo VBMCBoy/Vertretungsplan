@@ -23,13 +23,20 @@
             android:label="Vertretungsplan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".SettingsActivity"
             android:label="Vertretungsplaneinstellungen"
-            android:parentActivityName=".ViewerActivity"></activity>
+            android:parentActivityName=".ViewerActivity" />
+        <activity
+            android:name=".LicenseActivity"
+            android:parentActivityName=".ViewerActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:parentActivityName=".ViewerActivity" />
     </application>
 
 </manifest>

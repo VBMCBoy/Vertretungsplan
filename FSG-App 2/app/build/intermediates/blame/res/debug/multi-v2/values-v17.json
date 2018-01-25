@@ -4,7 +4,7 @@
             "outputFile": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\23a4ac2e19dcb7ebe005e3812b1407f8\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\9285d7da0c6bf2801a4556b779a21c62\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-23.4.0.aar\\df132492da8f8120805eab49e328086e\\res\\values-v17\\values-v17.xml",
+                    "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-23.4.0.aar\\ac8e8573f6e0defb1f5583c77d66faef\\res\\values-v17\\values-v17.xml",
                     "from": {
                         "startLines": "2,7",
                         "startColumns": "4,4",

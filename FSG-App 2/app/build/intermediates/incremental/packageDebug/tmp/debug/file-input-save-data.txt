@@ -1,17 +1,17 @@
 #Internal package file, do not edit.
-#Wed Jan 24 20:35:20 CET 2018
-2.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+#Thu Jan 25 18:47:41 CET 2018
+2.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 5.set=DEX
 0.path=schulserver.bks
 2.baseType=DIRECTORY
-3.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
+3.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 2.set=DEX
 1.path=classes.dex
-4.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+4.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
 count=7
 5.baseType=DIRECTORY
 2.path=classes.dex
-5.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+5.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
 4.set=DEX
 3.path=classes.dex
 6.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
@@ -26,6 +26,6 @@ count=7
 0.baseType=DIRECTORY
 3.set=DEX
 6.path=classes.dex
-1.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+1.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
 4.baseType=DIRECTORY
 0.set=ASSET
