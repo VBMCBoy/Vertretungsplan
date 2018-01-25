@@ -33,5 +33,5 @@ sie NICHT FÜR KOMMERZIELLE ZWECKE genutzt wird (Dies gilt natürlich nicht für
 
 English:
 
-Furthermore I allow everyone to modify, distribute or publish the application, AS LONG AS IT IS NOT USED
+Furthermore I allow everyone to modify, distribute or publish the application, AS LONG AS IT IS NOT 
 FOR COMMERCIAL USE (This does not apply to Jsoup. The license for Jsoup is at the top.)
