@@ -3,17 +3,14 @@
     tools:context="com.KayKaprolat.Praktikum.Vertretungsplan.MainActivity">
 
     <item
-        android:id="@+id/action_settings"
         android:title="@string/einstellungen"
         android:orderInCategory="1"
         android:onClick="Menu_Einstellungen" />
     <item
-        android:id="@+id/action_licenses"
         android:title="@string/licenses"
         android:orderInCategory="2"
         android:onClick="Menu_Licenses" />
     <item
-        android:id="@+id/action_about"
         android:title="@string/about"
         android:orderInCategory="3"
         android:onClick="Menu_About" />

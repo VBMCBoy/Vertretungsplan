@@ -315,15 +315,14 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="about">Über...</string>
+    <string name="about">Über…</string>
     <string name="abouttext">Eine Android-App, welche den Vertretungsplan des FSG in Großröhrsdorf abruft und formatiert. \n
 \n
 Website des FSG: http://ferdinand-sauerbruch-gymnasium.de \n</string>
     <string name="app_name">Vertretungsplan</string>
     <string name="einst_klasse">Klasse / Lehrer</string>
     <string name="einstellungen">Einstellungen</string>
-    <string name="expl_setting_klasse">Für Lehrer H.Müller, Fr.Muster oder nur Müller / Muster</string>
-    <string name="expl_setting_lehrer">Durchsucht die vierte Spalte anstatt der Zweiten.</string>
+    <string name="heute">Heute</string>
     <string name="license">License for Jsoup only: \n
         \n
 The jsoup code-base (include source and compiled packages) are distributed under the open source MIT license as described below. \n
@@ -338,11 +337,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 \n
     </string>
     <string name="licenses">Lizenzen</string>
+    <string name="morgen">Morgen</string>
     <string name="name">Benutzername</string>
     <string name="passwort">Passwort</string>
-    <string name="setting_lehrer">Ich bin Lehrer.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="textview">TextView</string>
     <string name="v7_preference_off">OFF</string>
     <string name="v7_preference_on">ON</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
@@ -350,10 +349,10 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
-        
+
     </style>
     <style name="AppTheme" parent="AppBaseTheme">
-        
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>

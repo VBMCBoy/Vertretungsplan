@@ -6,12 +6,8 @@
     <string name="einst_klasse">Klasse / Lehrer</string>
     <string name="passwort">Passwort</string>
     <string name="name">Benutzername</string>
-    <string name="setting_lehrer">Ich bin Lehrer.</string>
-    <string name="expl_setting_lehrer">Durchsucht die vierte Spalte anstatt der Zweiten.</string>
-    <string name="expl_setting_klasse">Für Lehrer H.Müller, Fr.Muster oder nur Müller / Muster</string>
-    <string name="about">Über...</string>
+    <string name="about">Über&#8230;</string>
     <string name="licenses">Lizenzen</string>
-    <string name="title_activity_main">MainActivity</string>
     <string name="license">License for Jsoup only: \n
         \n
 The jsoup code-base (include source and compiled packages) are distributed under the open source MIT license as described below. \n
@@ -28,6 +24,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     <string name="abouttext">Eine Android-App, welche den Vertretungsplan des FSG in Großröhrsdorf abruft und formatiert. \n
 \n
 Website des FSG: http://ferdinand-sauerbruch-gymnasium.de \n</string>
+    <string name="textview">TextView</string>
+    <string name="heute">Heute</string>
+    <string name="morgen">Morgen</string>
 
 
 </resources>
