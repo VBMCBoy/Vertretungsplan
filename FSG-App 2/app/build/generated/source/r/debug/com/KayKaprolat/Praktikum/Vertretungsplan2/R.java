@@ -2554,7 +2554,8 @@ public final class R {
     public static final int abc_textfield_search_default_mtrl_alpha=0x7f060049;
     public static final int abc_textfield_search_material=0x7f06004a;
     public static final int ic_launcher=0x7f06004b;
-    public static final int notification_template_icon_bg=0x7f06004c;
+    public static final int ic_stat_name=0x7f06004c;
+    public static final int notification_template_icon_bg=0x7f06004d;
   }
   public static final class id {
     public static final int Viewertxt=0x7f070000;
