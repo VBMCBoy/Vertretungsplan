@@ -1,6 +1,7 @@
 package com.KayKaprolat.Praktikum.Vertretungsplan2;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -58,7 +59,7 @@ public class ViewerActivity extends Activity {
             //Variablen festlegen
             final WebView webView = (WebView) findViewById(R.id.webView1);
 
-            Laden(webView, true, wert_klasse, wert_name, wert_PW);
+            Laden(webView, true, wert_klasse, wert_name, wert_PW, false);
 
 
         }
@@ -79,7 +80,7 @@ public class ViewerActivity extends Activity {
         setContentView(R.layout.viewer);
         final WebView webView = (WebView) findViewById(R.id.webView1);
 
-        Laden(webView, true, wert_klasse, wert_name, wert_PW);
+        Laden(webView, true, wert_klasse, wert_name, wert_PW, false);
 
 
     }
@@ -95,7 +96,7 @@ public class ViewerActivity extends Activity {
         setContentView(R.layout.viewer);
         final WebView webView = (WebView) findViewById(R.id.webView1);
 
-        Laden(webView, false, wert_klasse, wert_name, wert_PW);
+        Laden(webView, false, wert_klasse, wert_name, wert_PW, false);
     }
 
 
@@ -129,7 +130,7 @@ public class ViewerActivity extends Activity {
     }
 
 
-    private void Laden(final WebView webView, Boolean heute, final String wert_klasse, final String wert_name, final String wert_PW) {
+    private void Laden(final WebView webView, final Boolean heute, final String wert_klasse, final String wert_name, final String wert_PW, final Boolean headless) {
 
         if (heute) {
             new Thread() {
@@ -152,7 +153,8 @@ public class ViewerActivity extends Activity {
                         Calendar calendar = Calendar.getInstance();
                         int day = calendar.get(Calendar.DAY_OF_WEEK);
 
-// heute
+                        // heute
+
                         switch (day) {
                             case 1: // Sonntag
                                 url = new URL(
@@ -200,35 +202,18 @@ public class ViewerActivity extends Activity {
 
                         final String Plan = new String(baos.toByteArray(),
                                 "windows-1252");
-
-
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                Document doc2 = Jsoup.parse(Plan, "windows-1252");
-                                if (wert_klasse.matches(".*\\d+.*")) { //true = ist kein Lehrer
-                                    Elements TEST = doc2.select("tr:has(td:eq(1):contains(" + wert_klasse + "))");
-                                    TEST.attr("bgcolor", "FFF007");
-                                } else {
-                                    Elements TEST = doc2.select("tr:contains(" + wert_klasse + ")");
-                                    TEST.attr("bgcolor", "FFF007");
-                                }
-                                webView.getSettings().setBuiltInZoomControls(true);
-                                webView.getSettings().setDisplayZoomControls(false);
-                                webView.loadData(doc2.html(), "text/html; charset=UTF-8",
-                                        null);
-
-                                DateFormat dateFormat = new SimpleDateFormat("dd.MM.yy");
-                                Date date = new Date();
-
-
-                                if (!(Plan.contains(dateFormat.format(date)))) {
-                                    Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
-                                }
-
-
+                        if (!(cache(true) == Plan)) {   // wenn der aktuelle Plan anders als der Alte ist
+                            if (headless == true) {
+                                // Benachrichtigung
+                            } else {
+                                Toast.makeText(getApplicationContext(), "Der Vertretungsplan ist neu.", Toast.LENGTH_LONG).show();
                             }
-                        });
+                        }
+                        speichern(Plan, true);
+
+                        if (!headless) {
+                            toWebview(webView, Plan, wert_klasse, heute, (day == 6)); // WebView, HTML, Klasse bzw Lehrer, heute?, heute Freitag?
+                        }
 
 
                     } catch (Exception e) {
@@ -244,7 +229,6 @@ public class ViewerActivity extends Activity {
                         if (urlConnection != null) {
                             urlConnection.disconnect();
                         }
-
 
 
                     }
@@ -326,37 +310,19 @@ public class ViewerActivity extends Activity {
                                 "windows-1252");
 
 
-                        runOnUiThread(new Runnable() {
-                            @Override
-                            public void run() {
-                                Document doc2 = Jsoup.parse(Plan, "windows-1252");
-                                if (wert_klasse.matches(".*\\d+.*")) { //true = ist kein Lehrer
-                                    Elements TEST = doc2.select("tr:has(td:eq(1):contains(" + wert_klasse + "))");
-                                    TEST.attr("bgcolor", "FFF007");
-                                } else {
-                                    Elements TEST = doc2.select("tr:contains(" + wert_klasse + ")");
-                                    TEST.attr("bgcolor", "FFF007");
-                                }
-                                webView.getSettings().setBuiltInZoomControls(true);
-                                webView.getSettings().setDisplayZoomControls(false);
-                                webView.loadData(doc2.html(), "text/html; charset=UTF-8",
-                                        null);
-
-                                DateFormat dateFormat = new SimpleDateFormat("dd.MM.yy");
-                                Date date = new Date();
-                                Calendar c = Calendar.getInstance();
-                                c.setTime(date);
-                                c.add(Calendar.DATE, 1);
-                                Date morgen = c.getTime();
-
-
-                                if (!(Plan.contains(dateFormat.format(morgen)))) {
-                                    Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
-                                }
-
-
+                        if (!(cache(false) == Plan)) {   // wenn der aktuelle Plan anders als der Alte ist
+                            if (headless == true) {
+                                // Benachrichtigung
+                            } else {
+                                Toast.makeText(getApplicationContext(), "Der Vertretungsplan ist neu.", Toast.LENGTH_LONG).show();
                             }
-                        });
+                        }
+                        speichern(Plan, false);
+
+                        if (!headless) {
+                            toWebview(webView, Plan, wert_klasse, heute, (day == 6));
+                        }
+
 
                     } catch (Exception e) {
                         e.printStackTrace();
@@ -380,6 +346,95 @@ public class ViewerActivity extends Activity {
 
                     start();
 
+
+        }
+    }
+
+    private void speichern(String string, Boolean heute) {
+        SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPref.edit();
+        if (heute) {
+            editor.putString("cache_website_heute", string);
+        } else {
+            editor.putString("cache_website_morgen", string);
+        }
+
+        editor.commit();
+
+
+    }
+
+    private String cache(Boolean heute) {
+        SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
+        if (heute) {
+            String cache = sharedPref.getString("cache_website_heute", "");
+            return cache;
+        } else {
+            String cache = sharedPref.getString("cache_website_morgen", "");
+            return cache;
+        }
+
+    }
+
+    private void toWebview(final WebView webView, final String Plan, final String wert_klasse, final Boolean heute, final Boolean Freitag) {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                Document doc2 = Jsoup.parse(Plan, "windows-1252");
+                if (wert_klasse.matches(".*\\d+.*")) { //true = ist kein Lehrer
+                    Elements TEST = doc2.select("tr:has(td:eq(1):contains(" + wert_klasse + "))");
+                    TEST.attr("bgcolor", "FFF007");
+                } else {
+                    Elements TEST = doc2.select("tr:contains(" + wert_klasse + ")");
+                    TEST.attr("bgcolor", "FFF007");
+                }
+                webView.getSettings().setBuiltInZoomControls(true);
+                webView.getSettings().setDisplayZoomControls(false);
+                webView.loadData(doc2.html(), "text/html; charset=UTF-8",
+                        null);
+
+
+                Datum_richtig(Plan, heute, Freitag);    // macht einen Toast wenn das Datum nicht stimmt
+
+            }
+        });
+    }
+
+    private void Datum_richtig(String Plan, Boolean heute, Boolean Freitag) {
+        DateFormat dateFormat = new SimpleDateFormat("dd.MM.yy");
+        if (heute) {
+
+            Date date = new Date();
+
+            if (!(Plan.contains(dateFormat.format(date)))) {    // Plan enthält nicht das heutige Datum und es ist heute
+                Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
+            }
+        } else {
+            if (!Freitag) {     // Plan enthält nicht das morgige Datum und es ist heute nicht Freitag
+                Calendar c = Calendar.getInstance();
+                Date date = c.getTime();
+                c.setTime(date);
+                c.add(Calendar.DATE, 1);
+                date = c.getTime();
+
+                if (!(Plan.contains(dateFormat.format(date)))) {
+                    Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
+                }
+
+            } else {            // Plan enthält nicht das Datum in drei Tagen und es ist heute Freitag
+
+                Calendar c = Calendar.getInstance();
+                Date date = c.getTime();
+                c.setTime(date);
+                c.add(Calendar.DATE, 3);
+                date = c.getTime();
+
+
+                if (!(Plan.contains(dateFormat.format(date)))) {
+                    Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
+                }
+
+            }
 
         }
     }
