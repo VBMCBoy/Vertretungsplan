@@ -218,7 +218,7 @@ public class ViewerActivity extends Activity {
                         speichern(Plan, true);
 
                         if (!headless) {
-                            toWebview(webView, Plan, wert_klasse, heute, (day == 6), (day == 7), (day == 1)); // WebView, HTML, Klasse bzw Lehrer, heute?, heute Freitag?
+                            toWebview(webView, Plan, wert_klasse, heute, day); // WebView, HTML, Klasse bzw Lehrer, heute?, heute Freitag?
                         }
 
 
@@ -326,7 +326,7 @@ public class ViewerActivity extends Activity {
                         speichern(Plan, false);
 
                         if (!headless) {
-                            toWebview(webView, Plan, wert_klasse, heute, ((day == 6)), (day == 7), (day == 1));
+                            toWebview(webView, Plan, wert_klasse, heute, day);
                         }
 
 
@@ -398,7 +398,7 @@ public class ViewerActivity extends Activity {
 
     }
 
-    private void toWebview(final WebView webView, final String Plan, final String wert_klasse, final Boolean heute, final Boolean Freitag, final Boolean Samstag, final Boolean Sonntag) {
+    private void toWebview(final WebView webView, final String Plan, final String wert_klasse, final Boolean heute, final Integer day) {
         runOnUiThread(new Runnable() {
             @Override
             public void run() {
@@ -416,94 +416,91 @@ public class ViewerActivity extends Activity {
                         null);
 
 
-                Datum_richtig(Plan, heute, Freitag, Samstag, Sonntag);    // macht einen Toast wenn das Datum nicht stimmt
+                Datum_richtig(Plan, heute, day);    // macht einen Toast wenn das Datum nicht stimmt
 
             }
         });
     }
 
-    private void Datum_richtig(String Plan, Boolean heute, Boolean Freitag, Boolean Samstag, Boolean Sonntag) {
+    private void Datum_richtig(String Plan, Boolean heute, Integer day) {
         DateFormat dateFormat = new SimpleDateFormat("dd.MM.yy");
 
-        if (heute) { // Datum vom heutigen Plan
-            if (!Samstag) { // nicht Samstag
-                if (!Sonntag) { // nicht Sonntag
-                    // heutige Datum
-
-                    Calendar c = Calendar.getInstance();
-                    Date date = c.getTime();
-
-                    if (!(Plan.contains(dateFormat.format(date)))) {
-                        Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
-                    }
+        Calendar c = Calendar.getInstance();
+        Date date = c.getTime();
 
 
-                } else {
-                    // morgiges Datum
-                    Calendar c = Calendar.getInstance();
-                    Date date = c.getTime();
+        if (heute) {
+            switch (day) {
+                case 1: // Sonntag -- Datum +1
                     c.setTime(date);
                     c.add(Calendar.DATE, 1);
                     date = c.getTime();
-
                     if (!(Plan.contains(dateFormat.format(date)))) {
                         Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
                     }
-                }
+                    break;
+                case 2: // Montag -- heute
 
-            } else {
-                // Datum in 2d
+                case 3: // Dienstag
 
-                Calendar c = Calendar.getInstance();
-                Date date = c.getTime();
-                c.setTime(date);
-                c.add(Calendar.DATE, 2);
-                date = c.getTime();
+                case 4: // Mittwoch
 
-                if (!(Plan.contains(dateFormat.format(date)))) {
-                    Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
-                }
+                case 5: // Donnerstag
+
+                case 6: // Freitag -- heute
+                    if (!(Plan.contains(dateFormat.format(date)))) {
+                        Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
+                    }
+                    break;
+                case 7: // Samstag -- Datum +2
+                    c.setTime(date);
+                    c.add(Calendar.DATE, 2);
+                    date = c.getTime();
+                    if (!(Plan.contains(dateFormat.format(date)))) {
+                        Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
+                    }
+                    break;
+                default: // Default
+                    Toast.makeText(getApplicationContext(), "Ein Fehler ist aufgetreten.", Toast.LENGTH_LONG).show();
+                    break;
             }
-        } else {    // Datum vom morgigen Plan
-            if (!Samstag) {
+        } else {
+            switch (day) {
+                case 1: // Sonntag -- Datum +1
 
-                if (!Freitag) {
-                    // morgiges Datum
+                case 2: // Montag -- Datum +1
 
-                    Calendar c = Calendar.getInstance();
-                    Date date = c.getTime();
+                case 3: // Dienstag -- +1
+
+                case 4: // Mittwoch -- +1
+
+                case 5: // Donnerstag -- Datum +1
                     c.setTime(date);
                     c.add(Calendar.DATE, 1);
                     date = c.getTime();
-
                     if (!(Plan.contains(dateFormat.format(date)))) {
                         Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
                     }
-                } else {
-                    // Datum in 3d
-                    Calendar c = Calendar.getInstance();
-                    Date date = c.getTime();
+                    break;
+                case 6: // Freitag -- Datum +3
                     c.setTime(date);
                     c.add(Calendar.DATE, 3);
                     date = c.getTime();
-
                     if (!(Plan.contains(dateFormat.format(date)))) {
                         Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
                     }
-                }
-
-
-            } else {
-                // Datum in 2d
-                Calendar c = Calendar.getInstance();
-                Date date = c.getTime();
-                c.setTime(date);
-                c.add(Calendar.DATE, 2);
-                date = c.getTime();
-
-                if (!(Plan.contains(dateFormat.format(date)))) {
-                    Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
-                }
+                    break;
+                case 7: // Samstag -- Datum +2
+                    c.setTime(date);
+                    c.add(Calendar.DATE, 2);
+                    date = c.getTime();
+                    if (!(Plan.contains(dateFormat.format(date)))) {
+                        Toast.makeText(getApplicationContext(), "Der Vertretungsplan scheint falsch zu sein.", Toast.LENGTH_LONG).show();
+                    }
+                    break;
+                default: // Default
+                    Toast.makeText(getApplicationContext(), "Ein Fehler ist aufgetreten.", Toast.LENGTH_LONG).show();
+                    break;
             }
         }
 
