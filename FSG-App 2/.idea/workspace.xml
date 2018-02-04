@@ -21,12 +21,18 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/58/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.dex" />
@@ -34,6 +40,16 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java" />
+      <change beforePath="$PROJECT_DIR$/../docs/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../docs/bower.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../docs/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../docs/material.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../docs/material.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../docs/material.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../docs/material.min.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../docs/material.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../docs/material.min.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../docs/package.json" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,16 +87,31 @@
       <file leaf-file-name="ViewerActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="458" column="0" lean-forward="false" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
+            <state relative-caret-position="264">
+              <caret line="331" column="97" lean-forward="false" selection-start-line="331" selection-start-column="97" selection-end-line="331" selection-end-column="97" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#onCreate#0;class#ViewerActivity#0" expanded="false" />
                 <element signature="method#BtnMorgenClick#0;class#ViewerActivity#0" expanded="false" />
                 <element signature="method#onCreateOptionsMenu#0;class#ViewerActivity#0" expanded="false" />
                 <element signature="method#Menu_Einstellungen#0;class#ViewerActivity#0" expanded="false" />
                 <element signature="method#Menu_Licenses#0;class#ViewerActivity#0" expanded="false" />
                 <element signature="method#Menu_About#0;class#ViewerActivity#0" expanded="false" />
+                <element signature="e#4174#9337#0" expanded="true" />
+                <element signature="e#4418#4728#0" expanded="true" />
+                <element signature="e#4727#4728#0" expanded="true" />
+                <element signature="e#8821#9109#0" expanded="true" />
+                <element signature="e#9108#9109#0" expanded="true" />
+                <element signature="e#9336#9337#0" expanded="true" />
+                <element signature="e#9408#14480#0" expanded="true" />
+                <element signature="e#9652#9962#0" expanded="true" />
+                <element signature="e#9961#9962#0" expanded="true" />
+                <element signature="e#13965#14253#0" expanded="true" />
+                <element signature="e#14252#14253#0" expanded="true" />
+                <element signature="e#14479#14480#0" expanded="true" />
+                <element signature="method#notification#0;class#ViewerActivity#0" expanded="false" />
+                <element signature="e#16135#17053#0" expanded="true" />
+                <element signature="e#17052#17053#0" expanded="true" />
+                <element signature="method#Datum_richtig#0;class#ViewerActivity#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -2244,6 +2275,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2337,19 +2385,6 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="app" type="cbb8eebc:String" user="app" />
               <item name="app" type="cbb8eebc:String" user="app" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -2611,11 +2646,19 @@
       <option name="project" value="LOCAL" />
       <updated>1517646123850</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Datumstoast funktioniert auch wirklich und effizienter am Wochenende">
+      <created>1517655471610</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1517655471610</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2625,7 +2668,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.50319827" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4968017" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -2637,7 +2680,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5045662" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3991462" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4823906" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2725,17 +2768,69 @@
     <MESSAGE value="Toast wenn Datum falsch, Codeoptimierung, letzte Zeile markieren" />
     <MESSAGE value="Toast wenn Datum falsch besser, Codeoptimierung, Vorbereitung für Benachrichtigungen" />
     <MESSAGE value="Datumstoast funktioniert auch am Wochenende" />
-    <option name="LAST_COMMIT_MESSAGE" value="Datumstoast funktioniert auch am Wochenende" />
+    <MESSAGE value="Datumstoast funktioniert auch wirklich und effizienter am Wochenende" />
+    <MESSAGE value="Vergleichen des alten und neuen Planes funktioniert endlich" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vergleichen des alten und neuen Planes funktioniert endlich" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java</url>
+          <line>410</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java</url>
+          <line>411</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java</url>
+          <line>413</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java</url>
+          <line>414</line>
+          <properties />
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java</url>
+          <line>213</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java</url>
+          <line>214</line>
+          <properties />
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java</url>
+          <line>226</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java</url>
+          <line>212</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="59" />
+      <option name="time" value="88" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -2745,13 +2840,28 @@
         <state relative-caret-position="1275">
           <caret line="120" column="21" lean-forward="false" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#onCreate#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#BtnMorgenClick#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Menu_Einstellungen#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Menu_Licenses#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Menu_About#0;class#ViewerActivity#0" expanded="false" />
+            <element signature="e#4174#9337#0" expanded="true" />
+            <element signature="e#4418#4728#0" expanded="true" />
+            <element signature="e#4727#4728#0" expanded="true" />
+            <element signature="e#8821#9109#0" expanded="true" />
+            <element signature="e#9108#9109#0" expanded="true" />
+            <element signature="e#9336#9337#0" expanded="true" />
+            <element signature="e#9408#14480#0" expanded="true" />
+            <element signature="e#9652#9962#0" expanded="true" />
+            <element signature="e#9961#9962#0" expanded="true" />
+            <element signature="e#13965#14253#0" expanded="true" />
+            <element signature="e#14252#14253#0" expanded="true" />
+            <element signature="e#14479#14480#0" expanded="true" />
+            <element signature="method#notification#0;class#ViewerActivity#0" expanded="false" />
+            <element signature="e#16135#17053#0" expanded="true" />
+            <element signature="e#17052#17053#0" expanded="true" />
+            <element signature="method#Datum_richtig#0;class#ViewerActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2819,13 +2929,28 @@
         <state relative-caret-position="1275">
           <caret line="120" column="21" lean-forward="false" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#onCreate#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#BtnMorgenClick#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Menu_Einstellungen#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Menu_Licenses#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Menu_About#0;class#ViewerActivity#0" expanded="false" />
+            <element signature="e#4174#9337#0" expanded="true" />
+            <element signature="e#4418#4728#0" expanded="true" />
+            <element signature="e#4727#4728#0" expanded="true" />
+            <element signature="e#8821#9109#0" expanded="true" />
+            <element signature="e#9108#9109#0" expanded="true" />
+            <element signature="e#9336#9337#0" expanded="true" />
+            <element signature="e#9408#14480#0" expanded="true" />
+            <element signature="e#9652#9962#0" expanded="true" />
+            <element signature="e#9961#9962#0" expanded="true" />
+            <element signature="e#13965#14253#0" expanded="true" />
+            <element signature="e#14252#14253#0" expanded="true" />
+            <element signature="e#14479#14480#0" expanded="true" />
+            <element signature="method#notification#0;class#ViewerActivity#0" expanded="false" />
+            <element signature="e#16135#17053#0" expanded="true" />
+            <element signature="e#17052#17053#0" expanded="true" />
+            <element signature="method#Datum_richtig#0;class#ViewerActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -3036,16 +3161,31 @@
     <entry file="file://$PROJECT_DIR$/../Logo_Inkscape.svg" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="458" column="0" lean-forward="false" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
+        <state relative-caret-position="264">
+          <caret line="331" column="97" lean-forward="false" selection-start-line="331" selection-start-column="97" selection-end-line="331" selection-end-column="97" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#onCreate#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#BtnMorgenClick#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#onCreateOptionsMenu#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Menu_Einstellungen#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Menu_Licenses#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Menu_About#0;class#ViewerActivity#0" expanded="false" />
+            <element signature="e#4174#9337#0" expanded="true" />
+            <element signature="e#4418#4728#0" expanded="true" />
+            <element signature="e#4727#4728#0" expanded="true" />
+            <element signature="e#8821#9109#0" expanded="true" />
+            <element signature="e#9108#9109#0" expanded="true" />
+            <element signature="e#9336#9337#0" expanded="true" />
+            <element signature="e#9408#14480#0" expanded="true" />
+            <element signature="e#9652#9962#0" expanded="true" />
+            <element signature="e#9961#9962#0" expanded="true" />
+            <element signature="e#13965#14253#0" expanded="true" />
+            <element signature="e#14252#14253#0" expanded="true" />
+            <element signature="e#14479#14480#0" expanded="true" />
+            <element signature="method#notification#0;class#ViewerActivity#0" expanded="false" />
+            <element signature="e#16135#17053#0" expanded="true" />
+            <element signature="e#17052#17053#0" expanded="true" />
+            <element signature="method#Datum_richtig#0;class#ViewerActivity#0" expanded="false" />
           </folding>
         </state>
       </provider>

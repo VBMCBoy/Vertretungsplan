@@ -207,12 +207,21 @@ public class ViewerActivity extends Activity {
 
                         final String Plan = new String(baos.toByteArray(),
                                 "windows-1252");
-                        if (!(cache(true) == Plan)) {   // wenn der aktuelle Plan anders als der Alte ist
+                        String a = cache(true).replaceAll(" ", "");
+                        String b = a.replaceAll("\r", "");
+                        String c = Plan.replaceAll("\r", "");
+                        String d = c.replaceAll(" ", "");
+                        if (!(b.equals(d))) {   // wenn der aktuelle Plan anders als der Alte ist
                             if (headless) {
 
 
                             } else {
-                                // Toast.makeText(getApplicationContext(), "Der Vertretungsplan ist neu.", Toast.LENGTH_LONG).show();
+                                ViewerActivity.this.runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Toast.makeText(getApplicationContext(), "Der Vertretungsplan ist neu.", Toast.LENGTH_LONG).show();
+                                    }
+                                });
                             }
                         }
                         speichern(Plan, true);
@@ -316,11 +325,21 @@ public class ViewerActivity extends Activity {
                                 "windows-1252");
 
 
-                        if (!(cache(false) == Plan)) {   // wenn der aktuelle Plan anders als der Alte ist
-                            if (headless == true) {
-                                // Benachrichtigung
+                        String a = cache(true).replaceAll(" ", "");
+                        String b = a.replaceAll("\r", "");
+                        String c = Plan.replaceAll("\r", "");
+                        String d = c.replaceAll(" ", "");
+                        if (!(b.equals(d))) {   // wenn der aktuelle Plan anders als der Alte ist
+                            if (headless) {
+
+
                             } else {
-//                                Toast.makeText(getApplicationContext(), "Der Vertretungsplan ist neu.", Toast.LENGTH_LONG).show();
+                                ViewerActivity.this.runOnUiThread(new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        Toast.makeText(getApplicationContext(), "Der Vertretungsplan ist neu.", Toast.LENGTH_LONG).show();
+                                    }
+                                });
                             }
                         }
                         speichern(Plan, false);
