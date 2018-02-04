@@ -1,23 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+  <PreferenceCategory
+    android:title="@string/Kategorie_Main">
+    <EditTextPreference
+      android:key="KL"
+      android:persistent="true"
+      android:singleLine="true"
+      android:summary="Für Lehrer reicht der Nachname."
+      android:title="@string/einst_klasse"/>
+    <EditTextPreference
+      android:inputType="textNoSuggestions"
+      android:key="BN"
+      android:persistent="true"
+      android:singleLine="true"
+      android:title="@string/name"/>
+    <EditTextPreference
+      android:inputType="textPassword"
+      android:key="PW"
+      android:persistent="true"
+      android:title="@string/passwort"/>
+  </PreferenceCategory>
+  <PreferenceCategory
+    android:title="@string/Kategorie_Notification">
+    <SwitchPreference
+      android:key="Benachrichtigungan"
+      android:persistent="true"
+      android:summaryOff="Sie werden keine Benachrichtigungen erhalten"
+      android:summaryOn="Sie werden von Änderungen benachrichtigt"
+      android:title="Benachrichtigungen">
+    </SwitchPreference>
+    <EditTextPreference
+      android:defaultValue="60"
+      android:dependency="Benachrichtigungan"
+      android:inputType="number"
+      android:key="delay"
+      android:persistent="true"
+      android:summary="Zeit zwischen dem Abrufen des Planes im Hintergrund in Minuten"
+      android:title="Prüfintervall"
+      >
 
-    <EditTextPreference
-        android:key="KL"
-        android:persistent="true"
-        android:singleLine="true"
-        android:summary="Für Lehrer reicht der Nachname."
-        android:title="@string/einst_klasse" />
-    <EditTextPreference
-        android:inputType="textNoSuggestions"
-        android:key="BN"
-        android:persistent="true"
-        android:singleLine="true"
-        android:title="@string/name" />
-    <EditTextPreference
-        android:inputType="textPassword"
-        android:key="PW"
-        android:persistent="true"
-        android:title="@string/passwort" />
+    </EditTextPreference>
+  </PreferenceCategory>
 
 </PreferenceScreen>
