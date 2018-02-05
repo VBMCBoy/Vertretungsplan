@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.android.support:preference-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-23.4.0.aar\d2ceff158e99b9c9bdf796c094fa959b\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\8392451cc81eaf3cd981f918f1104b93\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-23.4.0.aar\3130a566ec372f6c5718b6e63f57893f\AndroidManifest.xml:2:1-9:12
@@ -12,9 +12,9 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\ka
 MERGED from [com.android.support:support-v13:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v13-23.4.0.aar\7f4c2ba2a141c9051fba7f5a3b649e4c\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:recyclerview-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-23.4.0.aar\9e4f6049b7f04c36fc446ddfb0b89d72\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-23.4.0.aar\093adf48257b05b607dbf357234b86e8\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:3:5-57
 		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
@@ -46,7 +46,7 @@ ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\ma
 	android:name
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:11:22-77
 application
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:13:5-37:19
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:13:5-39:19
 MERGED from [com.android.support:preference-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-23.4.0.aar\d2ceff158e99b9c9bdf796c094fa959b\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:preference-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-23.4.0.aar\d2ceff158e99b9c9bdf796c094fa959b\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:appcompat-v7:23.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-23.4.0.aar\8392451cc81eaf3cd981f918f1104b93\AndroidManifest.xml:25:5-20
@@ -105,6 +105,12 @@ ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\ma
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:36:13-57
 	android:name
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:35:13-42
+receiver#com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity$B
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:37:9-38:20
+	android:process
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:37:52-77
+	android:name
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:37:19-51
 uses-sdk
 INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml

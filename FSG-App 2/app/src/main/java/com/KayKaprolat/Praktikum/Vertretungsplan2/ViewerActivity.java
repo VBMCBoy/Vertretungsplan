@@ -1,14 +1,18 @@
 package com.KayKaprolat.Praktikum.Vertretungsplan2;
 
 import android.app.Activity;
+import android.app.AlarmManager;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -36,6 +40,8 @@ public class ViewerActivity extends Activity {
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+
+    setAlarmNotification();
 
     getActionBar().setTitle("Vertretungsplan");
 
@@ -68,6 +74,27 @@ public class ViewerActivity extends Activity {
     }
 
 
+  }
+
+  public void notification(String title, String text) {
+    NotificationCompat.Builder mBuilder =
+        new NotificationCompat.Builder(this)
+            .setSmallIcon(R.drawable.ic_stat_name)
+            .setContentTitle(title)
+            .setContentText(text);
+    Intent resultIntent = new Intent(this, ViewerActivity.class);
+    PendingIntent resultPendingIntent =
+        PendingIntent.getActivity(
+            this,
+            0,
+            resultIntent,
+            PendingIntent.FLAG_UPDATE_CURRENT
+        );
+    mBuilder.setContentIntent(resultPendingIntent);
+    int ID = 1;
+    NotificationManager notificationManager = (NotificationManager) getSystemService(
+        NOTIFICATION_SERVICE);
+    notificationManager.notify(ID, mBuilder.build());
   }
 
 
@@ -370,25 +397,18 @@ public class ViewerActivity extends Activity {
     }
   }
 
-  private void notification(String title, String text) {
-    NotificationCompat.Builder mBuilder =
-        new NotificationCompat.Builder(this)
-            .setSmallIcon(R.drawable.ic_stat_name)
-            .setContentTitle(title)
-            .setContentText(text);
-    Intent resultIntent = new Intent(this, ViewerActivity.class);
-    PendingIntent resultPendingIntent =
-        PendingIntent.getActivity(
-            this,
-            0,
-            resultIntent,
-            PendingIntent.FLAG_UPDATE_CURRENT
-        );
-    mBuilder.setContentIntent(resultPendingIntent);
-    int ID = 1;
-    NotificationManager notificationManager = (NotificationManager) getSystemService(
-        NOTIFICATION_SERVICE);
-    notificationManager.notify(ID, mBuilder.build());
+  private void setAlarmNotification() {
+    AlarmManager manager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
+    SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
+    int interval = Integer.parseInt(sharedPref.getString("", "60"));
+    PendingIntent pending = PendingIntent
+        .getBroadcast(this, 0, new Intent(this, ViewerActivity.B.class), 0);
+
+    manager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME,
+        SystemClock.elapsedRealtime() + 250 /* * 60*/ * interval, interval * 250 /* * 60*/,
+        pending);
+    Toast.makeText(this, "Alarm set", Toast.LENGTH_SHORT).show();
+
   }
 
   private void speichern(String string, Boolean heute) {
@@ -533,5 +553,14 @@ public class ViewerActivity extends Activity {
 
   }
 
+  public static class B extends BroadcastReceiver {
+
+    @Override
+    public void onReceive(Context context, Intent intent) {
+
+      // notification("Titel", "Text");   // geht nicht
+      Log.i("MyActivity", "HAAAALLLOOOOOO");  // geht
+    }
+  }
 
 }

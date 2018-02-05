@@ -39,6 +39,11 @@
         <activity
             android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.AboutActivity"
             android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
+
+        <receiver
+            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity$B"
+            android:process=":remote" >
+        </receiver>
     </application>
 
 </manifest>

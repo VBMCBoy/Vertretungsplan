@@ -34,6 +34,11 @@
         <activity
             android:name=".AboutActivity"
             android:parentActivityName=".ViewerActivity" />
+
+      <receiver
+        android:name=".ViewerActivity$B"
+        android:process=":remote">
+      </receiver>
     </application>
 
 </manifest>
