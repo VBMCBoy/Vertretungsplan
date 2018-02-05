@@ -26,16 +26,12 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 
 public class ViewerActivity extends Activity {
 
-  private final ScheduledExecutorService scheduler =
-      Executors.newScheduledThreadPool(1);
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
@@ -323,7 +319,7 @@ public class ViewerActivity extends Activity {
             final String Plan = new String(baos.toByteArray(),
                 "windows-1252");
 
-            String a = cache(true).replaceAll(" ", "");
+            String a = cache(false).replaceAll(" ", "");
             String b = a.replaceAll("\r", "");
             String c = Plan.replaceAll("\r", "");
             String d = c.replaceAll(" ", "");
