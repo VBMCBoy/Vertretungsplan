@@ -1,44 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.KayKaprolat.Praktikum.Vertretungsplan2"
-    android:versionCode="1"
-    android:versionName="1.0">
+  package="com.KayKaprolat.Praktikum.Vertretungsplan2"
+  android:versionCode="1"
+  android:versionName="1.0">
 
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+  <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+  <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
 
-    <application
-        android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme">
-        <activity
-            android:name=".ViewerActivity"
-            android:label="Vertretungsplan">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+  <application
+    android:allowBackup="true"
+    android:icon="@drawable/ic_launcher"
+    android:label="@string/app_name"
+    android:theme="@style/AppTheme">
+    <activity
+      android:label="Vertretungsplan"
+      android:name=".ViewerActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".SettingsActivity"
-            android:label="Vertretungsplaneinstellungen"
-            android:parentActivityName=".ViewerActivity" />
-        <activity
-            android:name=".LicenseActivity"
-            android:parentActivityName=".ViewerActivity" />
-        <activity
-            android:name=".AboutActivity"
-            android:parentActivityName=".ViewerActivity" />
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity
+      android:label="Vertretungsplaneinstellungen"
+      android:name=".SettingsActivity"
+      android:parentActivityName=".ViewerActivity"/>
+    <activity
+      android:name=".LicenseActivity"
+      android:parentActivityName=".ViewerActivity"/>
+    <activity
+      android:name=".AboutActivity"
+      android:parentActivityName=".ViewerActivity"/>
 
-      <receiver
-        android:name=".ViewerActivity$B"
-        android:process=":remote">
-      </receiver>
-    </application>
+    <service android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.AuthenticatorService">
+      <intent-filter>
+        <action android:name="android.accounts.AccountAuthenticator"/>
+      </intent-filter>
+      <meta-data
+        android:name="android.accounts.AccountAuthenticator"
+        android:resource="@xml/authenticator"/>
+    </service>
+
+    <provider
+      android:authorities="com.KayKaprolat.Praktikum.Vertretungsplan2.provider"
+      android:exported="false"
+      android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.StubProvider"
+      android:syncable="true"/>
+
+    <service
+      android:exported="true"
+      android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.SyncService"
+      android:process=":sync">
+      <intent-filter>
+        <action android:name="android.content.SyncAdapter"/>
+      </intent-filter>
+      <meta-data
+        android:name="android.content.SyncAdapter"
+        android:resource="@xml/syncadapter"/>
+    </service>
+  </application>
 
 </manifest>

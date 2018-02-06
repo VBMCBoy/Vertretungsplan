@@ -11297,6 +11297,8 @@ public final class R {
     public static final int ViewStubCompat_android_inflatedId=2;
   }
   public static final class xml {
-    public static final int prefs=0x7f0e0000;
+    public static final int authenticator=0x7f0e0000;
+    public static final int prefs=0x7f0e0001;
+    public static final int syncadapter=0x7f0e0002;
   }
 }

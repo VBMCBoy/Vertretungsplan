@@ -892,6 +892,10 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\8392451cc81eaf3cd981f918f1104b93\\res\\drawable-hdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\debug\\xml_authenticator.xml.flat",
+        "source": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\src\\main\\res\\xml\\authenticator.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\8392451cc81eaf3cd981f918f1104b93\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
@@ -1110,6 +1114,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\8392451cc81eaf3cd981f918f1104b93\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\debug\\xml_syncadapter.xml.flat",
+        "source": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\src\\main\\res\\xml\\syncadapter.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",

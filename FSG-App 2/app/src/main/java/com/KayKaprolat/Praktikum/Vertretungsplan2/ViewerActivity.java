@@ -1,18 +1,17 @@
 package com.KayKaprolat.Praktikum.Vertretungsplan2;
 
+import android.accounts.Account;
+import android.accounts.AccountManager;
 import android.app.Activity;
-import android.app.AlarmManager;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.content.BroadcastReceiver;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -36,12 +35,34 @@ import org.jsoup.select.Elements;
 
 public class ViewerActivity extends Activity {
 
+  public static final String ACCOUNT_TYPE = "sachsen.schule";
+
+  public static final String ACCOUNT = "default_account";
+
+  public static final String AUTHORITY = "com.KayKaprolat.Praktikum.Vertretungsplan2.StubProvider";
+
+  ContentResolver mResolver;
+
+  Account account;
+
+  public static Account CreateSyncAccount(Context context) {
+    Account newAccount = new Account(ACCOUNT, ACCOUNT_TYPE);
+    AccountManager accountManager = (AccountManager) context.getSystemService(ACCOUNT_SERVICE);
+    if (accountManager.addAccountExplicitly(newAccount, null, null)) {
+      return newAccount;
+    } else {
+      // ein Fehler ist aufgetreten
+      return newAccount;
+    }
+  }
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
-    setAlarmNotification();
+    account = CreateSyncAccount(this);
+
+
 
     getActionBar().setTitle("Vertretungsplan");
 
@@ -51,6 +72,18 @@ public class ViewerActivity extends Activity {
     final String wert_PW = prefs.getString("PW", "");
     final String wert_name = prefs.getString("BN", "");
     final String wert_klasse = prefs.getString("KL", "");
+    final long intervall = Long.parseLong(prefs.getString("delay", "60L"));
+
+    mResolver = getContentResolver();
+
+    Bundle settingsbundle = new Bundle();
+    settingsbundle.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
+    settingsbundle.putBoolean(ContentResolver.SYNC_EXTRAS_EXPEDITED, false);
+
+    ContentResolver.requestSync(account, AUTHORITY, settingsbundle);
+
+    ContentResolver.addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, intervall * 60);
+
 
     //prüfen ob leer
 
@@ -397,19 +430,6 @@ public class ViewerActivity extends Activity {
     }
   }
 
-  private void setAlarmNotification() {
-    AlarmManager manager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
-    SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
-    int interval = Integer.parseInt(sharedPref.getString("", "60"));
-    PendingIntent pending = PendingIntent
-        .getBroadcast(this, 0, new Intent(this, ViewerActivity.B.class), 0);
-
-    manager.setInexactRepeating(AlarmManager.ELAPSED_REALTIME,
-        SystemClock.elapsedRealtime() + 250 /* * 60*/ * interval, interval * 250 /* * 60*/,
-        pending);
-    Toast.makeText(this, "Alarm set", Toast.LENGTH_SHORT).show();
-
-  }
 
   private void speichern(String string, Boolean heute) {
     SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
@@ -553,14 +573,5 @@ public class ViewerActivity extends Activity {
 
   }
 
-  public static class B extends BroadcastReceiver {
-
-    @Override
-    public void onReceive(Context context, Intent intent) {
-
-      // notification("Titel", "Text");   // geht nicht
-      Log.i("MyActivity", "HAAAALLLOOOOOO");  // geht
-    }
-  }
 
 }
