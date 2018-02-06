@@ -60,9 +60,7 @@ public class ViewerActivity extends Activity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
-    account = CreateSyncAccount(this);
-
-
+    account = CreateSyncAccount(getApplicationContext());
 
     getActionBar().setTitle("Vertretungsplan");
 
@@ -72,18 +70,26 @@ public class ViewerActivity extends Activity {
     final String wert_PW = prefs.getString("PW", "");
     final String wert_name = prefs.getString("BN", "");
     final String wert_klasse = prefs.getString("KL", "");
-    final long intervall = Long.parseLong(prefs.getString("delay", "60L"));
+    final long intervall = Long.parseLong(prefs.getString("delay", "60"));
+    final Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
+    final Boolean Lehrer = prefs.getBoolean("Lehrer", false);
 
     mResolver = getContentResolver();
 
-    Bundle settingsbundle = new Bundle();
-    settingsbundle.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
-    settingsbundle.putBoolean(ContentResolver.SYNC_EXTRAS_EXPEDITED, false);
+    if (syncable) {
+      ContentResolver.setMasterSyncAutomatically(true);
+      ContentResolver.setSyncAutomatically(account, AUTHORITY, true);
+    } else {
+      ContentResolver.setMasterSyncAutomatically(false);
+      ContentResolver.setSyncAutomatically(account, AUTHORITY, false);
+    }
 
-    ContentResolver.requestSync(account, AUTHORITY, settingsbundle);
+    Bundle params = new Bundle();
+    params.putBoolean(ContentResolver.SYNC_EXTRAS_EXPEDITED, true);
+    params.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
+    ContentResolver.requestSync(account, AUTHORITY, params);
 
     ContentResolver.addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, intervall * 60);
-
 
     //prüfen ob leer
 
@@ -101,12 +107,32 @@ public class ViewerActivity extends Activity {
       //Variablen festlegen
       final WebView webView = (WebView) findViewById(R.id.webView1);
 
-      Laden(webView, true, wert_klasse, wert_name, wert_PW, false);
+      Laden(webView, true, wert_klasse, wert_name, wert_PW, false, Lehrer);
 
 
     }
 
 
+  }
+
+  @Override
+  protected void onResume() {
+    super.onResume();
+    account = CreateSyncAccount(this);
+    SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
+    final Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
+    final long intervall = Long.parseLong(prefs.getString("delay", "60"));
+    mResolver = getContentResolver();
+
+    if (syncable) {
+      ContentResolver.setMasterSyncAutomatically(true);
+      ContentResolver.setSyncAutomatically(account, AUTHORITY, true);
+    } else {
+      ContentResolver.setMasterSyncAutomatically(false);
+      ContentResolver.setSyncAutomatically(account, AUTHORITY, false);
+    }
+
+    ContentResolver.addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, intervall * 60);
   }
 
   public void notification(String title, String text) {
@@ -139,11 +165,12 @@ public class ViewerActivity extends Activity {
     final String wert_PW = prefs.getString("PW", " ");
     final String wert_name = prefs.getString("BN", " ");
     final String wert_klasse = prefs.getString("KL", " ");
+    final Boolean Lehrer = prefs.getBoolean("Lehrer", false);
 
     setContentView(R.layout.viewer);
     final WebView webView = (WebView) findViewById(R.id.webView1);
 
-    Laden(webView, true, wert_klasse, wert_name, wert_PW, false);
+    Laden(webView, true, wert_klasse, wert_name, wert_PW, false, Lehrer);
 
   }
 
@@ -153,11 +180,12 @@ public class ViewerActivity extends Activity {
     final String wert_PW = prefs.getString("PW", " ");
     final String wert_name = prefs.getString("BN", " ");
     final String wert_klasse = prefs.getString("KL", " ");
+    final Boolean Lehrer = prefs.getBoolean("Lehrer", false);
 
     setContentView(R.layout.viewer);
     final WebView webView = (WebView) findViewById(R.id.webView1);
 
-    Laden(webView, false, wert_klasse, wert_name, wert_PW, false);
+    Laden(webView, false, wert_klasse, wert_name, wert_PW, false, Lehrer);
   }
 
 
@@ -192,7 +220,7 @@ public class ViewerActivity extends Activity {
 
 
   private void Laden(final WebView webView, final Boolean heute, final String wert_klasse,
-      final String wert_name, final String wert_PW, final Boolean headless) {
+      final String wert_name, final String wert_PW, final Boolean headless, final Boolean Lehrer) {
 
     if (heute) {
       new Thread() {
@@ -284,7 +312,7 @@ public class ViewerActivity extends Activity {
 
             if (!headless) {
               toWebview(webView, Plan, wert_klasse, true,
-                  day); // WebView, HTML, Klasse bzw Lehrer, heute?, heute Freitag?
+                  day, Lehrer); // WebView, HTML, Klasse bzw Lehrer, heute?, heute Freitag?
             }
 
 
@@ -399,7 +427,7 @@ public class ViewerActivity extends Activity {
             speichern(Plan, false);
 
             if (!headless) {
-              toWebview(webView, Plan, wert_klasse, false, day);
+              toWebview(webView, Plan, wert_klasse, false, day, Lehrer);
             }
 
 
@@ -458,12 +486,12 @@ public class ViewerActivity extends Activity {
   }
 
   private void toWebview(final WebView webView, final String Plan, final String wert_klasse,
-      final Boolean heute, final Integer day) {
+      final Boolean heute, final Integer day, final Boolean Lehrer) {
     runOnUiThread(new Runnable() {
       @Override
       public void run() {
         Document doc2 = Jsoup.parse(Plan, "windows-1252");
-        if (wert_klasse.matches(".*\\d+.*")) { //true = ist kein Lehrer
+        if (wert_klasse.matches(".*\\d+.*")) { // true = ist kein Lehrer
           Elements TEST = doc2.select("tr:has(td:eq(1):contains(" + wert_klasse + "))");
           TEST.attr("bgcolor", "FFF007");
         } else {

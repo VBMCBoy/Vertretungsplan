@@ -4,6 +4,7 @@
   android:accountType="sachsen.schule"
   android:allowParallelSyncs="false"
   android:contentAuthority="com.KayKaprolat.Praktikum.Vertretungsplan2.provider"
-  android:isAlwaysSyncable="false"
+  android:isAlwaysSyncable="true"
   android:supportsUploading="false"
-  android:userVisible="false"/>
+  android:userVisible="true"
+  />
