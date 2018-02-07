@@ -9,8 +9,13 @@ public class SyncService extends Service {
   private static final Object syncAdapterLock = new Object();
   private static SyncAdapter syncAdapter = null;
 
+  public SyncService() {
+    super();
+  }
+
   @Override
   public void onCreate() {
+    super.onCreate();
     synchronized (syncAdapterLock) {
       if (syncAdapter == null) {
         syncAdapter = new SyncAdapter(getApplicationContext(), true);

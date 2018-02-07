@@ -33,12 +33,14 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
 
   public SyncAdapter(Context context, boolean autoInitialize) {
     super(context, autoInitialize);
-
+    resolver = context.getContentResolver();
   }
 
   public SyncAdapter(Context context, boolean autoInitialize, boolean allowParallelSyncs) {
     super(context, autoInitialize, allowParallelSyncs);
+    resolver = context.getContentResolver();
   }
+
 
   public void onPerformSync(Account account, Bundle extras, String authority,
       ContentProviderClient provider, SyncResult syncResult) {
@@ -50,7 +52,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
     String wert_klasse = prefs.getString("KL", "");
     final Boolean Lehrer = !(wert_klasse.matches(".*\\d+.*")); // true = Lehrer
 
-    notification("Nein", "Ich soll nicht syncen!", 2);
+    notification("Info", "Sync gestartet", 2);
 
     // nur für morgen
     if (aktiv) {  // nur wenn an
@@ -131,14 +133,16 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
             if (!(b.equals(d))) { // ist der Plan neu?
               // Plan neu: Benachrichtigung wenn nötig (Plan ist wichtig)
               if (Lehrer) { // Lehrer?
-                if (Plan.contains(wert_klasse)) { // Lehrer in Plan?
+                if (Plan
+                    .contains(wert_klasse)) { // Lehrer in Plan?  // Regex bei Lehrern nicht nötig
                   // Benachrichtigung an Lehrer --> neu und wichtig
                   notification("Achtung", "Sie haben morgen Vertretung oder Aufsicht!", 1);
                 } else {
                   // keine Benachrichtigung --> neu, aber nicht wichtig
                 }
               } else {
-                if (Plan.contains(/* die Klasse oder  MEHRERE KLASSEN!!! */ wert_klasse)) {
+                if (Plan.contains(/* die Klasse oder  MEHRERE KLASSEN!!! */
+                    wert_klasse)) { // TODO: mit Regex auch 7bce usw; 12 darf nicht im Datum sein...
                   // Benachrichtigung an Schüler --> neu und wichtig
                   notification("Achtung", "Sie haben morgen Vertretung!", 1);
                 } else {

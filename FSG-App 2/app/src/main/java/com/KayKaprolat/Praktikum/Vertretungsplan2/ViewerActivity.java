@@ -39,7 +39,7 @@ public class ViewerActivity extends Activity {
 
   public static final String ACCOUNT = "default_account";
 
-  public static final String AUTHORITY = "com.KayKaprolat.Praktikum.Vertretungsplan2.StubProvider";
+  public static final String AUTHORITY = "com.KayKaprolat.Praktikum.Vertretungsplan2.provider";   // provider oder StubProvider?
 
   ContentResolver mResolver;
 
@@ -72,24 +72,24 @@ public class ViewerActivity extends Activity {
     final String wert_klasse = prefs.getString("KL", "");
     final long intervall = Long.parseLong(prefs.getString("delay", "60"));
     final Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
-    final Boolean Lehrer = prefs.getBoolean("Lehrer", false);
 
     mResolver = getContentResolver();
 
     if (syncable) {
-      ContentResolver.setMasterSyncAutomatically(true);
-      ContentResolver.setSyncAutomatically(account, AUTHORITY, true);
+      if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
+        if (!(ContentResolver.isSyncPending(account, AUTHORITY))) {
+          ContentResolver.addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, intervall * 60);
+        }
+      } else {
+        ContentResolver.setMasterSyncAutomatically(true);
+        ContentResolver.setSyncAutomatically(account, AUTHORITY, true);
+      }
+
     } else {
       ContentResolver.setMasterSyncAutomatically(false);
       ContentResolver.setSyncAutomatically(account, AUTHORITY, false);
+      ContentResolver.cancelSync(account, AUTHORITY);
     }
-
-    Bundle params = new Bundle();
-    params.putBoolean(ContentResolver.SYNC_EXTRAS_EXPEDITED, true);
-    params.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true);
-    ContentResolver.requestSync(account, AUTHORITY, params);
-
-    ContentResolver.addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, intervall * 60);
 
     //prüfen ob leer
 
@@ -107,7 +107,7 @@ public class ViewerActivity extends Activity {
       //Variablen festlegen
       final WebView webView = (WebView) findViewById(R.id.webView1);
 
-      Laden(webView, true, wert_klasse, wert_name, wert_PW, false, Lehrer);
+      Laden(webView, true, wert_klasse, wert_name, wert_PW, false);
 
 
     }
@@ -125,14 +125,22 @@ public class ViewerActivity extends Activity {
     mResolver = getContentResolver();
 
     if (syncable) {
-      ContentResolver.setMasterSyncAutomatically(true);
-      ContentResolver.setSyncAutomatically(account, AUTHORITY, true);
+      if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
+        if (!(ContentResolver.isSyncPending(account, AUTHORITY))) {
+          ContentResolver.addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, intervall * 60);
+        }
+      } else {
+        ContentResolver.setMasterSyncAutomatically(true);
+        ContentResolver.setSyncAutomatically(account, AUTHORITY, true);
+      }
+
     } else {
       ContentResolver.setMasterSyncAutomatically(false);
       ContentResolver.setSyncAutomatically(account, AUTHORITY, false);
+      ContentResolver.cancelSync(account, AUTHORITY);
     }
 
-    ContentResolver.addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, intervall * 60);
+
   }
 
   public void notification(String title, String text) {
@@ -165,12 +173,11 @@ public class ViewerActivity extends Activity {
     final String wert_PW = prefs.getString("PW", " ");
     final String wert_name = prefs.getString("BN", " ");
     final String wert_klasse = prefs.getString("KL", " ");
-    final Boolean Lehrer = prefs.getBoolean("Lehrer", false);
 
     setContentView(R.layout.viewer);
     final WebView webView = (WebView) findViewById(R.id.webView1);
 
-    Laden(webView, true, wert_klasse, wert_name, wert_PW, false, Lehrer);
+    Laden(webView, true, wert_klasse, wert_name, wert_PW, false);
 
   }
 
@@ -185,7 +192,7 @@ public class ViewerActivity extends Activity {
     setContentView(R.layout.viewer);
     final WebView webView = (WebView) findViewById(R.id.webView1);
 
-    Laden(webView, false, wert_klasse, wert_name, wert_PW, false, Lehrer);
+    Laden(webView, false, wert_klasse, wert_name, wert_PW, false);
   }
 
 
@@ -220,7 +227,7 @@ public class ViewerActivity extends Activity {
 
 
   private void Laden(final WebView webView, final Boolean heute, final String wert_klasse,
-      final String wert_name, final String wert_PW, final Boolean headless, final Boolean Lehrer) {
+      final String wert_name, final String wert_PW, final Boolean headless) {
 
     if (heute) {
       new Thread() {
@@ -312,7 +319,7 @@ public class ViewerActivity extends Activity {
 
             if (!headless) {
               toWebview(webView, Plan, wert_klasse, true,
-                  day, Lehrer); // WebView, HTML, Klasse bzw Lehrer, heute?, heute Freitag?
+                  day); // WebView, HTML, Klasse bzw Lehrer, heute?, heute Freitag?
             }
 
 
@@ -427,7 +434,7 @@ public class ViewerActivity extends Activity {
             speichern(Plan, false);
 
             if (!headless) {
-              toWebview(webView, Plan, wert_klasse, false, day, Lehrer);
+              toWebview(webView, Plan, wert_klasse, false, day);
             }
 
 
@@ -486,7 +493,7 @@ public class ViewerActivity extends Activity {
   }
 
   private void toWebview(final WebView webView, final String Plan, final String wert_klasse,
-      final Boolean heute, final Integer day, final Boolean Lehrer) {
+      final Boolean heute, final Integer day) {
     runOnUiThread(new Runnable() {
       @Override
       public void run() {
