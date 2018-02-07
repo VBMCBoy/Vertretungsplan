@@ -52,7 +52,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
     String wert_klasse = prefs.getString("KL", "");
     final Boolean Lehrer = !(wert_klasse.matches(".*\\d+.*")); // true = Lehrer
 
-    notification("Info", "Sync gestartet", 2);
+    notification("Info", "Sync gestartet", 1); // wird in der Zwischenzeit angezeigt
 
     // nur für morgen
     if (aktiv) {  // nur wenn an
