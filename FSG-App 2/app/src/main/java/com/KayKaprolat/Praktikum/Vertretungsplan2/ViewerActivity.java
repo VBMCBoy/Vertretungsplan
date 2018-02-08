@@ -35,17 +35,17 @@ import org.jsoup.select.Elements;
 
 public class ViewerActivity extends Activity {
 
-  public static final String ACCOUNT_TYPE = "sachsen.schule";
+  private static final String ACCOUNT_TYPE = "sachsen.schule";
 
-  public static final String ACCOUNT = "default_account";
+  private static final String ACCOUNT = "default_account";
 
-  public static final String AUTHORITY = "com.KayKaprolat.Praktikum.Vertretungsplan2.provider";   // provider oder StubProvider?
+  private static final String AUTHORITY = "com.KayKaprolat.Praktikum.Vertretungsplan2.provider";   // provider oder StubProvider?
 
-  ContentResolver mResolver;
+  private ContentResolver mResolver;
 
-  Account account;
+  private Account account;
 
-  public static Account CreateSyncAccount(Context context) {
+  private static Account CreateSyncAccount(Context context) {
     Account newAccount = new Account(ACCOUNT, ACCOUNT_TYPE);
     AccountManager accountManager = (AccountManager) context.getSystemService(ACCOUNT_SERVICE);
     if (accountManager.addAccountExplicitly(newAccount, null, null)) {
@@ -70,7 +70,6 @@ public class ViewerActivity extends Activity {
     final String wert_PW = prefs.getString("PW", "");
     final String wert_name = prefs.getString("BN", "");
     final String wert_klasse = prefs.getString("KL", "");
-    final long intervall = Long.parseLong(prefs.getString("delay", "60"));
     final Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
 
     mResolver = getContentResolver();
@@ -78,7 +77,7 @@ public class ViewerActivity extends Activity {
     if (syncable) {
       if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
         if (!(ContentResolver.isSyncPending(account, AUTHORITY))) {
-          ContentResolver.addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, intervall * 60);
+          ContentResolver.addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, 60 * 60);
         }
       } else {
         ContentResolver.setMasterSyncAutomatically(true);
@@ -107,7 +106,7 @@ public class ViewerActivity extends Activity {
       //Variablen festlegen
       final WebView webView = (WebView) findViewById(R.id.webView1);
 
-      Laden(webView, true, wert_klasse, wert_name, wert_PW, false);
+      Laden(webView, true, wert_klasse, wert_name, wert_PW);
 
 
     }
@@ -121,13 +120,12 @@ public class ViewerActivity extends Activity {
     account = CreateSyncAccount(this);
     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
     final Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
-    final long intervall = Long.parseLong(prefs.getString("delay", "60"));
     mResolver = getContentResolver();
 
     if (syncable) {
       if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
         if (!(ContentResolver.isSyncPending(account, AUTHORITY))) {
-          ContentResolver.addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, intervall * 60);
+          ContentResolver.addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, 60 * 60);
         }
       } else {
         ContentResolver.setMasterSyncAutomatically(true);
@@ -177,7 +175,7 @@ public class ViewerActivity extends Activity {
     setContentView(R.layout.viewer);
     final WebView webView = (WebView) findViewById(R.id.webView1);
 
-    Laden(webView, true, wert_klasse, wert_name, wert_PW, false);
+    Laden(webView, true, wert_klasse, wert_name, wert_PW);
 
   }
 
@@ -187,12 +185,11 @@ public class ViewerActivity extends Activity {
     final String wert_PW = prefs.getString("PW", " ");
     final String wert_name = prefs.getString("BN", " ");
     final String wert_klasse = prefs.getString("KL", " ");
-    final Boolean Lehrer = prefs.getBoolean("Lehrer", false);
 
     setContentView(R.layout.viewer);
     final WebView webView = (WebView) findViewById(R.id.webView1);
 
-    Laden(webView, false, wert_klasse, wert_name, wert_PW, false);
+    Laden(webView, false, wert_klasse, wert_name, wert_PW);
   }
 
 
@@ -227,7 +224,7 @@ public class ViewerActivity extends Activity {
 
 
   private void Laden(final WebView webView, final Boolean heute, final String wert_klasse,
-      final String wert_name, final String wert_PW, final Boolean headless) {
+      final String wert_name, final String wert_PW) {
 
     if (heute) {
       new Thread() {
@@ -303,24 +300,20 @@ public class ViewerActivity extends Activity {
             String c = Plan.replaceAll("\r", "");
             String d = c.replaceAll(" ", "");
             if (!(b.equals(d))) {   // wenn der aktuelle Plan anders als der Alte ist
-              if (headless) {
 
-              } else {
-                ViewerActivity.this.runOnUiThread(new Runnable() {
-                  @Override
-                  public void run() {
-                    Toast.makeText(getApplicationContext(), "Der Vertretungsplan ist neu.",
-                        Toast.LENGTH_LONG).show();
-                  }
-                });
-              }
+              ViewerActivity.this.runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                  Toast.makeText(getApplicationContext(), "Der Vertretungsplan ist neu.",
+                      Toast.LENGTH_LONG).show();
+                }
+              });
+
             }
             speichern(Plan, true);
 
-            if (!headless) {
-              toWebview(webView, Plan, wert_klasse, true,
-                  day); // WebView, HTML, Klasse bzw Lehrer, heute?, heute Freitag?
-            }
+            toWebview(webView, Plan, wert_klasse, true,
+                day); // WebView, HTML, Klasse bzw Lehrer, heute?, heute Freitag?
 
 
           } catch (Exception e) {
@@ -419,23 +412,19 @@ public class ViewerActivity extends Activity {
             String c = Plan.replaceAll("\r", "");
             String d = c.replaceAll(" ", "");
             if (!(b.equals(d))) {   // wenn der aktuelle Plan anders als der Alte ist
-              if (headless) {
 
-              } else {
-                ViewerActivity.this.runOnUiThread(new Runnable() {
-                  @Override
-                  public void run() {
-                    Toast.makeText(getApplicationContext(), "Der Vertretungsplan ist neu.",
-                        Toast.LENGTH_LONG).show();
-                  }
-                });
-              }
+              ViewerActivity.this.runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                  Toast.makeText(getApplicationContext(), "Der Vertretungsplan ist neu.",
+                      Toast.LENGTH_LONG).show();
+                }
+              });
+
             }
             speichern(Plan, false);
 
-            if (!headless) {
-              toWebview(webView, Plan, wert_klasse, false, day);
-            }
+            toWebview(webView, Plan, wert_klasse, false, day);
 
 
           } catch (Exception e) {
@@ -483,11 +472,9 @@ public class ViewerActivity extends Activity {
   private String cache(Boolean heute) {
     SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
     if (heute) {
-      String cache = sharedPref.getString("cache_website_heute", "");
-      return cache;
+      return sharedPref.getString("cache_website_heute", "");
     } else {
-      String cache = sharedPref.getString("cache_website_morgen", "");
-      return cache;
+      return sharedPref.getString("cache_website_morgen", "");
     }
 
   }
@@ -498,20 +485,20 @@ public class ViewerActivity extends Activity {
       @Override
       public void run() {
 
-        String Klassenkürzel;
+        String Klassenkuerzel;
         String Klassenstufe;
 
         if (Character.isLetter(wert_klasse
             .charAt(wert_klasse.length()
                 - 1))) {   // wenn das letzte Zeichen ein Buchstabe ist -- String wird bei Lehrer nicht benutzt, nur bei Schüler
-          Klassenkürzel = Character.toString(wert_klasse.charAt(wert_klasse.length() - 1));
+          Klassenkuerzel = Character.toString(wert_klasse.charAt(wert_klasse.length() - 1));
           Klassenstufe = wert_klasse.substring(0, wert_klasse.length() - 2);
         } else {
           Klassenstufe = wert_klasse;
-          Klassenkürzel = "";
+          Klassenkuerzel = "";
         }
 
-        String regex = "" + Klassenstufe + ".*" + Klassenkürzel + ".*";
+        String regex = "" + Klassenstufe + ".*" + Klassenkuerzel + ".*";
 
         Document doc2 = Jsoup.parse(Plan, "windows-1252");
         if (wert_klasse.matches(".*\\d+.*")) { // true = ist kein Lehrer

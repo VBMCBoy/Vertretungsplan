@@ -43,7 +43,9 @@
             android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.AboutActivity"
             android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
 
-        <service android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.AuthenticatorService" >
+        <service
+            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.AuthenticatorService"
+            android:exported="false" >
             <intent-filter>
                 <action android:name="android.accounts.AccountAuthenticator" />
             </intent-filter>
@@ -56,12 +58,12 @@
         <provider
             android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.StubProvider"
             android:authorities="com.KayKaprolat.Praktikum.Vertretungsplan2.provider"
-            android:exported="true"
+            android:exported="false"
             android:syncable="true" />
 
         <service
             android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.SyncService"
-            android:exported="true"
+            android:exported="false"
             android:process=":sync" >
             <intent-filter>
                 <action android:name="android.content.SyncAdapter" />

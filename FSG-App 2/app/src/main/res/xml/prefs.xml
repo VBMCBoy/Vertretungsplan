@@ -27,20 +27,10 @@
       android:key="Benachrichtigungan"
       android:persistent="true"
       android:summaryOff="Sie werden keine Benachrichtigungen erhalten"
-      android:summaryOn="Sie werden von Änderungen des morgigen Vertretungsplanes benachrichtigt, wenn für Sie etwas Wichtiges drinsteht."
+      android:summaryOn="Sie werden etwa stündlich von Änderungen des morgigen Vertretungsplanes benachrichtigt, wenn für Sie etwas Wichtiges drinsteht."
       android:title="Benachrichtigungen">
     </SwitchPreference>
-    <EditTextPreference
-      android:defaultValue="60"
-      android:dependency="Benachrichtigungan"
-      android:inputType="number"
-      android:key="delay"
-      android:persistent="true"
-      android:summary="Zeit zwischen dem Abrufen des Planes im Hintergrund in Minuten. Der genaue Zeitrahmen wird trotzdem von Android festgelegt."
-      android:title="Prüfintervall"
-      >
 
-    </EditTextPreference>
   </PreferenceCategory>
 
 </PreferenceScreen>

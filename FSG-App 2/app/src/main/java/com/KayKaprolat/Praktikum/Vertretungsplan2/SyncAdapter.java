@@ -26,6 +26,8 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class SyncAdapter extends AbstractThreadedSyncAdapter {
 
@@ -56,8 +58,8 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
 
     // nur für morgen
     if (aktiv) {  // nur wenn an
-      if ((!(wert_PW == "")) | (!(wert_name == "")) | (!(wert_klasse
-          == ""))) { // nur wenn alles eingestellt
+      if ((!(wert_PW.equals(""))) | (!(wert_name.equals(""))) | (!(wert_klasse.equals("")
+      ))) { // nur wenn alles eingestellt
 
         URL url;
         HttpURLConnection urlConnection = null;
@@ -129,18 +131,21 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
           String c = Plan.replaceAll(" ", "");
           String d = c.replaceAll("\r", ""); // gereinigter neuer String
           String Klassenstufe;
-          String Klassenkürzel;
+          String Klassenkuerzel;
           if (Character.isLetter(wert_klasse
               .charAt(wert_klasse.length()
                   - 1))) {   // wenn das letzte Zeichen ein Buchstabe ist -- String wird bei Lehrer nicht benutzt, nur bei Schüler
-            Klassenkürzel = Character.toString(wert_klasse.charAt(wert_klasse.length() - 1));
+            Klassenkuerzel = Character.toString(wert_klasse.charAt(wert_klasse.length() - 1));
             Klassenstufe = wert_klasse.substring(0, wert_klasse.length() - 2);
           } else {
             Klassenstufe = wert_klasse;
-            Klassenkürzel = "";
+            Klassenkuerzel = "";
           }
 
-          String regex = ">" + Klassenstufe + ".*" + Klassenkürzel + ".*<";
+          String regex = ">" + Klassenstufe + ".*" + Klassenkuerzel + ".*<";
+
+          Pattern p = Pattern.compile(regex);
+          Matcher m = p.matcher(Plan);
 
           if (PlanRichtig(day, Plan)) { // Stimmt das Datum?
             if (!(b.equals(d))) { // ist der Plan neu?
@@ -151,14 +156,15 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
                   // Benachrichtigung an Lehrer --> neu und wichtig
                   notification("Achtung", "Sie haben morgen Vertretung oder Aufsicht!", 1);
                 } else {
-                  // keine Benachrichtigung --> neu, aber nicht wichtig
+                  notification("Keine Vertretung",
+                      "Sie haben morgen keine Vertretung oder Aufsicht.", 1);
                 }
               } else {
-                if (Plan.matches(regex)) {
+                if (m.find()) {
                   // Benachrichtigung an Schüler --> neu und wichtig
                   notification("Achtung", "Sie haben morgen Vertretung!", 1);
                 } else {
-                  // keine Benachrichtigung --> neu, aber nicht wichtig
+                  notification("Keine Vertretung", "Sie haben morgen keine Vertretung.", 1);
                 }
               }
 
@@ -170,16 +176,16 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
                 if (Plan.contains(wert_klasse)) {
                   // Benachrichtigung an Lehrer --> alt, aber wichtig
                   notification("Erinnerung", "Sie haben morgen Vertretung oder Aufsicht!", 1);
-                } else {
+                } /* else {
                   // keine Benachrichtigung --> alt und unwichtig
-                }
+                } */
               } else {
-                if (Plan.matches(regex)) {
+                if (m.find()) {
                   // Benachrichtigung an Schüler --> alt und wichtig
-                  notification("Erinnerung", "Sie haben morgen Vertretung", 1);
-                } else {
+                  notification("Erinnerung", "Sie haben morgen Vertretung!", 1);
+                } /* else {
                   // keine Benachrichtigung --> alt und unwichtig
-                }
+                } */
               }
             }
             speichern(Plan);
@@ -217,7 +223,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
 
   public Boolean PlanRichtig(final Integer day, final String Plan) {
 
-    DateFormat dateFormat = new SimpleDateFormat("dd.MM.yy");
+    DateFormat dateFormat = new SimpleDateFormat("dd.MM");
 
     Calendar c = Calendar.getInstance();
     Date date = c.getTime();
