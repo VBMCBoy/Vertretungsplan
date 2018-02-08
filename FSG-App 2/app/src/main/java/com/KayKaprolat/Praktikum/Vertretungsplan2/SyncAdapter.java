@@ -79,35 +79,35 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
           switch (day) {
             case 1: // Sonntag
               url = new URL(
-                  "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
+                  "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
               break;
             case 2:  // Montag
               url = new URL(
-                  "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Dienstag.htm");
+                  "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Dienstag.htm");
               break;
             case 3:// Dienstag
               url = new URL(
-                  "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm");
+                  "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm");
               break;
             case 4:// Mittwoch
               url = new URL(
-                  "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Donnerstag.htm");
+                  "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Donnerstag.htm");
               break;
             case 5:  // Donnerstag
               url = new URL(
-                  "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Freitag.htm");
+                  "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Freitag.htm");
               break;
             case 6: // Freitag
               url = new URL(
-                  "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
+                  "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
               break;
             case 7: // Samstag
               url = new URL(
-                  "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
+                  "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
               break;
             default:
               url = new URL(
-                  "http://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
+                  "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
               break;
           }
 
