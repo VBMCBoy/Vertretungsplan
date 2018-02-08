@@ -128,6 +128,19 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
           String b = a.replaceAll("\r", ""); // gereinigter alter String
           String c = Plan.replaceAll(" ", "");
           String d = c.replaceAll("\r", ""); // gereinigter neuer String
+          String Klassenstufe;
+          String Klassenkürzel;
+          if (Character.isLetter(wert_klasse
+              .charAt(wert_klasse.length()
+                  - 1))) {   // wenn das letzte Zeichen ein Buchstabe ist -- String wird bei Lehrer nicht benutzt, nur bei Schüler
+            Klassenkürzel = Character.toString(wert_klasse.charAt(wert_klasse.length() - 1));
+            Klassenstufe = wert_klasse.substring(0, wert_klasse.length() - 2);
+          } else {
+            Klassenstufe = wert_klasse;
+            Klassenkürzel = "";
+          }
+
+          String regex = ">" + Klassenstufe + ".*" + Klassenkürzel + ".*<";
 
           if (PlanRichtig(day, Plan)) { // Stimmt das Datum?
             if (!(b.equals(d))) { // ist der Plan neu?
@@ -141,8 +154,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
                   // keine Benachrichtigung --> neu, aber nicht wichtig
                 }
               } else {
-                if (Plan.contains(/* die Klasse oder  MEHRERE KLASSEN!!! */
-                    wert_klasse)) { // TODO: mit Regex auch 7bce usw; 12 darf nicht im Datum sein...
+                if (Plan.matches(regex)) {
                   // Benachrichtigung an Schüler --> neu und wichtig
                   notification("Achtung", "Sie haben morgen Vertretung!", 1);
                 } else {
@@ -162,7 +174,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
                   // keine Benachrichtigung --> alt und unwichtig
                 }
               } else {
-                if (Plan.contains(/* die Klasse oder  MEHRERE KLASSEN!!! */ wert_klasse)) {
+                if (Plan.matches(regex)) {
                   // Benachrichtigung an Schüler --> alt und wichtig
                   notification("Erinnerung", "Sie haben morgen Vertretung", 1);
                 } else {

@@ -497,12 +497,28 @@ public class ViewerActivity extends Activity {
     runOnUiThread(new Runnable() {
       @Override
       public void run() {
+
+        String Klassenkürzel;
+        String Klassenstufe;
+
+        if (Character.isLetter(wert_klasse
+            .charAt(wert_klasse.length()
+                - 1))) {   // wenn das letzte Zeichen ein Buchstabe ist -- String wird bei Lehrer nicht benutzt, nur bei Schüler
+          Klassenkürzel = Character.toString(wert_klasse.charAt(wert_klasse.length() - 1));
+          Klassenstufe = wert_klasse.substring(0, wert_klasse.length() - 2);
+        } else {
+          Klassenstufe = wert_klasse;
+          Klassenkürzel = "";
+        }
+
+        String regex = "" + Klassenstufe + ".*" + Klassenkürzel + ".*";
+
         Document doc2 = Jsoup.parse(Plan, "windows-1252");
         if (wert_klasse.matches(".*\\d+.*")) { // true = ist kein Lehrer
-          Elements TEST = doc2.select("tr:has(td:eq(1):contains(" + wert_klasse + "))");
+          Elements TEST = doc2.select("tr:has(td:eq(1):matches(" + regex + "))");
           TEST.attr("bgcolor", "FFF007");
         } else {
-          Elements TEST = doc2.select("tr:contains(" + wert_klasse + ")");
+          Elements TEST = doc2.select("tr:contains(" + wert_klasse + ")");  // für Lehrer
           TEST.attr("bgcolor", "FFF007");
         }
         webView.getSettings().setBuiltInZoomControls(true);
@@ -517,7 +533,7 @@ public class ViewerActivity extends Activity {
   }
 
   private void Datum_richtig(String Plan, Boolean heute, Integer day) {
-    DateFormat dateFormat = new SimpleDateFormat("dd.MM.yy");
+    DateFormat dateFormat = new SimpleDateFormat("dd.MM");
 
     Calendar c = Calendar.getInstance();
     Date date = c.getTime();
