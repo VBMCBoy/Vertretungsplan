@@ -19,11 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce1aa1ca-427f-4dce-b51e-64deabc8026d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/SyncAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/SyncAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/SyncService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/SyncService.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -2732,7 +2728,14 @@
       <option name="project" value="LOCAL" />
       <updated>1518199997539</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="fixed a few bugs according to Android Studio's code inspection">
+      <created>1518201167588</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1518201167588</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2834,7 +2837,8 @@
     <MESSAGE value="Suche nach Klassen funktioniert auch bei 7abcd usw., Benachrichtigung für Schüler ebenso" />
     <MESSAGE value="Bugfixes, Benachrichtigung funktioniert für Klassen besser, Syncfrequenz festgesetzt, da sie eh nicht exakt ist, Funktionen entschlackt, Account verschönert, Provider nicht mehr exportiert" />
     <MESSAGE value="Vibration hinzugefügt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Vibration hinzugefügt" />
+    <MESSAGE value="fixed a few bugs according to Android Studio's code inspection" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed a few bugs according to Android Studio's code inspection" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -3121,7 +3125,7 @@
           <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
           <folding>
             <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3135,10 +3139,10 @@
             <element signature="method#Menu_Einstellungen#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Menu_Licenses#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Menu_About#0;class#ViewerActivity#0" expanded="false" />
-            <element signature="e#7202#11038#0" expanded="true" />
-            <element signature="e#7387#7621#0" expanded="true" />
-            <element signature="e#7620#7621#0" expanded="true" />
-            <element signature="e#11037#11038#0" expanded="true" />
+            <element signature="e#7768#11740#0" expanded="true" />
+            <element signature="e#7953#8187#0" expanded="true" />
+            <element signature="e#8186#8187#0" expanded="true" />
+            <element signature="e#11739#11740#0" expanded="true" />
             <element signature="method#Datum_richtig#0;class#ViewerActivity#0" expanded="false" />
           </folding>
         </state>
