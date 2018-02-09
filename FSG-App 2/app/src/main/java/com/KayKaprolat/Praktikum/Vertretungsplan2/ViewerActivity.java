@@ -46,7 +46,7 @@ public class ViewerActivity extends Activity {
   private Account account;
 
   private static Account CreateSyncAccount(Context context) {
-    Account newAccount = new Account(ACCOUNT, ACCOUNT_TYPE);
+    Account newAccount = new Account(ViewerActivity.ACCOUNT, ViewerActivity.ACCOUNT_TYPE);
     AccountManager accountManager = (AccountManager) context.getSystemService(
         Context.ACCOUNT_SERVICE);
     if (accountManager.addAccountExplicitly(newAccount, null, null)) {
@@ -61,7 +61,7 @@ public class ViewerActivity extends Activity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
-    account = CreateSyncAccount(getApplicationContext());
+    account = ViewerActivity.CreateSyncAccount(getApplicationContext());
 
     getActionBar().setTitle("Vertretungsplan");
 
@@ -76,20 +76,20 @@ public class ViewerActivity extends Activity {
     mResolver = getContentResolver();
 
     if (syncable) {
-      if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
-        if (!(ContentResolver.isSyncPending(account, AUTHORITY))) {
+      if (ContentResolver.getSyncAutomatically(account, ViewerActivity.AUTHORITY)) {
+        if (!(ContentResolver.isSyncPending(account, ViewerActivity.AUTHORITY))) {
           ContentResolver
-              .addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, 60 * 60);
+              .addPeriodicSync(account, ViewerActivity.AUTHORITY, Bundle.EMPTY, 60 * 60);
         }
       } else {
         ContentResolver.setMasterSyncAutomatically(true);
-        ContentResolver.setSyncAutomatically(account, AUTHORITY, true);
+        ContentResolver.setSyncAutomatically(account, ViewerActivity.AUTHORITY, true);
       }
 
     } else {
       ContentResolver.setMasterSyncAutomatically(false);
-      ContentResolver.setSyncAutomatically(account, AUTHORITY, false);
-      ContentResolver.cancelSync(account, AUTHORITY);
+      ContentResolver.setSyncAutomatically(account, ViewerActivity.AUTHORITY, false);
+      ContentResolver.cancelSync(account, ViewerActivity.AUTHORITY);
     }
 
     //prüfen ob leer
@@ -119,26 +119,26 @@ public class ViewerActivity extends Activity {
   @Override
   protected void onResume() {
     super.onResume();
-    account = CreateSyncAccount(this);
+    account = ViewerActivity.CreateSyncAccount(this);
     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
     Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
     mResolver = getContentResolver();
 
     if (syncable) {
-      if (ContentResolver.getSyncAutomatically(account, AUTHORITY)) {
-        if (!(ContentResolver.isSyncPending(account, AUTHORITY))) {
+      if (ContentResolver.getSyncAutomatically(account, ViewerActivity.AUTHORITY)) {
+        if (!(ContentResolver.isSyncPending(account, ViewerActivity.AUTHORITY))) {
           ContentResolver
-              .addPeriodicSync(account, AUTHORITY, Bundle.EMPTY, 60 * 60);
+              .addPeriodicSync(account, ViewerActivity.AUTHORITY, Bundle.EMPTY, 60 * 60);
         }
       } else {
         ContentResolver.setMasterSyncAutomatically(true);
-        ContentResolver.setSyncAutomatically(account, AUTHORITY, true);
+        ContentResolver.setSyncAutomatically(account, ViewerActivity.AUTHORITY, true);
       }
 
     } else {
       ContentResolver.setMasterSyncAutomatically(false);
-      ContentResolver.setSyncAutomatically(account, AUTHORITY, false);
-      ContentResolver.cancelSync(account, AUTHORITY);
+      ContentResolver.setSyncAutomatically(account, ViewerActivity.AUTHORITY, false);
+      ContentResolver.cancelSync(account, ViewerActivity.AUTHORITY);
     }
 
 
@@ -199,7 +199,7 @@ public class ViewerActivity extends Activity {
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
     MenuInflater inflater = getMenuInflater();
-    inflater.inflate(menu.main, menu);
+    inflater.inflate(R.menu.main, menu);
     return true;
   }
 

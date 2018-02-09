@@ -11,12 +11,10 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.SharedPreferences.Editor;
 import android.content.SyncResult;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v4.app.NotificationCompat.Builder;
-import com.KayKaprolat.Praktikum.Vertretungsplan2.R.drawable;
+import android.support.v4.app.NotificationCompat;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -217,8 +215,8 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
 
   public void notification(String title, String text, Integer ID, Integer priority) {
     Context context = this.getContext();
-    Builder mBuilder = new Builder(context)
-        .setSmallIcon(drawable.ic_stat_name).setContentTitle(title).setContentText(text);
+    NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
+        .setSmallIcon(R.drawable.ic_stat_name).setContentTitle(title).setContentText(text);
     Intent resultIntent = new Intent(context, ViewerActivity.class);
     PendingIntent resultPendingIntent = PendingIntent
         .getActivity(context, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT);
@@ -283,7 +281,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
 
   private void speichern(String string) {
     SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this.getContext());
-    Editor editor = sharedPref.edit();
+    SharedPreferences.Editor editor = sharedPref.edit();
 
     editor.putString("cache_website_morgen", string);
 

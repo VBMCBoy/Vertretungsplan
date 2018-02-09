@@ -1,5 +1,6 @@
 package com.KayKaprolat.Praktikum.Vertretungsplan2;
 
+import android.R;
 import android.app.Activity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -21,7 +22,7 @@ public class SettingsActivity extends Activity {
     super.onCreate(savedInstanceState);
 
     getFragmentManager().beginTransaction()
-        .replace(android.R.id.content, new SettingsFragment())
+        .replace(R.id.content, new SettingsFragment())
         .commit();
     getActionBar().setDisplayHomeAsUpEnabled(true);
 
