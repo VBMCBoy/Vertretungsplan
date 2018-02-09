@@ -54,7 +54,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
     String wert_klasse = prefs.getString("KL", "");
     final Boolean Lehrer = !(wert_klasse.matches(".*\\d+.*")); // true = Lehrer
 
-    notification("Info", "Sync gestartet", 1); // wird in der Zwischenzeit angezeigt
+    notification("Info", "Sync gestartet...", 1, 0); // wird in der Zwischenzeit angezeigt
 
     // nur für morgen
     if (aktiv) {  // nur wenn an
@@ -154,17 +154,17 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
                 if (Plan
                     .contains(wert_klasse)) { // Lehrer in Plan?  // Regex bei Lehrern nicht nötig
                   // Benachrichtigung an Lehrer --> neu und wichtig
-                  notification("Achtung", "Sie haben morgen Vertretung oder Aufsicht!", 1);
+                  notification("Achtung", "Sie haben morgen Vertretung oder Aufsicht!", 1, 1);
                 } else {
                   notification("Keine Vertretung",
-                      "Sie haben morgen keine Vertretung oder Aufsicht.", 1);
+                      "Sie haben morgen keine Vertretung oder Aufsicht.", 1, 0);
                 }
               } else {
                 if (m.find()) {
                   // Benachrichtigung an Schüler --> neu und wichtig
-                  notification("Achtung", "Sie haben morgen Vertretung!", 1);
+                  notification("Achtung", "Sie haben morgen Vertretung!", 1, 1);
                 } else {
-                  notification("Keine Vertretung", "Sie haben morgen keine Vertretung.", 1);
+                  notification("Keine Vertretung", "Sie haben morgen keine Vertretung.", 1, 0);
                 }
               }
 
@@ -175,25 +175,29 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
               if (Lehrer) {
                 if (Plan.contains(wert_klasse)) {
                   // Benachrichtigung an Lehrer --> alt, aber wichtig
-                  notification("Erinnerung", "Sie haben morgen Vertretung oder Aufsicht!", 1);
-                } /* else {
-                  // keine Benachrichtigung --> alt und unwichtig
-                } */
+                  notification("Erinnerung", "Sie haben morgen Vertretung oder Aufsicht!", 1, 1);
+                } else {
+                  // keine Benachrichtigung --> alt und unwichtig --> Sync-Benachrichtigung schließen
+                  closeNotification(1);
+                }
               } else {
                 if (m.find()) {
                   // Benachrichtigung an Schüler --> alt und wichtig
-                  notification("Erinnerung", "Sie haben morgen Vertretung!", 1);
-                } /* else {
-                  // keine Benachrichtigung --> alt und unwichtig
-                } */
+                  notification("Erinnerung", "Sie haben morgen Vertretung!", 1, 1);
+                } else {
+                  // keine Benachrichtigung --> alt und unwichtig --> Sync-Benachrichtigung schließen
+                  closeNotification(1);
+                }
               }
             }
             speichern(Plan);
+          } else {
+            closeNotification(1);
           }
 
         } catch (Exception e) {
           e.printStackTrace();
-          notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1);
+          notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1, 1);
 
         } finally {
           if (urlConnection != null) {
@@ -208,7 +212,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
 
   }
 
-  public void notification(String title, String text, Integer ID) {
+  public void notification(String title, String text, Integer ID, Integer priority) {
     Context context = getContext();
     NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
         .setSmallIcon(R.drawable.ic_stat_name).setContentTitle(title).setContentText(text);
@@ -218,7 +222,20 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
     mBuilder.setContentIntent(resultPendingIntent);
     NotificationManager notificationManager = (NotificationManager) context
         .getSystemService(NOTIFICATION_SERVICE);
+    if (priority == 1) {
+      // hohe Priorität
+      mBuilder.setVibrate(new long[]{1000, 1000, 1000});
+    }
+
     notificationManager.notify(ID, mBuilder.build());
+  }
+
+  public void closeNotification(Integer ID) {
+    Context context = getContext();
+    NotificationManager notimanager = (NotificationManager) context
+        .getSystemService(NOTIFICATION_SERVICE);
+    notimanager.cancel(ID);
+
   }
 
   public Boolean PlanRichtig(final Integer day, final String Plan) {
