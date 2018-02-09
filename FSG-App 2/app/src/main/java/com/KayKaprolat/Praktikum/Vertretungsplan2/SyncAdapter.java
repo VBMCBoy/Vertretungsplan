@@ -11,10 +11,12 @@ import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
 import android.content.SyncResult;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.NotificationCompat.Builder;
+import com.KayKaprolat.Praktikum.Vertretungsplan2.R.drawable;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -35,30 +37,30 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
 
   public SyncAdapter(Context context, boolean autoInitialize) {
     super(context, autoInitialize);
-    resolver = context.getContentResolver();
+    this.resolver = context.getContentResolver();
   }
 
   public SyncAdapter(Context context, boolean autoInitialize, boolean allowParallelSyncs) {
     super(context, autoInitialize, allowParallelSyncs);
-    resolver = context.getContentResolver();
+    this.resolver = context.getContentResolver();
   }
 
 
   public void onPerformSync(Account account, Bundle extras, String authority,
       ContentProviderClient provider, SyncResult syncResult) {
 
-    SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getContext());
+    SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this.getContext());
     Boolean aktiv = prefs.getBoolean("Benachrichtigungan", false);
     final String wert_PW = prefs.getString("PW", "");
     final String wert_name = prefs.getString("BN", "");
     String wert_klasse = prefs.getString("KL", "");
-    final Boolean Lehrer = !(wert_klasse.matches(".*\\d+.*")); // true = Lehrer
+    Boolean Lehrer = !(wert_klasse.matches(".*\\d+.*")); // true = Lehrer
 
-    notification("Info", "Sync gestartet...", 1, 0); // wird in der Zwischenzeit angezeigt
+    this.notification("Info", "Sync gestartet...", 1, 0); // wird in der Zwischenzeit angezeigt
 
     // nur für morgen
     if (aktiv) {  // nur wenn an
-      if ((!(wert_PW.equals(""))) | (!(wert_name.equals(""))) | (!(wert_klasse.equals("")
+      if ((!("".equals(wert_PW))) || (!("".equals(wert_name))) || (!("".equals(wert_klasse)
       ))) { // nur wenn alles eingestellt
 
         URL url;
@@ -122,7 +124,7 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
             baos.write(buffer, 0, count);
           }
 
-          final String Plan = new String(baos.toByteArray(),
+          String Plan = new String(baos.toByteArray(),
               "windows-1252");
 
           String morgen_alt = prefs.getString("cache_website_morgen", "");
@@ -147,24 +149,24 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
           Pattern p = Pattern.compile(regex);
           Matcher m = p.matcher(Plan);
 
-          if (PlanRichtig(day, Plan)) { // Stimmt das Datum?
+          if (this.PlanRichtig(day, Plan)) { // Stimmt das Datum?
             if (!(b.equals(d))) { // ist der Plan neu?
               // Plan neu: Benachrichtigung wenn nötig (Plan ist wichtig)
               if (Lehrer) { // Lehrer?
                 if (Plan
                     .contains(wert_klasse)) { // Lehrer in Plan?  // Regex bei Lehrern nicht nötig
                   // Benachrichtigung an Lehrer --> neu und wichtig
-                  notification("Achtung", "Sie haben morgen Vertretung oder Aufsicht!", 1, 1);
+                  this.notification("Achtung", "Sie haben morgen Vertretung oder Aufsicht!", 1, 1);
                 } else {
-                  notification("Keine Vertretung",
+                  this.notification("Keine Vertretung",
                       "Sie haben morgen keine Vertretung oder Aufsicht.", 1, 0);
                 }
               } else {
                 if (m.find()) {
                   // Benachrichtigung an Schüler --> neu und wichtig
-                  notification("Achtung", "Sie haben morgen Vertretung!", 1, 1);
+                  this.notification("Achtung", "Sie haben morgen Vertretung!", 1, 1);
                 } else {
-                  notification("Keine Vertretung", "Sie haben morgen keine Vertretung.", 1, 0);
+                  this.notification("Keine Vertretung", "Sie haben morgen keine Vertretung.", 1, 0);
                 }
               }
 
@@ -175,29 +177,30 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
               if (Lehrer) {
                 if (Plan.contains(wert_klasse)) {
                   // Benachrichtigung an Lehrer --> alt, aber wichtig
-                  notification("Erinnerung", "Sie haben morgen Vertretung oder Aufsicht!", 1, 1);
+                  this.notification("Erinnerung", "Sie haben morgen Vertretung oder Aufsicht!", 1,
+                      1);
                 } else {
                   // keine Benachrichtigung --> alt und unwichtig --> Sync-Benachrichtigung schließen
-                  closeNotification(1);
+                  this.closeNotification(1);
                 }
               } else {
                 if (m.find()) {
                   // Benachrichtigung an Schüler --> alt und wichtig
-                  notification("Erinnerung", "Sie haben morgen Vertretung!", 1, 1);
+                  this.notification("Erinnerung", "Sie haben morgen Vertretung!", 1, 1);
                 } else {
                   // keine Benachrichtigung --> alt und unwichtig --> Sync-Benachrichtigung schließen
-                  closeNotification(1);
+                  this.closeNotification(1);
                 }
               }
             }
-            speichern(Plan);
+            this.speichern(Plan);
           } else {
-            closeNotification(1);
+            this.closeNotification(1);
           }
 
         } catch (Exception e) {
           e.printStackTrace();
-          notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1, 1);
+          this.notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1, 1);
 
         } finally {
           if (urlConnection != null) {
@@ -213,9 +216,9 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
   }
 
   public void notification(String title, String text, Integer ID, Integer priority) {
-    Context context = getContext();
-    NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
-        .setSmallIcon(R.drawable.ic_stat_name).setContentTitle(title).setContentText(text);
+    Context context = this.getContext();
+    Builder mBuilder = new Builder(context)
+        .setSmallIcon(drawable.ic_stat_name).setContentTitle(title).setContentText(text);
     Intent resultIntent = new Intent(context, ViewerActivity.class);
     PendingIntent resultPendingIntent = PendingIntent
         .getActivity(context, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT);
@@ -231,14 +234,14 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
   }
 
   public void closeNotification(Integer ID) {
-    Context context = getContext();
+    Context context = this.getContext();
     NotificationManager notimanager = (NotificationManager) context
         .getSystemService(NOTIFICATION_SERVICE);
     notimanager.cancel(ID);
 
   }
 
-  public Boolean PlanRichtig(final Integer day, final String Plan) {
+  public Boolean PlanRichtig(Integer day, String Plan) {
 
     DateFormat dateFormat = new SimpleDateFormat("dd.MM");
 
@@ -279,8 +282,8 @@ public class SyncAdapter extends AbstractThreadedSyncAdapter {
   }
 
   private void speichern(String string) {
-    SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(getContext());
-    SharedPreferences.Editor editor = sharedPref.edit();
+    SharedPreferences sharedPref = PreferenceManager.getDefaultSharedPreferences(this.getContext());
+    Editor editor = sharedPref.edit();
 
     editor.putString("cache_website_morgen", string);
 
