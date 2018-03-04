@@ -198,6 +198,7 @@ public class MyJobService extends JobService {
             } finally {
               if (urlConnection != null) {
                 urlConnection.disconnect();
+
               }
             }
           }
@@ -209,7 +210,7 @@ public class MyJobService extends JobService {
 
 
     }
-
+    jobFinished(job, false);
     return false;
   }
 
