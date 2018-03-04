@@ -1,11 +1,8 @@
 package com.KayKaprolat.Praktikum.Vertretungsplan2;
 
-import android.accounts.Account;
-import android.accounts.AccountManager;
 import android.app.Activity;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -18,6 +15,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Toast;
+import com.firebase.jobdispatcher.Constraint;
+import com.firebase.jobdispatcher.FirebaseJobDispatcher;
+import com.firebase.jobdispatcher.GooglePlayDriver;
+import com.firebase.jobdispatcher.Job;
+import com.firebase.jobdispatcher.Lifetime;
+import com.firebase.jobdispatcher.RetryStrategy;
+import com.firebase.jobdispatcher.Trigger;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -35,33 +39,13 @@ import org.jsoup.select.Elements;
 
 public class ViewerActivity extends Activity {
 
-  private static final String ACCOUNT_TYPE = "sachsen.schule";
-
-  private static final String ACCOUNT = "default_account";
-
-  private static final String AUTHORITY = "com.KayKaprolat.Praktikum.Vertretungsplan2.provider";   // provider oder StubProvider?
-
-  private ContentResolver mResolver;
-
-  private Account account;
-
-  private static Account CreateSyncAccount(Context context) {
-    Account newAccount = new Account(ViewerActivity.ACCOUNT, ViewerActivity.ACCOUNT_TYPE);
-    AccountManager accountManager = (AccountManager) context.getSystemService(
-        Context.ACCOUNT_SERVICE);
-    if (accountManager.addAccountExplicitly(newAccount, null, null)) {
-      return newAccount;
-    } else {
-      // ein Fehler ist aufgetreten
-      return newAccount;
-    }
-  }
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
-    account = ViewerActivity.CreateSyncAccount(getApplicationContext());
+    FirebaseJobDispatcher dispatcher = new FirebaseJobDispatcher(
+        new GooglePlayDriver(getApplicationContext()));
 
     getActionBar().setTitle("Vertretungsplan");
 
@@ -73,23 +57,21 @@ public class ViewerActivity extends Activity {
     String wert_klasse = prefs.getString("KL", "");
     Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
 
-    mResolver = getContentResolver();
-
     if (syncable) {
-      if (ContentResolver.getSyncAutomatically(account, ViewerActivity.AUTHORITY)) {
-        if (!(ContentResolver.isSyncPending(account, ViewerActivity.AUTHORITY))) {
-          ContentResolver
-              .addPeriodicSync(account, ViewerActivity.AUTHORITY, Bundle.EMPTY, 60 * 60);
-        }
-      } else {
-        ContentResolver.setMasterSyncAutomatically(true);
-        ContentResolver.setSyncAutomatically(account, ViewerActivity.AUTHORITY, true);
-      }
+
+      Job myJob = dispatcher.newJobBuilder().setService(MyJobService.class).setTag("mytag")
+          .setRecurring(true).setLifetime(
+              Lifetime.FOREVER).setReplaceCurrent(true)
+          .setRetryStrategy(RetryStrategy.DEFAULT_LINEAR).setConstraints(
+              Constraint.ON_ANY_NETWORK).setTrigger(
+              Trigger.executionWindow(3600, 3600 + 1800)) // jede Stunde mit einem Fenster von 1/2 h
+          .build();
+
+      dispatcher.mustSchedule(myJob);
+
 
     } else {
-      ContentResolver.setMasterSyncAutomatically(false);
-      ContentResolver.setSyncAutomatically(account, ViewerActivity.AUTHORITY, false);
-      ContentResolver.cancelSync(account, ViewerActivity.AUTHORITY);
+      dispatcher.cancelAll();
     }
 
     //prüfen ob leer
@@ -119,30 +101,30 @@ public class ViewerActivity extends Activity {
   @Override
   protected void onResume() {
     super.onResume();
-    account = ViewerActivity.CreateSyncAccount(this);
     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
     Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
-    mResolver = getContentResolver();
+    FirebaseJobDispatcher dispatcher = new FirebaseJobDispatcher(
+        new GooglePlayDriver(getApplicationContext()));
 
     if (syncable) {
-      if (ContentResolver.getSyncAutomatically(account, ViewerActivity.AUTHORITY)) {
-        if (!(ContentResolver.isSyncPending(account, ViewerActivity.AUTHORITY))) {
-          ContentResolver
-              .addPeriodicSync(account, ViewerActivity.AUTHORITY, Bundle.EMPTY, 60 * 60);
-        }
-      } else {
-        ContentResolver.setMasterSyncAutomatically(true);
-        ContentResolver.setSyncAutomatically(account, ViewerActivity.AUTHORITY, true);
-      }
+
+      Job myJob = dispatcher.newJobBuilder().setService(MyJobService.class).setTag("mytag")
+          .setRecurring(true).setLifetime(
+              Lifetime.FOREVER).setReplaceCurrent(true)
+          .setRetryStrategy(RetryStrategy.DEFAULT_LINEAR).setConstraints(
+              Constraint.ON_ANY_NETWORK).setTrigger(
+              Trigger.executionWindow(3600, 3600 + 1800)) // jede Stunde mit einem Fenster von 1/2 h
+          .build();
+
+      dispatcher.mustSchedule(myJob);
+
 
     } else {
-      ContentResolver.setMasterSyncAutomatically(false);
-      ContentResolver.setSyncAutomatically(account, ViewerActivity.AUTHORITY, false);
-      ContentResolver.cancelSync(account, ViewerActivity.AUTHORITY);
+      dispatcher.cancelAll();
     }
 
-
   }
+
 
   public void notification(String title, String text) {
     NotificationCompat.Builder mBuilder =

@@ -7,4 +7,6 @@
 package android.support.v13;
 
 public final class R {
+    private R() {}
+
 }

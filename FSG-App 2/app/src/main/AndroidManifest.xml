@@ -6,13 +6,10 @@
 
 
   <uses-permission android:name="android.permission.INTERNET"/>
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
   <uses-permission android:name="android.permission.VIBRATE"/>
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-  <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
-  <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
-  <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
-  <uses-permission android:name="android.permission.READ_SYNC_STATS"/>
+
 
   <application
     android:allowBackup="true"
@@ -41,33 +38,12 @@
 
     <service
       android:exported="false"
-      android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.AuthenticatorService">
+      android:name=".MyJobService">
       <intent-filter>
-        <action android:name="android.accounts.AccountAuthenticator"/>
+        <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
       </intent-filter>
-      <meta-data
-        android:name="android.accounts.AccountAuthenticator"
-        android:resource="@xml/authenticator"/>
     </service>
 
-    <provider
-      android:authorities="com.KayKaprolat.Praktikum.Vertretungsplan2.provider"
-      android:exported="false"
-      android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.StubProvider"
-      android:syncable="true"
-      />
-
-    <service
-      android:exported="false"
-      android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.SyncService"
-      android:process=":sync">
-      <intent-filter>
-        <action android:name="android.content.SyncAdapter"/>
-      </intent-filter>
-      <meta-data
-        android:name="android.content.SyncAdapter"
-        android:resource="@xml/syncadapter"/>
-    </service>
   </application>
 
 </manifest>
