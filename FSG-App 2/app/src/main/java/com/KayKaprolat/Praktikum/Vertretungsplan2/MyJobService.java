@@ -126,7 +126,7 @@ public class MyJobService extends JobService {
                   .charAt(wert_klasse.length()
                       - 1))) {   // wenn das letzte Zeichen ein Buchstabe ist -- String wird bei Lehrer nicht benutzt, nur bei Schüler
                 Klassenkuerzel = Character.toString(wert_klasse.charAt(wert_klasse.length() - 1));
-                Klassenstufe = wert_klasse.substring(0, wert_klasse.length() - 2);
+                Klassenstufe = wert_klasse.substring(0, wert_klasse.length() - 1);
               } else {
                 Klassenstufe = wert_klasse;
                 Klassenkuerzel = "";
