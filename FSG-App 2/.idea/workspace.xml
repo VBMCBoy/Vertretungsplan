@@ -25,6 +25,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce1aa1ca-427f-4dce-b51e-64deabc8026d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
@@ -69,28 +70,9 @@
       <file leaf-file-name="ViewerActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="489" column="72" lean-forward="true" selection-start-line="489" selection-start-column="72" selection-end-line="489" selection-end-column="72" />
-              <folding>
-                <element signature="e#6569#10441#0" expanded="true" />
-                <element signature="e#6754#6988#0" expanded="true" />
-                <element signature="e#6987#6988#0" expanded="true" />
-                <element signature="e#9467#9740#0" expanded="true" />
-                <element signature="e#9739#9740#0" expanded="true" />
-                <element signature="e#10027#10285#0" expanded="true" />
-                <element signature="e#10284#10285#0" expanded="true" />
-                <element signature="e#10440#10441#0" expanded="true" />
-                <element signature="e#10492#14235#0" expanded="true" />
-                <element signature="e#10677#10911#0" expanded="true" />
-                <element signature="e#10910#10911#0" expanded="true" />
-                <element signature="e#13336#13609#0" expanded="true" />
-                <element signature="e#13608#13609#0" expanded="true" />
-                <element signature="e#13822#14080#0" expanded="true" />
-                <element signature="e#14079#14080#0" expanded="true" />
-                <element signature="e#14234#14235#0" expanded="true" />
-                <element signature="e#15083#16541#0" expanded="true" />
-                <element signature="e#16540#16541#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="489" column="72" lean-forward="false" selection-start-line="489" selection-start-column="72" selection-end-line="489" selection-end-column="72" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,14 +89,14 @@
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
               <caret line="8" column="77" lean-forward="false" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
@@ -2376,6 +2358,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -2406,19 +2400,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -2504,7 +2486,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="Debugger_Data_Views_Java" />
     <property name="android.sdk.path" value="D:/Android/sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="device.picker.selection" value="LGH81532dae956" />
@@ -2915,7 +2897,6 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18496802" sideWeight="0.49626467" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25506938" sideWeight="0.4978678" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32239583" sideWeight="0.49543378" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5045662" order="3" side_tool="true" content_ui="tabs" />
@@ -2927,6 +2908,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25506938" sideWeight="0.4978678" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32870865" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -3238,14 +3220,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="77" lean-forward="false" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/MyJobService.java">
@@ -3258,28 +3240,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="489" column="72" lean-forward="true" selection-start-line="489" selection-start-column="72" selection-end-line="489" selection-end-column="72" />
-          <folding>
-            <element signature="e#6569#10441#0" expanded="true" />
-            <element signature="e#6754#6988#0" expanded="true" />
-            <element signature="e#6987#6988#0" expanded="true" />
-            <element signature="e#9467#9740#0" expanded="true" />
-            <element signature="e#9739#9740#0" expanded="true" />
-            <element signature="e#10027#10285#0" expanded="true" />
-            <element signature="e#10284#10285#0" expanded="true" />
-            <element signature="e#10440#10441#0" expanded="true" />
-            <element signature="e#10492#14235#0" expanded="true" />
-            <element signature="e#10677#10911#0" expanded="true" />
-            <element signature="e#10910#10911#0" expanded="true" />
-            <element signature="e#13336#13609#0" expanded="true" />
-            <element signature="e#13608#13609#0" expanded="true" />
-            <element signature="e#13822#14080#0" expanded="true" />
-            <element signature="e#14079#14080#0" expanded="true" />
-            <element signature="e#14234#14235#0" expanded="true" />
-            <element signature="e#15083#16541#0" expanded="true" />
-            <element signature="e#16540#16541#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="489" column="72" lean-forward="false" selection-start-line="489" selection-start-column="72" selection-end-line="489" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
