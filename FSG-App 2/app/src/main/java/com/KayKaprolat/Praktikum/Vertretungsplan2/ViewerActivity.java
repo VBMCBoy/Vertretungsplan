@@ -477,7 +477,7 @@ public class ViewerActivity extends Activity {
         String Klassenkuerzel;
         String Klassenstufe;
 
-        if (Character.isLetter(wert_klasse
+        if (Character.isLetter(wert_klasse  // TODO: das hier in die If-Schleife unten verlagern
             .charAt(wert_klasse.length()
                 - 1))) {   // wenn das letzte Zeichen ein Buchstabe ist -- String wird bei Lehrer nicht benutzt, nur bei Schüler
           Klassenkuerzel = Character.toString(wert_klasse.charAt(wert_klasse.length() - 1));

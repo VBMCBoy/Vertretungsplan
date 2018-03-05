@@ -4,13 +4,13 @@
             "outputFile": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.4.0.aar\\8392451cc81eaf3cd981f918f1104b93\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\e8b27b06ac24bd9593f4da9270ec5a35\\res\\values-land\\values-land.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,117,189,259,323,394",
-                        "endColumns": "61,71,69,63,70,67",
-                        "endOffsets": "112,184,254,318,389,457"
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]
