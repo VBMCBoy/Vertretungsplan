@@ -9,6 +9,6 @@ public class LicenseActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
       setContentView(R.layout.license_activity);
-      getActionBar().setDisplayHomeAsUpEnabled(true);
+      getActionBar().setDisplayHomeAsUpEnabled(true); //TODO ist das bei Samsung problematisch?
     }
 }
