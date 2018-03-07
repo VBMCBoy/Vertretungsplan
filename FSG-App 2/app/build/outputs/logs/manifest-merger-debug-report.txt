@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:2:1-19:12
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\1675e622ce73a58c4d3ec81ff6bdeb33\AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:preference-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-25.4.0.aar\838e55a1b7dea9f60898a88e991eea86\AndroidManifest.xml:17:1-28:12
@@ -36,9 +36,9 @@ MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\kakao_
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\6b57a9f3c90b371bd2658bf4e6e5662a\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\71a33cb8c057e36b06ea47526f2ea784\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\49fa900feb779c774ab97cb8671fd84f\AndroidManifest.xml:2:1-6:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:3:3-55
 		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
@@ -86,7 +86,7 @@ ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\ma
 	android:name
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:11:20-75
 application
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:14:3-50:17
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:14:3-54:17
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:11:5-17:19
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:11:5-17:19
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\1675e622ce73a58c4d3ec81ff6bdeb33\AndroidManifest.xml:5:5-20
@@ -159,60 +159,66 @@ MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\kakao_000
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:15:5-31
 	android:theme
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:18:5-36
+meta-data#firebase_analytics_collection_enabled
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:19:5-21:30
+	android:value
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:21:7-28
+	android:name
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:20:7-59
 activity#com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:19:5-27:16
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:23:5-31:16
 	android:label
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:20:7-38
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:24:7-38
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:21:7-37
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:25:7-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:22:7-26:23
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:26:7-30:23
 action#android.intent.action.MAIN
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:23:9-60
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:27:9-60
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:23:17-58
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:27:17-58
 category#android.intent.category.LAUNCHER
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:25:9-68
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:29:9-68
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:25:19-66
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:29:19-66
 activity#com.KayKaprolat.Praktikum.Vertretungsplan2.SettingsActivity
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:28:5-31:53
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:32:5-35:53
 	android:parentActivityName
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:31:7-51
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:35:7-51
 	android:label
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:29:7-51
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:33:7-51
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:30:7-39
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:34:7-39
 activity#com.KayKaprolat.Praktikum.Vertretungsplan2.LicenseActivity
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:32:5-34:53
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:36:5-38:53
 	android:parentActivityName
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:34:7-51
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:38:7-51
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:33:7-38
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:37:7-38
 activity#com.KayKaprolat.Praktikum.Vertretungsplan2.AboutActivity
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:35:5-37:53
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:39:5-41:53
 	android:parentActivityName
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:37:7-51
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:41:7-51
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:36:7-36
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:40:7-36
 activity#com.KayKaprolat.Praktikum.Vertretungsplan2.DatenschutzActivity
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:38:5-40:53
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:42:5-44:53
 	android:parentActivityName
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:40:7-51
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:44:7-51
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:39:7-42
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:43:7-42
 service#com.KayKaprolat.Praktikum.Vertretungsplan2.MyJobService
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:42:5-48:15
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:46:5-52:15
 	android:exported
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:43:7-31
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:47:7-31
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:44:7-35
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:48:7-35
 intent-filter#action:name:com.firebase.jobdispatcher.ACTION_EXECUTE
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:45:7-47:23
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:49:7-51:23
 action#com.firebase.jobdispatcher.ACTION_EXECUTE
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:46:9-75
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:50:9-75
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:46:17-73
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:50:17-73
 uses-sdk
 INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml

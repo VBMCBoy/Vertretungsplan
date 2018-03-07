@@ -22,6 +22,7 @@ import com.firebase.jobdispatcher.Job;
 import com.firebase.jobdispatcher.Lifetime;
 import com.firebase.jobdispatcher.RetryStrategy;
 import com.firebase.jobdispatcher.Trigger;
+import com.google.firebase.analytics.FirebaseAnalytics;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -44,7 +45,7 @@ public class ViewerActivity extends Activity {
     super.onCreate(savedInstanceState);
 
     FirebaseJobDispatcher dispatcher = new FirebaseJobDispatcher(
-        new GooglePlayDriver(this.getApplicationContext()));
+        new GooglePlayDriver(getApplicationContext()));
 
     //  this.getActionBar().setTitle("Vertretungsplan");
 
@@ -55,6 +56,10 @@ public class ViewerActivity extends Activity {
     String wert_name = prefs.getString("BN", "");
     String wert_klasse = prefs.getString("KL", "");
     Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
+    Boolean datacollection = prefs.getBoolean("Datenschutz", true);
+
+    FirebaseAnalytics.getInstance(this.getApplicationContext())
+        .setAnalyticsCollectionEnabled(datacollection);
 
     if (syncable) {
 
@@ -77,19 +82,19 @@ public class ViewerActivity extends Activity {
 
     if ("".equals(wert_PW) || "".equals(wert_name) || "".equals(wert_klasse)) {
       // Toast
-      Toast.makeText(this.getApplicationContext(),
+      Toast.makeText(getApplicationContext(),
           "Bitte stellen Sie Klasse / Lehrer, Benutzername und Passwort ein.", Toast.LENGTH_LONG)
           .show();
       // Einstellungen öffnen
       Intent intent = new Intent(this, SettingsActivity.class);
-      this.startActivity(intent);
+      startActivity(intent);
     } else {
 
-      this.setContentView(R.layout.viewer); //Layout starten
+      setContentView(R.layout.viewer); //Layout starten
       //Variablen festlegen
-      WebView webView = (WebView) this.findViewById(R.id.webView1);
+      WebView webView = (WebView) findViewById(R.id.webView1);
 
-      this.Laden(webView, true, wert_klasse, wert_name, wert_PW);
+      Laden(webView, true, wert_klasse, wert_name, wert_PW);
 
 
     }
@@ -102,8 +107,13 @@ public class ViewerActivity extends Activity {
     super.onResume();
     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
     Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
+    Boolean datacollection = prefs.getBoolean("Datenschutz", true);
+
+    FirebaseAnalytics.getInstance(this.getApplicationContext())
+        .setAnalyticsCollectionEnabled(datacollection);
+
     FirebaseJobDispatcher dispatcher = new FirebaseJobDispatcher(
-        new GooglePlayDriver(this.getApplicationContext()));
+        new GooglePlayDriver(getApplicationContext()));
 
     if (syncable) {
 
@@ -141,7 +151,7 @@ public class ViewerActivity extends Activity {
         );
     mBuilder.setContentIntent(resultPendingIntent);
     int ID = 1;
-    NotificationManager notificationManager = (NotificationManager) this.getSystemService(
+    NotificationManager notificationManager = (NotificationManager) getSystemService(
         Context.NOTIFICATION_SERVICE);
     notificationManager.notify(ID, mBuilder.build());
   }
@@ -156,10 +166,10 @@ public class ViewerActivity extends Activity {
     String wert_name = prefs.getString("BN", " ");
     String wert_klasse = prefs.getString("KL", " ");
 
-    this.setContentView(R.layout.viewer);
-    WebView webView = (WebView) this.findViewById(R.id.webView1);
+    setContentView(R.layout.viewer);
+    WebView webView = (WebView) findViewById(R.id.webView1);
 
-    this.Laden(webView, true, wert_klasse, wert_name, wert_PW);
+    Laden(webView, true, wert_klasse, wert_name, wert_PW);
 
   }
 
@@ -170,16 +180,16 @@ public class ViewerActivity extends Activity {
     String wert_name = prefs.getString("BN", " ");
     String wert_klasse = prefs.getString("KL", " ");
 
-    this.setContentView(R.layout.viewer);
-    WebView webView = (WebView) this.findViewById(R.id.webView1);
+    setContentView(R.layout.viewer);
+    WebView webView = (WebView) findViewById(R.id.webView1);
 
-    this.Laden(webView, false, wert_klasse, wert_name, wert_PW);
+    Laden(webView, false, wert_klasse, wert_name, wert_PW);
   }
 
 
   @Override
   public boolean onCreateOptionsMenu(Menu menu) {
-    MenuInflater inflater = this.getMenuInflater();
+    MenuInflater inflater = getMenuInflater();
     inflater.inflate(R.menu.main, menu);
     return true;
   }
@@ -187,7 +197,7 @@ public class ViewerActivity extends Activity {
   public void Menu_Einstellungen(MenuItem item) {
 
     Intent intent = new Intent(this, SettingsActivity.class);
-    this.startActivity(intent);
+    startActivity(intent);
 
   }
 
@@ -195,21 +205,21 @@ public class ViewerActivity extends Activity {
   public void Menu_Licenses(MenuItem item) {
 
     Intent intent = new Intent(this, LicenseActivity.class);
-    this.startActivity(intent);
+    startActivity(intent);
 
   }
 
 
   public void Menu_About(MenuItem item) {
     Intent intent = new Intent(this, AboutActivity.class);
-    this.startActivity(intent);
+    startActivity(intent);
 
   }
 
 
   public void Menu_Datenschutz(MenuItem item) {
     Intent intent = new Intent(this, DatenschutzActivity.class);
-    this.startActivity(intent);
+    startActivity(intent);
 
   }
 
@@ -285,34 +295,34 @@ public class ViewerActivity extends Activity {
             String Plan = new String(baos.toByteArray(),
                 "windows-1252");
             // das ist grauenhaft
-            String a = ViewerActivity.this.cache(true).replaceAll(" ", "");
+            String a = cache(true).replaceAll(" ", "");
             String b = a.replaceAll("\r", "");
             String c = Plan.replaceAll("\r", "");
             String d = c.replaceAll(" ", "");
             if (!(b.equals(d))) {   // wenn der aktuelle Plan anders als der Alte ist
 
-              runOnUiThread(new Runnable() {
+              ViewerActivity.this.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                  Toast.makeText(ViewerActivity.this.getApplicationContext(),
+                  Toast.makeText(getApplicationContext(),
                       "Der Vertretungsplan ist neu.",
                       Toast.LENGTH_LONG).show();
                 }
               });
 
             }
-            ViewerActivity.this.speichern(Plan, true);
+            speichern(Plan, true);
 
-            ViewerActivity.this.toWebview(webView, Plan, wert_klasse, true,
+            toWebview(webView, Plan, wert_klasse, true,
                 day); // WebView, HTML, Klasse bzw Lehrer, heute?, heute Freitag?
 
 
           } catch (Exception e) {
             e.printStackTrace();
-            ViewerActivity.this.runOnUiThread(new Runnable() {
+            runOnUiThread(new Runnable() {
               @Override
               public void run() {
-                Toast.makeText(ViewerActivity.this.getApplicationContext(),
+                Toast.makeText(getApplicationContext(),
                     "Ein Fehler ist aufgetreten.",
                     Toast.LENGTH_LONG).show();
               }
@@ -399,33 +409,33 @@ public class ViewerActivity extends Activity {
             String Plan = new String(baos.toByteArray(),
                 "windows-1252");
 
-            String a = ViewerActivity.this.cache(false).replaceAll(" ", "");
+            String a = cache(false).replaceAll(" ", "");
             String b = a.replaceAll("\r", "");
             String c = Plan.replaceAll("\r", "");
             String d = c.replaceAll(" ", "");
             if (!(b.equals(d))) {   // wenn der aktuelle Plan anders als der Alte ist
 
-              runOnUiThread(new Runnable() {
+              ViewerActivity.this.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                  Toast.makeText(ViewerActivity.this.getApplicationContext(),
+                  Toast.makeText(getApplicationContext(),
                       "Der Vertretungsplan ist neu.",
                       Toast.LENGTH_LONG).show();
                 }
               });
 
             }
-            ViewerActivity.this.speichern(Plan, false);
+            speichern(Plan, false);
 
-            ViewerActivity.this.toWebview(webView, Plan, wert_klasse, false, day);
+            toWebview(webView, Plan, wert_klasse, false, day);
 
 
           } catch (Exception e) {
             e.printStackTrace();
-            ViewerActivity.this.runOnUiThread(new Runnable() {
+            runOnUiThread(new Runnable() {
               @Override
               public void run() {
-                Toast.makeText(ViewerActivity.this.getApplicationContext(),
+                Toast.makeText(getApplicationContext(),
                     "Ein Fehler ist aufgetreten.",
                     Toast.LENGTH_LONG).show();
               }
@@ -450,7 +460,7 @@ public class ViewerActivity extends Activity {
 
 
   private void speichern(String string, Boolean heute) {
-    SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+    SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
     SharedPreferences.Editor editor = sharedPref.edit();
     if (heute) {
       editor.putString("cache_website_heute", string);
@@ -464,7 +474,7 @@ public class ViewerActivity extends Activity {
   }
 
   private String cache(Boolean heute) {
-    SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+    SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
     if (heute) {
       return sharedPref.getString("cache_website_heute", "");
     } else {
@@ -475,7 +485,7 @@ public class ViewerActivity extends Activity {
 
   private void toWebview(final WebView webView, final String Plan, final String wert_klasse,
       final Boolean heute, final Integer day) {
-    this.runOnUiThread(new Runnable() {
+    runOnUiThread(new Runnable() {
       @Override
       public void run() {
 
@@ -507,8 +517,7 @@ public class ViewerActivity extends Activity {
         webView.loadData(doc2.html(), "text/html; charset=UTF-8",
             null);
 
-        ViewerActivity.this
-            .Datum_richtig(Plan, heute, day);    // macht einen Toast wenn das Datum nicht stimmt
+        Datum_richtig(Plan, heute, day);    // macht einen Toast wenn das Datum nicht stimmt
 
       }
     });
@@ -527,7 +536,7 @@ public class ViewerActivity extends Activity {
           c.add(Calendar.DATE, 1);
           date = c.getTime();
           if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(this.getApplicationContext(),
+            Toast.makeText(getApplicationContext(),
                 "Der Vertretungsplan scheint falsch zu sein.",
                 Toast.LENGTH_LONG).show();
           }
@@ -542,7 +551,7 @@ public class ViewerActivity extends Activity {
 
         case 6: // Freitag -- heute
           if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(this.getApplicationContext(),
+            Toast.makeText(getApplicationContext(),
                 "Der Vertretungsplan scheint falsch zu sein.",
                 Toast.LENGTH_LONG).show();
           }
@@ -552,13 +561,13 @@ public class ViewerActivity extends Activity {
           c.add(Calendar.DATE, 2);
           date = c.getTime();
           if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(this.getApplicationContext(),
+            Toast.makeText(getApplicationContext(),
                 "Der Vertretungsplan scheint falsch zu sein.",
                 Toast.LENGTH_LONG).show();
           }
           break;
         default: // Default
-          Toast.makeText(this.getApplicationContext(), "Ein Fehler ist aufgetreten.",
+          Toast.makeText(getApplicationContext(), "Ein Fehler ist aufgetreten.",
               Toast.LENGTH_LONG)
               .show();
           break;
@@ -578,7 +587,7 @@ public class ViewerActivity extends Activity {
           c.add(Calendar.DATE, 1);
           date = c.getTime();
           if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(this.getApplicationContext(),
+            Toast.makeText(getApplicationContext(),
                 "Der Vertretungsplan scheint falsch zu sein.",
                 Toast.LENGTH_LONG).show();
           }
@@ -588,7 +597,7 @@ public class ViewerActivity extends Activity {
           c.add(Calendar.DATE, 3);
           date = c.getTime();
           if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(this.getApplicationContext(),
+            Toast.makeText(getApplicationContext(),
                 "Der Vertretungsplan scheint falsch zu sein.",
                 Toast.LENGTH_LONG).show();
           }
@@ -598,13 +607,13 @@ public class ViewerActivity extends Activity {
           c.add(Calendar.DATE, 2);
           date = c.getTime();
           if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(this.getApplicationContext(),
+            Toast.makeText(getApplicationContext(),
                 "Der Vertretungsplan scheint falsch zu sein.",
                 Toast.LENGTH_LONG).show();
           }
           break;
         default: // Default
-          Toast.makeText(this.getApplicationContext(), "Ein Fehler ist aufgetreten.",
+          Toast.makeText(getApplicationContext(), "Ein Fehler ist aufgetreten.",
               Toast.LENGTH_LONG)
               .show();
           break;

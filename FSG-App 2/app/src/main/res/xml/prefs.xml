@@ -32,5 +32,17 @@
     </SwitchPreference>
 
   </PreferenceCategory>
+  <PreferenceCategory
+    android:title="@string/datenschutz">
+    <SwitchPreference
+      android:defaultValue="true"
+      android:key="Datenschutz"
+      android:persistent="true"
+      android:summaryOff="Schade! Es werden keine Crash-Reports und Nutzungsinformationen an den Entwickler gesendet."
+      android:summaryOn="Crashes und Nutzungsinformationen werden an den Entwickler gesendet. Dankeschön!"
+      android:title="Anonyme Datensammlung aktivieren">
+    </SwitchPreference>
+
+  </PreferenceCategory>
 
 </PreferenceScreen>
