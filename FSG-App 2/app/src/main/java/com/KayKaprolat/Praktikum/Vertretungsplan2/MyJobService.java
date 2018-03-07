@@ -7,9 +7,9 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
+import com.crashlytics.android.Crashlytics;
 import com.firebase.jobdispatcher.JobParameters;
 import com.firebase.jobdispatcher.JobService;
-import com.google.firebase.crash.FirebaseCrash;
 import java.io.BufferedInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;
@@ -33,14 +33,14 @@ public class MyJobService extends JobService {
     // hier arbeiten
 
     final SharedPreferences prefs = PreferenceManager
-        .getDefaultSharedPreferences(this.getApplicationContext());
+        .getDefaultSharedPreferences(getApplicationContext());
     Boolean aktiv = prefs.getBoolean("Benachrichtigungan", false);
     final String wert_PW = prefs.getString("PW", "");
     final String wert_name = prefs.getString("BN", "");
     final String wert_klasse = prefs.getString("KL", "");
     final Boolean Lehrer = !(wert_klasse.matches(".*\\d+.*")); // true = Lehrer
 
-    this.notification("Info", "Sync gestartet...", 1, 0); // wird in der Zwischenzeit angezeigt
+    notification("Info", "Sync gestartet...", 1, 0); // wird in der Zwischenzeit angezeigt
 
     // nur für morgen
     if (aktiv) {  // nur wenn an
@@ -138,7 +138,7 @@ public class MyJobService extends JobService {
               Pattern p = Pattern.compile(regex);
               Matcher m = p.matcher(Plan);
 
-              if (MyJobService.this.PlanRichtig(day, Plan)) { // Stimmt das Datum?
+              if (PlanRichtig(day, Plan)) { // Stimmt das Datum?
                 if (!(b.equals(d))) { // ist der Plan neu? --> nur 1x benachrichtigen reicht
                   // Plan neu: Benachrichtigung wenn nötig (Plan ist wichtig)
                   if (Lehrer) { // Lehrer?
@@ -146,38 +146,34 @@ public class MyJobService extends JobService {
                         .contains(
                             wert_klasse)) { // Lehrer in Plan?  // Regex bei Lehrern nicht nötig
                       // Benachrichtigung an Lehrer --> neu und wichtig
-                      MyJobService.this
-                          .notification("Achtung", "Sie haben morgen Vertretung oder Aufsicht!", 1,
+                      notification("Achtung", "Sie haben morgen Vertretung oder Aufsicht!", 1,
                           1);
                     } else {
-                      MyJobService.this.notification("Keine Vertretung",
+                      notification("Keine Vertretung",
                           "Sie haben morgen keine Vertretung oder Aufsicht.", 1, 0);
                     }
                   } else {
                     if (m.find()) {
                       // Benachrichtigung an Schüler --> neu und wichtig
-                      MyJobService.this
-                          .notification("Achtung", "Sie haben morgen Vertretung!", 1, 1);
+                      notification("Achtung", "Sie haben morgen Vertretung!", 1, 1);
                     } else {
-                      MyJobService.this
-                          .notification("Keine Vertretung", "Sie haben morgen keine Vertretung.", 1,
+                      notification("Keine Vertretung", "Sie haben morgen keine Vertretung.", 1,
                           0);
                     }
                   }
 
 
                 }
-                MyJobService.this.speichern(Plan);
+                speichern(Plan);
               } else {
-                MyJobService.this.closeNotification(1);
+                closeNotification(1);
               }
 
             } catch (Exception e) {
               e.printStackTrace();
-              MyJobService.this
-                  .notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1,
+              notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1,
                   1);
-              FirebaseCrash.report(e);
+              Crashlytics.logException(e);
             } finally {
               if (urlConnection != null) {
                 urlConnection.disconnect();
@@ -193,7 +189,7 @@ public class MyJobService extends JobService {
 
 
     }
-    this.jobFinished(job, false);
+    jobFinished(job, false);
     return false;
   }
 
@@ -203,7 +199,7 @@ public class MyJobService extends JobService {
   }
 
   public void notification(String title, String text, Integer ID, Integer priority) {
-    Context context = this.getApplicationContext();
+    Context context = getApplicationContext();
     NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
         .setSmallIcon(R.drawable.ic_stat_name).setContentTitle(title).setContentText(text);
     Intent resultIntent = new Intent(context, ViewerActivity.class);
@@ -221,7 +217,7 @@ public class MyJobService extends JobService {
   }
 
   public void closeNotification(Integer ID) {
-    Context context = this.getApplicationContext();
+    Context context = getApplicationContext();
     NotificationManager notimanager = (NotificationManager) context
         .getSystemService(Context.NOTIFICATION_SERVICE);
     notimanager.cancel(ID);
@@ -270,7 +266,7 @@ public class MyJobService extends JobService {
 
   private void speichern(String string) {
     SharedPreferences sharedPref = PreferenceManager
-        .getDefaultSharedPreferences(this.getApplicationContext());
+        .getDefaultSharedPreferences(getApplicationContext());
     SharedPreferences.Editor editor = sharedPref.edit();
 
     editor.putString("cache_website_morgen", string);

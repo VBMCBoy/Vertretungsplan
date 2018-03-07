@@ -1,23 +1,27 @@
 #Internal package file, do not edit.
-#Wed Mar 07 17:26:16 CET 2018
-2.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\30
+#Wed Mar 07 17:43:48 CET 2018
+7.path=classes.dex
+2.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\31
 5.set=DEX
 0.path=schulserver.bks
 2.baseType=DIRECTORY
-3.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\33
+3.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\30
+7.baseType=DIRECTORY
 2.set=DEX
-1.path=classes.dex
-4.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\32
-count=7
+1.path=crashlytics-build.properties
+4.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\33
+7.set=DEX
+count=8
 5.baseType=DIRECTORY
 2.path=classes.dex
-5.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\35
+5.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\32
 4.set=DEX
 3.path=classes.dex
-6.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\34
+6.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\35
 3.baseType=DIRECTORY
-1.set=DEX
+1.set=ASSET
 4.path=classes.dex
+7.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\34
 6.set=DEX
 1.baseType=DIRECTORY
 6.baseType=DIRECTORY
@@ -26,6 +30,6 @@ count=7
 0.baseType=DIRECTORY
 3.set=DEX
 6.path=classes.dex
-1.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\31
+1.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\assets\\debug
 4.baseType=DIRECTORY
 0.set=ASSET

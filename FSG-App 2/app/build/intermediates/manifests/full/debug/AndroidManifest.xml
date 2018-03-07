@@ -57,6 +57,12 @@
             </intent-filter>
         </service>
 
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.KayKaprolat.Praktikum.Vertretungsplan2.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
         <meta-data
             android:name="android.support.VERSION"
             android:value="25.4.0" />
