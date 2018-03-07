@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Mar 07 19:39:04 CET 2018
+#Wed Mar 07 20:41:26 CET 2018
 1.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\assets\\release
 2.path=schulserver.bks
 0.baseType=DIRECTORY
