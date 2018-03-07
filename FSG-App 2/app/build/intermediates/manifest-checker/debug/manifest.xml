@@ -48,6 +48,9 @@
         <activity
             android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.AboutActivity"
             android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
+        <activity
+            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.DatenschutzActivity"
+            android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
 
         <service
             android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.MyJobService"

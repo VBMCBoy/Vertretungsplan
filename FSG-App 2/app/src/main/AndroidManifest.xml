@@ -35,6 +35,9 @@
     <activity
       android:name=".AboutActivity"
       android:parentActivityName=".ViewerActivity"/>
+    <activity
+      android:name=".DatenschutzActivity"
+      android:parentActivityName=".ViewerActivity"/>
 
     <service
       android:exported="false"

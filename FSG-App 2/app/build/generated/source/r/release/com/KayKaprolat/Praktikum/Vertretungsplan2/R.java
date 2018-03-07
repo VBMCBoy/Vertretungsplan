@@ -2959,7 +2959,8 @@ public final class R {
     public static final int abc_config_activityDefaultDur=0x7f080000;
     public static final int abc_config_activityShortDur=0x7f080001;
     public static final int cancel_button_image_alpha=0x7f080002;
-    public static final int status_bar_notification_info_maxnum=0x7f080003;
+    public static final int google_play_services_version=0x7f080003;
+    public static final int status_bar_notification_info_maxnum=0x7f080004;
   }
   public static final class layout {
     public static final int abc_action_bar_title_item=0x7f090000;
@@ -3062,19 +3063,29 @@ public final class R {
     public static final int about=0x7f0b0021;
     public static final int abouttext=0x7f0b0022;
     public static final int app_name=0x7f0b0023;
-    public static final int einst_klasse=0x7f0b0024;
-    public static final int einstellungen=0x7f0b0025;
-    public static final int heute=0x7f0b0026;
-    public static final int license=0x7f0b0027;
-    public static final int licenses=0x7f0b0028;
-    public static final int morgen=0x7f0b0029;
-    public static final int name=0x7f0b002a;
-    public static final int passwort=0x7f0b002b;
-    public static final int search_menu_title=0x7f0b002c;
-    public static final int status_bar_notification_info_overflow=0x7f0b002d;
-    public static final int textview=0x7f0b002e;
-    public static final int v7_preference_off=0x7f0b002f;
-    public static final int v7_preference_on=0x7f0b0030;
+    public static final int com_crashlytics_android_build_id=0x7f0b0024;
+    public static final int common_google_play_services_unknown_issue=0x7f0b0025;
+    public static final int default_web_client_id=0x7f0b0026;
+    public static final int einst_klasse=0x7f0b0027;
+    public static final int einstellungen=0x7f0b0028;
+    public static final int firebase_database_url=0x7f0b0029;
+    public static final int gcm_defaultSenderId=0x7f0b002a;
+    public static final int google_api_key=0x7f0b002b;
+    public static final int google_app_id=0x7f0b002c;
+    public static final int google_crash_reporting_api_key=0x7f0b002d;
+    public static final int google_storage_bucket=0x7f0b002e;
+    public static final int heute=0x7f0b002f;
+    public static final int license=0x7f0b0030;
+    public static final int licenses=0x7f0b0031;
+    public static final int morgen=0x7f0b0032;
+    public static final int name=0x7f0b0033;
+    public static final int passwort=0x7f0b0034;
+    public static final int project_id=0x7f0b0035;
+    public static final int search_menu_title=0x7f0b0036;
+    public static final int status_bar_notification_info_overflow=0x7f0b0037;
+    public static final int textview=0x7f0b0038;
+    public static final int v7_preference_off=0x7f0b0039;
+    public static final int v7_preference_on=0x7f0b003a;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0c0000;

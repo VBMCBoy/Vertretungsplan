@@ -46,7 +46,7 @@ public class ViewerActivity extends Activity {
     FirebaseJobDispatcher dispatcher = new FirebaseJobDispatcher(
         new GooglePlayDriver(this.getApplicationContext()));
 
-    this.getActionBar().setTitle("Vertretungsplan");
+    //  this.getActionBar().setTitle("Vertretungsplan");
 
     SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
 
@@ -206,6 +206,12 @@ public class ViewerActivity extends Activity {
 
   }
 
+
+  public void Menu_Datenschutz(MenuItem item) {
+    Intent intent = new Intent(this, DatenschutzActivity.class);
+    this.startActivity(intent);
+
+  }
 
   private void Laden(final WebView webView, Boolean heute, final String wert_klasse,
       final String wert_name, final String wert_PW) {

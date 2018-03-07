@@ -12,8 +12,12 @@
         android:onClick="Menu_Licenses" />
     <item
         android:title="@string/about"
-        android:orderInCategory="3"
+      android:orderInCategory="4"
         android:onClick="Menu_About" />
+  <item
+    android:onClick="Menu_Datenschutz"
+    android:orderInCategory="3"
+    android:title="@string/datenschutz"/>
 
 
 </menu>
