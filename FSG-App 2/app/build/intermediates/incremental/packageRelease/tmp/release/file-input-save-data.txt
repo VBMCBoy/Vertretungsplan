@@ -1,11 +1,15 @@
 #Internal package file, do not edit.
-#Mon Mar 05 18:16:44 CET 2018
+#Wed Mar 07 17:54:43 CET 2018
 1.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\assets\\release
+2.path=schulserver.bks
 0.baseType=DIRECTORY
+2.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\assets\\release
+2.set=ASSET
 1.baseType=DIRECTORY
-count=2
+count=3
 1.set=ASSET
 0.path=classes.dex
 0.set=DEX
 0.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
-1.path=schulserver.bks
+2.baseType=DIRECTORY
+1.path=crashlytics-build.properties
