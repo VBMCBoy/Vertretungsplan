@@ -1,10 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:2:1-19:12
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\1675e622ce73a58c4d3ec81ff6bdeb33\AndroidManifest.xml:2:1-6:12
 MERGED from [com.android.support:preference-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-25.4.0.aar\838e55a1b7dea9f60898a88e991eea86\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\877e5f334fc38ff6def746e374c3303f\AndroidManifest.xml:17:1-31:12
@@ -20,25 +19,26 @@ MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\kakao_0
 MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\4ea3ab04659bf903e378031c7a352b40\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\6b8904610b2b98f00e66b56c4c1434f6\AndroidManifest.xml:17:1-31:12
 MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\c0bd21e690aa4830e8706c0be1c9a540\AndroidManifest.xml:17:1-42:12
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\4dc41e0d38e7325cd0193aee24ecfe9e\AndroidManifest.xml:45:1-56:12
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6fe21856c6b9f905e54e499cf1765e49\AndroidManifest.xml:2:1-13:12
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3e8eb4b155d33c6eb5bd1337e49a5d41\AndroidManifest.xml:22:1-33:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\73732f5414cdd9a8a949bdf50c650f8b\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\2f35d028f149ec3c61fd60cd547e38c5\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.4.0.aar\3348ca4c96a393fff9644acdad278fa3\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.4.0.aar\bcc986be4400fc2e9082bbe40eb0338f\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\280a66aa3337b6234d5977f2aeeb5098\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f517c8e215f246c2cd31ee7cabaf1e66\AndroidManifest.xml:17:1-31:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\4dc41e0d38e7325cd0193aee24ecfe9e\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6fe21856c6b9f905e54e499cf1765e49\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3e8eb4b155d33c6eb5bd1337e49a5d41\AndroidManifest.xml:22:1-33:12
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\8d3759b069ff11ddbe1f2bcbf0df99b9\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\414fa2c8a0d2903467c73715706ece94\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-common-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-common-license-11.8.0.aar\586b7dd648c2f5d38bc63a9ecd1a7312\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-analytics-impl-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-license-11.8.0.aar\6b57a9f3c90b371bd2658bf4e6e5662a\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\71a33cb8c057e36b06ea47526f2ea784\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-license-11.8.0.aar\49fa900feb779c774ab97cb8671fd84f\AndroidManifest.xml:2:1-6:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:2:1-56:12
 	package
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:3:3-55
 		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
@@ -55,14 +55,14 @@ INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src
 		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:8:3-64
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:9:5-67
 MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\4121e0dea558032d73c9cb15ee7eb320\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-11.8.0.aar\4121e0dea558032d73c9cb15ee7eb320\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\b0a54c1f08a253e493bf80f4f96550c5\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-11.8.0.aar\b0a54c1f08a253e493bf80f4f96550c5\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\574a243fce530b88ce077bd6eef9ecea\AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-11.8.0.aar\574a243fce530b88ce077bd6eef9ecea\AndroidManifest.xml:23:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:9:5-67
 MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:9:5-67
 MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:9:5-67
 MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\4dc41e0d38e7325cd0193aee24ecfe9e\AndroidManifest.xml:52:5-67
@@ -86,9 +86,7 @@ ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\ma
 	android:name
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:11:20-75
 application
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:14:3-50:17
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:11:5-17:19
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:11:5-17:19
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:14:3-54:17
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\1675e622ce73a58c4d3ec81ff6bdeb33\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\1675e622ce73a58c4d3ec81ff6bdeb33\AndroidManifest.xml:5:5-20
 MERGED from [com.android.support:preference-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-25.4.0.aar\838e55a1b7dea9f60898a88e991eea86\AndroidManifest.xml:22:5-26:19
@@ -119,14 +117,8 @@ MERGED from [com.android.support:support-v4:25.4.0] C:\Users\kakao_000\.gradle\c
 MERGED from [com.android.support:support-v4:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\6b8904610b2b98f00e66b56c4c1434f6\AndroidManifest.xml:25:5-29:19
 MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\c0bd21e690aa4830e8706c0be1c9a540\AndroidManifest.xml:26:5-40:19
 MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\c0bd21e690aa4830e8706c0be1c9a540\AndroidManifest.xml:26:5-40:19
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\4dc41e0d38e7325cd0193aee24ecfe9e\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\4dc41e0d38e7325cd0193aee24ecfe9e\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6fe21856c6b9f905e54e499cf1765e49\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6fe21856c6b9f905e54e499cf1765e49\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3e8eb4b155d33c6eb5bd1337e49a5d41\AndroidManifest.xml:31:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3e8eb4b155d33c6eb5bd1337e49a5d41\AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:11:5-17:19
 MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\73732f5414cdd9a8a949bdf50c650f8b\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\73732f5414cdd9a8a949bdf50c650f8b\AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\2f35d028f149ec3c61fd60cd547e38c5\AndroidManifest.xml:25:5-29:19
@@ -139,6 +131,14 @@ MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\kakao_000\.
 MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\280a66aa3337b6234d5977f2aeeb5098\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f517c8e215f246c2cd31ee7cabaf1e66\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-compat:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f517c8e215f246c2cd31ee7cabaf1e66\AndroidManifest.xml:25:5-29:19
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\4dc41e0d38e7325cd0193aee24ecfe9e\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\4dc41e0d38e7325cd0193aee24ecfe9e\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6fe21856c6b9f905e54e499cf1765e49\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6fe21856c6b9f905e54e499cf1765e49\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3e8eb4b155d33c6eb5bd1337e49a5d41\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3e8eb4b155d33c6eb5bd1337e49a5d41\AndroidManifest.xml:31:5-20
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\8d3759b069ff11ddbe1f2bcbf0df99b9\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\8d3759b069ff11ddbe1f2bcbf0df99b9\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\414fa2c8a0d2903467c73715706ece94\AndroidManifest.xml:5:5-20
@@ -159,66 +159,70 @@ MERGED from [com.google.firebase:firebase-iid-license:11.8.0] C:\Users\kakao_000
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:15:5-31
 	android:theme
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:18:5-36
+meta-data#firebase_analytics_collection_enabled
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:19:5-21:30
+	android:value
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:21:7-28
+	android:name
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:20:7-59
 activity#com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:19:5-27:16
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:23:5-31:16
 	android:label
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:20:7-38
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:24:7-38
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:21:7-37
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:25:7-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:22:7-26:23
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:26:7-30:23
 action#android.intent.action.MAIN
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:23:9-60
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:27:9-60
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:23:17-58
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:27:17-58
 category#android.intent.category.LAUNCHER
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:25:9-68
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:29:9-68
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:25:19-66
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:29:19-66
 activity#com.KayKaprolat.Praktikum.Vertretungsplan2.SettingsActivity
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:28:5-31:53
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:32:5-35:53
 	android:parentActivityName
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:31:7-51
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:35:7-51
 	android:label
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:29:7-51
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:33:7-51
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:30:7-39
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:34:7-39
 activity#com.KayKaprolat.Praktikum.Vertretungsplan2.LicenseActivity
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:32:5-34:53
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:36:5-38:53
 	android:parentActivityName
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:34:7-51
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:38:7-51
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:33:7-38
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:37:7-38
 activity#com.KayKaprolat.Praktikum.Vertretungsplan2.AboutActivity
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:35:5-37:53
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:39:5-41:53
 	android:parentActivityName
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:37:7-51
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:41:7-51
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:36:7-36
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:40:7-36
 activity#com.KayKaprolat.Praktikum.Vertretungsplan2.DatenschutzActivity
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:38:5-40:53
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:42:5-44:53
 	android:parentActivityName
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:40:7-51
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:44:7-51
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:39:7-42
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:43:7-42
 service#com.KayKaprolat.Praktikum.Vertretungsplan2.MyJobService
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:42:5-48:15
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:46:5-52:15
 	android:exported
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:43:7-31
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:47:7-31
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:44:7-35
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:48:7-35
 intent-filter#action:name:com.firebase.jobdispatcher.ACTION_EXECUTE
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:45:7-47:23
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:49:7-51:23
 action#com.firebase.jobdispatcher.ACTION_EXECUTE
-ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:46:9-75
+ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:50:9-75
 	android:name
-		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:46:17-73
+		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:50:17-73
 uses-sdk
 INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
 INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:7:5-43
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\1675e622ce73a58c4d3ec81ff6bdeb33\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-core:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-core-11.8.0.aar\1675e622ce73a58c4d3ec81ff6bdeb33\AndroidManifest.xml:4:5-43
 MERGED from [com.android.support:preference-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-25.4.0.aar\838e55a1b7dea9f60898a88e991eea86\AndroidManifest.xml:20:5-43
@@ -249,14 +253,8 @@ MERGED from [com.android.support:support-v4:25.4.0] C:\Users\kakao_000\.gradle\c
 MERGED from [com.android.support:support-v4:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-25.4.0.aar\6b8904610b2b98f00e66b56c4c1434f6\AndroidManifest.xml:21:5-23:54
 MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\c0bd21e690aa4830e8706c0be1c9a540\AndroidManifest.xml:22:5-24:41
 MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\c0bd21e690aa4830e8706c0be1c9a540\AndroidManifest.xml:22:5-24:41
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\4dc41e0d38e7325cd0193aee24ecfe9e\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\4dc41e0d38e7325cd0193aee24ecfe9e\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6fe21856c6b9f905e54e499cf1765e49\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6fe21856c6b9f905e54e499cf1765e49\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3e8eb4b155d33c6eb5bd1337e49a5d41\AndroidManifest.xml:27:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3e8eb4b155d33c6eb5bd1337e49a5d41\AndroidManifest.xml:27:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:7:5-43
 MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\73732f5414cdd9a8a949bdf50c650f8b\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:recyclerview-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.4.0.aar\73732f5414cdd9a8a949bdf50c650f8b\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-fragment:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-fragment-25.4.0.aar\2f35d028f149ec3c61fd60cd547e38c5\AndroidManifest.xml:21:5-23:60
@@ -269,6 +267,14 @@ MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\kakao_000\.
 MERGED from [com.android.support:support-core-utils:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.4.0.aar\280a66aa3337b6234d5977f2aeeb5098\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f517c8e215f246c2cd31ee7cabaf1e66\AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-compat-25.4.0.aar\f517c8e215f246c2cd31ee7cabaf1e66\AndroidManifest.xml:21:5-23:58
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\759bbaf7ef59dbf4d8bca753143b4270\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\4dc41e0d38e7325cd0193aee24ecfe9e\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\4dc41e0d38e7325cd0193aee24ecfe9e\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6fe21856c6b9f905e54e499cf1765e49\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\6fe21856c6b9f905e54e499cf1765e49\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3e8eb4b155d33c6eb5bd1337e49a5d41\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3e8eb4b155d33c6eb5bd1337e49a5d41\AndroidManifest.xml:27:5-43
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\8d3759b069ff11ddbe1f2bcbf0df99b9\AndroidManifest.xml:4:5-43
 MERGED from [com.google.firebase:firebase-analytics-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-license-11.8.0.aar\8d3759b069ff11ddbe1f2bcbf0df99b9\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\414fa2c8a0d2903467c73715706ece94\AndroidManifest.xml:4:5-43
@@ -293,16 +299,6 @@ INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src
 		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml
-provider#com.crashlytics.android.CrashlyticsInitProvider
-ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:12:9-16:39
-	android:authorities
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:14:13-75
-	android:exported
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:15:13-37
-	android:initOrder
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:16:13-36
-	android:name
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:13:13-75
 meta-data#android.support.VERSION
 ADDED from [com.android.support:preference-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\preference-v7-25.4.0.aar\838e55a1b7dea9f60898a88e991eea86\AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:appcompat-v7:25.4.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.4.0.aar\877e5f334fc38ff6def746e374c3303f\AndroidManifest.xml:26:9-28:38
@@ -485,3 +481,13 @@ action#com.google.android.gms.gcm.ACTION_TASK_READY
 ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\c0bd21e690aa4830e8706c0be1c9a540\AndroidManifest.xml:37:17-87
 	android:name
 		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\c0bd21e690aa4830e8706c0be1c9a540\AndroidManifest.xml:37:25-84
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\14f20a5e94d5cc4a1bbc54f0e8fe5b35\AndroidManifest.xml:13:13-75

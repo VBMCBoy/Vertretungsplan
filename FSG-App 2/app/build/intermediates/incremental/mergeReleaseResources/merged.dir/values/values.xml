@@ -476,7 +476,7 @@
 \n
 Website des FSG: http://ferdinand-sauerbruch-gymnasium.de \n</string>
     <string name="app_name">Vertretungsplan</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">88077834-0029-4159-9101-e58b51529bb3</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">0310044e-4171-442f-bffd-3ee8e9851c9a</string>
     <string name="common_google_play_services_unknown_issue"><ns2:g id="app_name">%1$s</ns2:g> is having trouble with Google Play services. Please try again.</string>
     <string name="datenschutz">Datenschutz</string>
     <string name="datenschutzInhalt">Wir setzen Google Analytics, einen Webanalysedienst der Google Inc. („Google“) ein. Google verwendet Cookies. Die durch das Cookie erzeugten Informationen über die Benutzung des Onlineangebotes durch die Nutzer werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert. \n

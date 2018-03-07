@@ -25,581 +25,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce1aa1ca-427f-4dce-b51e-64deabc8026d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/fabric/res/release/values/com_crashlytics_build_id.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/res/google-services/debug/values/values.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/res/google-services/release/values/values.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/crashlytics/android/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/crashlytics/android/answers/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/crashlytics/android/beta/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/crashlytics/android/core/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/common/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/tasks/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/android/gms/tasks/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/firebase/common/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/firebase/iid/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/firebase_common/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/firebase_core/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/iid/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/measurement/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/measurement/impl/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/measurement/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/google/firebase/measurement_impl/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/io/fabric/sdk/android/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/crashlytics/android/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/crashlytics/android/answers/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/crashlytics/android/beta/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/crashlytics/android/core/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/android/gms/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/android/gms/common/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/android/gms/tasks/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/android/gms/tasks/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/firebase/firebase/common/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/firebase/firebase/iid/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/firebase/firebase_common/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/firebase/firebase_core/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/firebase/iid/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/firebase/measurement/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/firebase/measurement/impl/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/firebase/measurement/license/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/google/firebase/measurement_impl/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/io/fabric/sdk/android/R.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/DatenschutzActivity.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest$permission.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/crashlytics/android/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/crashlytics/android/answers/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/crashlytics/android/beta/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/crashlytics/android/core/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/android/gms/R$id.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/android/gms/R$integer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/android/gms/R$string.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/android/gms/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/android/gms/common/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/android/gms/tasks/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/android/gms/tasks/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/firebase/firebase/common/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/firebase/firebase/iid/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/firebase/firebase_common/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/firebase/firebase_core/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/firebase/iid/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/firebase/measurement/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/firebase/measurement/impl/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/firebase/measurement/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/google/firebase/measurement_impl/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/io/fabric/sdk/android/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/DatenschutzActivity.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest$permission.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/crashlytics/android/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/crashlytics/android/answers/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/crashlytics/android/beta/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/crashlytics/android/core/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/android/gms/R$id.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/android/gms/R$integer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/android/gms/R$string.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/android/gms/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/android/gms/common/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/android/gms/tasks/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/android/gms/tasks/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/firebase/firebase/common/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/firebase/firebase/iid/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/firebase/firebase_common/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/firebase/firebase_core/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/firebase/iid/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/firebase/measurement/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/firebase/measurement/impl/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/firebase/measurement/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/google/firebase/measurement_impl/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/io/fabric/sdk/android/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/crashlytics-build.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/crashlytics-build.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-az.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-be.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-bn.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-bs.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-et.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-eu.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-gl.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-gu.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-hy.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-is.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ka.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-kk.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-km.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-kn.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ky.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-lo.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-mk.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ml.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-mn.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-mr.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ms.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-my.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ne.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-pa.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-si.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-sq.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ta.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-te.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-ur.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values-uz.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-az.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-be.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-bn.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-bs.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-et.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-eu.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-gl.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-gu.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-hy.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-is.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-ka.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-kk.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-km.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-kn.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-ky.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-lo.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-mk.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-ml.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-mn.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-mr.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-ms.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-my.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-ne.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-pa.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-si.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-sq.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-ta.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-te.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-ur.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values-uz.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/DatenschutzActivity.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest$permission.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/crashlytics/android/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/crashlytics/android/answers/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/crashlytics/android/beta/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/crashlytics/android/core/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$id.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$integer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R$string.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/common/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/tasks/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/android/gms/tasks/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/firebase/firebase/common/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/firebase/firebase/iid/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/firebase/firebase_common/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/firebase/firebase_core/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/firebase/iid/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/firebase/measurement/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/firebase/measurement/impl/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/firebase/measurement/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/google/firebase/measurement_impl/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/io/fabric/sdk/android/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/0ssHzPJdtEDKOaMssYEICAkqG5I=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/2xDYsevPNsZglLqOrsXycDiq1ww=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/3vUnvpYMf7TidryE0SUB1eJVR3M=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/5RvTS6rZwsvdWJ46Jz_dCepU06U=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/68QSAfE5FHx82yu_DVita1_aLlQ=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/7Eus+EhjbuChweuqY5fB+_oOx_g=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/8kEvxTr09BwtgO1wiydi_jSXwzs=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Cy4DaSqB8GukjZbU2TaLaO3P+F8=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/FozkLB8u2uRyKl1ZZV5JqgbLIPY=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/G+6rOL0qtDyFsuEIjk7g1TmQFas=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/G+CSfTRcTARoPSdipf0vPhzYZbY=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/GHByAI9ApOZfTIFPgVIGzUqDSaU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Jk82LWoL5AvRLXzLcKum3d3zsRI=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/KpYFee7V1SW4XqLQ0Pki99WGMo0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/MLshaOa+GbEx8Q0tCZNe0dDO2Kk=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/Op2BpSVgHCphxdXNQOT7FppE3OM=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/PRRdUd9yUCXpRCXBoSQcdgDRRYg=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/RE72hbmSoGE_6_gr8sJozxeQuDM=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/VYW4QHilU4c+zJ5g6njV2cBwhG0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/WvEmD_wTPqHXkHj1ey2cHVdb634=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bl23bik3ttNA4745Bg9XtjBjdbg=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/bovlNyMvPC4YcB4CDZDf4gcMI6k=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/cP5ZRiBhbmPrtc7x67ozkQ3x04A=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/hKQwkryEv3HcpWGIGqRbGt4Ss2Y=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ilPPveUe0qpSvfx5B9hmlju+Tqc=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/jwMUCcDzz0YlSQ7Z+PKo0cWTiKE=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/kUKwQfoSSog8NJmVlafGcuF+ESU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/outnur3gVI2aY9hyB6KNqEjE+D4=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/uLGf3HVvejfxTq9ncX3iMJIGvxU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/yszOxxQ2DM_DPs8cRNNEZQwQvi0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/zWYMyQ3GS0OEmUTxTsEQKCAEYr0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/ziOY9RR_LWCY6P4R_X3XAcG8Emo=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/0ssHzPJdtEDKOaMssYEICAkqG5I=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/2xDYsevPNsZglLqOrsXycDiq1ww=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/3vUnvpYMf7TidryE0SUB1eJVR3M=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/5RvTS6rZwsvdWJ46Jz_dCepU06U=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/68QSAfE5FHx82yu_DVita1_aLlQ=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/7Eus+EhjbuChweuqY5fB+_oOx_g=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/8kEvxTr09BwtgO1wiydi_jSXwzs=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Cy4DaSqB8GukjZbU2TaLaO3P+F8=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/FozkLB8u2uRyKl1ZZV5JqgbLIPY=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/G+6rOL0qtDyFsuEIjk7g1TmQFas=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/G+CSfTRcTARoPSdipf0vPhzYZbY=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/GHByAI9ApOZfTIFPgVIGzUqDSaU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Jk82LWoL5AvRLXzLcKum3d3zsRI=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/KpYFee7V1SW4XqLQ0Pki99WGMo0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/MLshaOa+GbEx8Q0tCZNe0dDO2Kk=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/Op2BpSVgHCphxdXNQOT7FppE3OM=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/PRRdUd9yUCXpRCXBoSQcdgDRRYg=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/RE72hbmSoGE_6_gr8sJozxeQuDM=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/VYW4QHilU4c+zJ5g6njV2cBwhG0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/WvEmD_wTPqHXkHj1ey2cHVdb634=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/bl23bik3ttNA4745Bg9XtjBjdbg=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/bovlNyMvPC4YcB4CDZDf4gcMI6k=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/cP5ZRiBhbmPrtc7x67ozkQ3x04A=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/hKQwkryEv3HcpWGIGqRbGt4Ss2Y=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ilPPveUe0qpSvfx5B9hmlju+Tqc=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/jwMUCcDzz0YlSQ7Z+PKo0cWTiKE=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/kUKwQfoSSog8NJmVlafGcuF+ESU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/outnur3gVI2aY9hyB6KNqEjE+D4=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/uLGf3HVvejfxTq9ncX3iMJIGvxU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/yszOxxQ2DM_DPs8cRNNEZQwQvi0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/zWYMyQ3GS0OEmUTxTsEQKCAEYr0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/ziOY9RR_LWCY6P4R_X3XAcG8Emo=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/0ssHzPJdtEDKOaMssYEICAkqG5I=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/2xDYsevPNsZglLqOrsXycDiq1ww=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/3vUnvpYMf7TidryE0SUB1eJVR3M=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/5RvTS6rZwsvdWJ46Jz_dCepU06U=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/68QSAfE5FHx82yu_DVita1_aLlQ=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/7Eus+EhjbuChweuqY5fB+_oOx_g=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/8kEvxTr09BwtgO1wiydi_jSXwzs=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/Cy4DaSqB8GukjZbU2TaLaO3P+F8=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/FozkLB8u2uRyKl1ZZV5JqgbLIPY=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/G+6rOL0qtDyFsuEIjk7g1TmQFas=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/G+CSfTRcTARoPSdipf0vPhzYZbY=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/GHByAI9ApOZfTIFPgVIGzUqDSaU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/Jk82LWoL5AvRLXzLcKum3d3zsRI=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/KpYFee7V1SW4XqLQ0Pki99WGMo0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/MLshaOa+GbEx8Q0tCZNe0dDO2Kk=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/Op2BpSVgHCphxdXNQOT7FppE3OM=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/PRRdUd9yUCXpRCXBoSQcdgDRRYg=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/RE72hbmSoGE_6_gr8sJozxeQuDM=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/VYW4QHilU4c+zJ5g6njV2cBwhG0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/WvEmD_wTPqHXkHj1ey2cHVdb634=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/bl23bik3ttNA4745Bg9XtjBjdbg=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/bovlNyMvPC4YcB4CDZDf4gcMI6k=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/cP5ZRiBhbmPrtc7x67ozkQ3x04A=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/hKQwkryEv3HcpWGIGqRbGt4Ss2Y=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/ilPPveUe0qpSvfx5B9hmlju+Tqc=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/jwMUCcDzz0YlSQ7Z+PKo0cWTiKE=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/kUKwQfoSSog8NJmVlafGcuF+ESU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/outnur3gVI2aY9hyB6KNqEjE+D4=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/uLGf3HVvejfxTq9ncX3iMJIGvxU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/yszOxxQ2DM_DPs8cRNNEZQwQvi0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/zWYMyQ3GS0OEmUTxTsEQKCAEYr0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJavaRes/zip-cache/ziOY9RR_LWCY6P4R_X3XAcG8Emo=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/0ssHzPJdtEDKOaMssYEICAkqG5I=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/2xDYsevPNsZglLqOrsXycDiq1ww=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/3vUnvpYMf7TidryE0SUB1eJVR3M=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/5RvTS6rZwsvdWJ46Jz_dCepU06U=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/68QSAfE5FHx82yu_DVita1_aLlQ=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/7Eus+EhjbuChweuqY5fB+_oOx_g=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/8kEvxTr09BwtgO1wiydi_jSXwzs=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/Cy4DaSqB8GukjZbU2TaLaO3P+F8=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/FozkLB8u2uRyKl1ZZV5JqgbLIPY=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/G+6rOL0qtDyFsuEIjk7g1TmQFas=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/G+CSfTRcTARoPSdipf0vPhzYZbY=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/GHByAI9ApOZfTIFPgVIGzUqDSaU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/Jk82LWoL5AvRLXzLcKum3d3zsRI=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/KpYFee7V1SW4XqLQ0Pki99WGMo0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/MLshaOa+GbEx8Q0tCZNe0dDO2Kk=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/Op2BpSVgHCphxdXNQOT7FppE3OM=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/PRRdUd9yUCXpRCXBoSQcdgDRRYg=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/RE72hbmSoGE_6_gr8sJozxeQuDM=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/VYW4QHilU4c+zJ5g6njV2cBwhG0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/WvEmD_wTPqHXkHj1ey2cHVdb634=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/bl23bik3ttNA4745Bg9XtjBjdbg=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/bovlNyMvPC4YcB4CDZDf4gcMI6k=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/cP5ZRiBhbmPrtc7x67ozkQ3x04A=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/hKQwkryEv3HcpWGIGqRbGt4Ss2Y=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/ilPPveUe0qpSvfx5B9hmlju+Tqc=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/jwMUCcDzz0YlSQ7Z+PKo0cWTiKE=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/kUKwQfoSSog8NJmVlafGcuF+ESU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/outnur3gVI2aY9hyB6KNqEjE+D4=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/uLGf3HVvejfxTq9ncX3iMJIGvxU=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/yszOxxQ2DM_DPs8cRNNEZQwQvi0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/zWYMyQ3GS0OEmUTxTsEQKCAEYr0=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/release-mergeJniLibs/zip-cache/ziOY9RR_LWCY6P4R_X3XAcG8Emo=" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout_datenschutz_activity.xml.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-az_values-az.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-bs_values-bs.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-et_values-et.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-eu_values-eu.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-gl_values-gl.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-gu_values-gu.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-hy_values-hy.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-is_values-is.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ka_values-ka.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-kk_values-kk.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-kn_values-kn.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-lo_values-lo.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-mk_values-mk.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ml_values-ml.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-mn_values-mn.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ms_values-ms.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-my_values-my.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ne_values-ne.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-pa_values-pa.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-si_values-si.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-sq_values-sq.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-te_values-te.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-ur_values-ur.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values-uz_values-uz.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout_datenschutz_activity.xml.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-az_values-az.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-be_values-be.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-bn_values-bn.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-bs_values-bs.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-et_values-et.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-eu_values-eu.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-gl_values-gl.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-gu_values-gu.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-hy_values-hy.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-is_values-is.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-ka_values-ka.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-kk_values-kk.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-km_values-km.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-kn_values-kn.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-ky_values-ky.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-lo_values-lo.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-mk_values-mk.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-ml_values-ml.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-mn_values-mn.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-mr_values-mr.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-ms_values-ms.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-my_values-my.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-ne_values-ne.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-pa_values-pa.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-si_values-si.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-sq_values-sq.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-ta_values-ta.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-te_values-te.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-ur_values-ur.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values-uz_values-uz.arsc.flat" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/DatenschutzActivity.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest$permission.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/crashlytics/android/core/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/google/firebase/firebase/common/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/google/firebase/measurement_impl/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/195/com/google/android/gms/tasks/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/195/com/google/firebase/crash/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/com/google/firebase/measurement/impl/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/197/com/google/firebase/firebase/iid/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/com/google/android/gms/R$id.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/com/google/android/gms/R$integer.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/com/google/android/gms/R$string.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/com/google/android/gms/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/com/google/android/gms/tasks/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/io/fabric/sdk/android/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/200/com/crashlytics/android/answers/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/200/com/google/firebase/firebase_core/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/200/com/google/firebase/measurement/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/com/crashlytics/android/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/com/crashlytics/android/beta/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/com/google/firebase/iid/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/com/google/android/gms/common/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/com/google/firebase/crash/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/com/google/firebase/firebase_common/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/203/com/google/firebase/measurement/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/351.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/352.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/353.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/354.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/355.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/356.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/357.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/358.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/359.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/360.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/361.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/362.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/363.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/364.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/365.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/366.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/367.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/368.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/369.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/370.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/371.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/372.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/373.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/374.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/375.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/376.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/377.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/378.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/379.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/380.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/381.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/382.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/100.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/101.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/102.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/103.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/104.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/105.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/106.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/107.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/108.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/109.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/110.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/111.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/112.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/113.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/114.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/115.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/116.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/117.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/118.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/119.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/120.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/121.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/122.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/123.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/124.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/125.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/126.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/127.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/132.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/133.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/134.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/135.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/136.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/137.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/138.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/139.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/140.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/141.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/142.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/143.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/144.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/145.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/146.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/147.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/148.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/149.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/150.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/151.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/152.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/153.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/154.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/DatenschutzActivity.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest$permission.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/crashlytics/android/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/crashlytics/android/answers/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/crashlytics/android/beta/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/crashlytics/android/core/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/android/gms/R$id.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/android/gms/R$integer.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/android/gms/R$string.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/android/gms/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/android/gms/common/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/android/gms/tasks/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/android/gms/tasks/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/firebase/firebase/common/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/firebase/firebase/iid/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/firebase/firebase_common/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/firebase/firebase_core/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/firebase/iid/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/firebase/measurement/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/firebase/measurement/impl/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/firebase/measurement/license/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/google/firebase/measurement_impl/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/io/fabric/sdk/android/R.dex" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/86.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/87.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/88.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/90.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/98.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/DatenschutzActivity.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest$permission.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/crashlytics/android/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/crashlytics/android/answers/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/crashlytics/android/beta/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/crashlytics/android/core/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/android/gms/R$id.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/android/gms/R$integer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/android/gms/R$string.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/android/gms/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/android/gms/common/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/android/gms/tasks/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/android/gms/tasks/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/firebase/firebase/common/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/firebase/firebase/iid/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/firebase/firebase_common/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/firebase/firebase_core/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/firebase/iid/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/firebase/measurement/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/firebase/measurement/impl/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/firebase/measurement/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/google/firebase/measurement_impl/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/io/fabric/sdk/android/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/buildId.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/DatenschutzActivity.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest$permission.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/crashlytics/android/core/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/google/firebase/firebase/common/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/google/firebase/measurement_impl/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/com/google/android/gms/tasks/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/1/com/google/firebase/crash/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/buildId.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/2/com/google/firebase/measurement/impl/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/3/com/google/firebase/firebase/iid/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/buildId.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/com/google/android/gms/R$id.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/com/google/android/gms/R$integer.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/com/google/android/gms/R$string.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/com/google/android/gms/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/com/google/android/gms/tasks/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/4/io/fabric/sdk/android/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/crashlytics/android/answers/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/google/firebase/firebase_core/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/6/com/google/firebase/measurement/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/buildId.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/crashlytics/android/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/crashlytics/android/beta/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/7/com/google/firebase/iid/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/buildId.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/google/android/gms/common/license/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/google/firebase/crash/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/8/com/google/firebase/firebase_common/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/buildId.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/9/com/google/firebase/measurement/R.class" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/google-services.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/crashlytics/sdk/android/group-index.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/firebase/group-index.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.5/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/javaCompile/classAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.5/javaCompile/javaCompile.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/javaCompile/taskHistory.bin" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.5/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/javaCompile/taskJars.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.5/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/release/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/android/support/v7/appcompat/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/release/android/support/v7/preference/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/android/support/v7/preference/R.java" />
-      <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/release/com/KayKaprolat/Praktikum/Vertretungsplan2/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/KayKaprolat/Praktikum/Vertretungsplan2/R.java" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml" afterPath="$PROJECT_DIR$/app/build/generated/fabric/res/debug/values/com_crashlytics_build_id.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/fabric/res/release/values/com_crashlytics_build_id.xml" afterPath="$PROJECT_DIR$/app/build/generated/fabric/res/release/values/com_crashlytics_build_id.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/BuildConfig.java" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/release/com/KayKaprolat/Praktikum/Vertretungsplan2/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/release/com/KayKaprolat/Praktikum/Vertretungsplan2/BuildConfig.java" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.class" />
@@ -610,18 +51,7 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/debug/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/android/support/v7/appcompat/R$layout.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/android/support/v7/appcompat/R$string.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/android/support/v7/preference/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/android/support/v7/preference/R$layout.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/android/support/v7/preference/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/android/support/v7/preference/R$string.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/LicenseActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/LicenseActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$layout.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$menu.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$string.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$styleable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$styleable.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$xml.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R$xml.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/R.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/BuildConfig.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.class" />
@@ -632,189 +62,162 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/artifact_transform/javac/release/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/debug/crashlytics-build.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/debug/crashlytics-build.properties" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/assets/release/crashlytics-build.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/assets/release/crashlytics-build.properties" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi-v2/values.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/debug.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/release.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/release.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/multi-v2/values.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/release.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/release.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/build-info/debug/build-info.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_dep/debug/package_dependencies/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_0/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_1/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_3/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_4/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_6/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_8/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/ir_slices/debug/package_slice_9/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-af/values-af.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-am/values-am.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ar/values-ar.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-az-rAZ/values-az-rAZ.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-be-rBY/values-be-rBY.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-bg/values-bg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-bn-rBD/values-bn-rBD.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-bs-rBA/values-bs-rBA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ca/values-ca.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-cs/values-cs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-da/values-da.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-de/values-de.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-el/values-el.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rAU/values-en-rAU.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rGB/values-en-rGB.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rIN/values-en-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es-rUS/values-es-rUS.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-es/values-es.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-et-rEE/values-et-rEE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-eu-rES/values-eu-rES.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fa/values-fa.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fi/values-fi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr-rCA/values-fr-rCA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-fr/values-fr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-gl-rES/values-gl-rES.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-gu-rIN/values-gu-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hi/values-hi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hr/values-hr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hu/values-hu.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-hy-rAM/values-hy-rAM.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-in/values-in.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-is-rIS/values-is-rIS.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-it/values-it.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-iw/values-iw.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ka-rGE/values-ka-rGE.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-kk-rKZ/values-kk-rKZ.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-km-rKH/values-km-rKH.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-kn-rIN/values-kn-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ko/values-ko.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ky-rKG/values-ky-rKG.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-land/values-land.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-large-v4/values-large-v4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-lo-rLA/values-lo-rLA.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-lt/values-lt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-lv/values-lv.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-mk-rMK/values-mk-rMK.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ml-rIN/values-ml-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-mn-rMN/values-mn-rMN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-mr-rIN/values-mr-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ms-rMY/values-ms-rMY.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-my-rMM/values-my-rMM.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-nb/values-nb.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ne-rNP/values-ne-rNP.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-night-v8/values-night-v8.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-nl/values-nl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pa-rIN/values-pa-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pl/values-pl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-port/values-port.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rBR/values-pt-rBR.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rPT/values-pt-rPT.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt/values-pt.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ro/values-ro.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ru/values-ru.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-si-rLK/values-si-rLK.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sk/values-sk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sl/values-sl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sq-rAL/values-sq-rAL.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sr/values-sr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sv/values-sv.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw/values-sw.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ta-rIN/values-ta-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-te-rIN/values-te-rIN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-th/values-th.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-tl/values-tl.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-tr/values-tr.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-uk/values-uk.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-ur-rPK/values-ur-rPK.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-uz-rUZ/values-uz-rUZ.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v11/values-v11.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v12/values-v12.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v13/values-v13.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v14/values-v14.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v16/values-v16.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v17/values-v17.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v18/values-v18.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v21/values-v21.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v22/values-v22.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v23/values-v23.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v24/values-v24.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v25/values-v25.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-vi/values-vi.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rCN/values-zh-rCN.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rHK/values-zh-rHK.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zh-rTW/values-zh-rTW.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-zu/values-zu.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/rselPUtEsb+nTS6jMvbExiaocUc=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/rselPUtEsb+nTS6jMvbExiaocUc=" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/dex-renamer-state.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/rselPUtEsb+nTS6jMvbExiaocUc=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/tmp/debug/zip-cache/rselPUtEsb+nTS6jMvbExiaocUc=" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/file-input-save-data.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/zip-cache/yWYDkN6GIpaLrUSTqfWKHvrgXYo=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/zip-cache/yWYDkN6GIpaLrUSTqfWKHvrgXYo=" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-apk/debug/app-debug.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.crc" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.crc" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifest-checker/debug/manifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/output.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/release/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/release/output.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/output.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/debug/resources-debug.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/xml_prefs.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/xml_prefs.xml.flat" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/menu_main.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/menu_main.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values_values.arsc.flat" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values_values.arsc.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/values_values.arsc.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/xml_prefs.xml.flat" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/xml_prefs.xml.flat" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/release/output.json" afterPath="$PROJECT_DIR$/app/build/intermediates/res/release/output.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/release/resources-release.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/release/resources-release.ap_" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_0.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_3.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_5.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/release/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/release/R.txt" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/190.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/190.jar" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$3.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/splits-support/debug/apk-list/apk-list.gson" afterPath="$PROJECT_DIR$/app/build/intermediates/splits-support/debug/apk-list/apk-list.gson" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/splits-support/release/apk-list/apk-list.gson" afterPath="$PROJECT_DIR$/app/build/intermediates/splits-support/release/apk-list/apk-list.gson" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/184.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/185.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/186.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/187.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/188.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/190.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/android/support/compat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/android/support/fragment/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/android/support/mediacompat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/AboutActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/BuildConfig.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/DatenschutzActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/LicenseActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest$permission.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/Manifest.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/MyJobService$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/MyJobService$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/MyJobService.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$menu.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R$xml.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/SettingsActivity$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/SettingsActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/SettingsFragment.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/android/tools/ir/dummy/slice_0.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/crashlytics/android/core/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/google/firebase/firebase/common/license/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/194/com/google/firebase/measurement_impl/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/195/com/android/tools/ir/dummy/slice_1.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/195/com/google/android/gms/tasks/license/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/195/com/google/firebase/crash/license/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/coreutils/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v4/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/android/support/v7/appcompat/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/com/android/tools/ir/dummy/slice_2.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/196/com/google/firebase/measurement/impl/license/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/197/android/support/graphics/drawable/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/197/com/android/tools/ir/dummy/slice_3.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/197/com/google/firebase/firebase/iid/license/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/com/android/tools/ir/dummy/slice_4.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/com/google/android/gms/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/com/google/android/gms/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/com/google/android/gms/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/com/google/android/gms/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/com/google/android/gms/tasks/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/198/io/fabric/sdk/android/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/199/com/android/tools/ir/dummy/slice_5.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/200/android/support/v13/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/200/com/android/tools/ir/dummy/slice_6.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/200/com/crashlytics/android/answers/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/200/com/google/firebase/firebase_core/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/200/com/google/firebase/measurement/license/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/android/support/coreui/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/android/support/v7/recyclerview/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/android/support/v7/recyclerview/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/android/support/v7/recyclerview/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/android/support/v7/recyclerview/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/android/support/v7/recyclerview/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/com/android/tools/ir/dummy/slice_7.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/com/crashlytics/android/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/com/crashlytics/android/beta/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/201/com/google/firebase/iid/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/graphics/drawable/animated/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$anim.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$bool.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$color.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$dimen.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$drawable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$integer.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$layout.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$string.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$style.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/android/support/v7/preference/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/com/android/tools/ir/dummy/slice_8.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/com/firebase/jobdispatcher/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/com/google/android/gms/common/license/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/com/google/firebase/crash/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/202/com/google/firebase/firebase_common/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/203/android/support/constraint/R$attr.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/203/android/support/constraint/R$id.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/203/android/support/constraint/R$styleable.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/203/android/support/constraint/R.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/203/com/android/tools/ir/dummy/slice_9.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/203/com/google/firebase/measurement/R.dex" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/debug/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/android/support/v7/appcompat/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/android/support/v7/appcompat/R$layout.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/android/support/v7/appcompat/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/android/support/v7/appcompat/R$string.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/android/support/v7/preference/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/android/support/v7/preference/R$layout.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/android/support/v7/preference/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/android/support/v7/preference/R$string.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/LicenseActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/LicenseActivity.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$layout.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$layout.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$menu.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$menu.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$string.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$string.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$style.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$style.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$styleable.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$styleable.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$xml.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/R$xml.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/BuildConfig.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/BuildConfig.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.dex" />
@@ -825,35 +228,30 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/85/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexBuilder/release/__content__.json" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/19/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/19/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/19/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/20/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/21/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/22/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/23/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/24/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/25/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/26/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/27/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/28/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/29/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/30/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/31/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/32/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/33/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/34/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/35/classes.dex" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/debug/__content__.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/release/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/release/0/classes.dex" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$1.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$2.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity$3.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/0/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/release/__content__.json" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dexMerger/release/__content__.json" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" />
+      <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/debug/app-debug.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-release-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-release-report.txt" />
       <change beforePath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" afterPath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/prefs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/xml/prefs.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -894,7 +292,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ViewerActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ViewerActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
@@ -905,6 +303,16 @@
                 <element signature="method#BtnMorgenClick#0;class#ViewerActivity#0" expanded="false" />
                 <element signature="method#Laden#0;class#ViewerActivity#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -3127,7 +2535,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/SyncService.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/JobService.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/MyJobService.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/datenschutz_activity.xml" />
@@ -3136,6 +2543,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/prefs.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -3283,55 +2691,6 @@
       <pane id="AndroidView">
         <subPane>
           <expand>
-            <path>
-              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="Vertretungsplan2" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="xml" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
             <path>
               <item name="FSG-App 2" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
@@ -3776,7 +3135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1520443667317</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Firebase opt-out hinzugefügt">
+      <created>1520447531498</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1520447531498</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3795,7 +3161,7 @@
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5037353" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.50319827" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32977587" sideWeight="0.4968017" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4968017" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Assistant" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -3863,7 +3229,6 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Material design, schönere Einstellungen, nach Lehrern suchen" />
     <MESSAGE value="cleanup" />
     <MESSAGE value="Tage stimmen wieder" />
     <MESSAGE value="Toast wenn Datum falsch, Codeoptimierung, letzte Zeile markieren" />
@@ -3888,7 +3253,8 @@
     <MESSAGE value="von Firebase Crash reporting zu Crashlytics gewechselt" />
     <MESSAGE value="Datenschutzerklärung hinzugefügt" />
     <MESSAGE value="Firebase opt-out hinzugefügt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Firebase opt-out hinzugefügt" />
+    <MESSAGE value="Version auf 1.6 gesetzt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version auf 1.6 gesetzt" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -4062,14 +3428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="62" lean-forward="false" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/MyJobService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -4177,7 +3535,7 @@
         <state relative-caret-position="375">
           <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding>
-            <element signature="e#1295#1316#0" expanded="true" />
+            <element signature="e#1295#1316#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4203,6 +3561,14 @@
             <element signature="method#BtnMorgenClick#0;class#ViewerActivity#0" expanded="false" />
             <element signature="method#Laden#0;class#ViewerActivity#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
