@@ -21,10 +21,9 @@ public class SettingsActivity extends Activity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
-    getFragmentManager().beginTransaction()
+    this.getFragmentManager().beginTransaction()
         .replace(R.id.content, new SettingsFragment())
         .commit();
-    getActionBar().setDisplayHomeAsUpEnabled(true);
 
 
   }

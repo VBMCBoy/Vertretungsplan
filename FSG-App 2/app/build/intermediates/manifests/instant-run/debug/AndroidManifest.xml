@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.KayKaprolat.Praktikum.Vertretungsplan2"
-    android:versionCode="2"
-    android:versionName="v1.5" >
+    android:versionCode="3"
+    android:versionName="v1.6" >
 
     <uses-sdk
         android:minSdkVersion="17"
@@ -63,12 +63,6 @@
                 <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE" />
             </intent-filter>
         </service>
-
-        <provider
-            android:name="com.crashlytics.android.CrashlyticsInitProvider"
-            android:authorities="com.KayKaprolat.Praktikum.Vertretungsplan2.crashlyticsinitprovider"
-            android:exported="false"
-            android:initOrder="100" />
 
         <meta-data
             android:name="android.support.VERSION"
@@ -143,6 +137,11 @@
             </intent-filter>
         </service>
 
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.KayKaprolat.Praktikum.Vertretungsplan2.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.KayKaprolat.Praktikum.Vertretungsplan2.com.android.tools.ir.server.InstantRunContentProvider"
