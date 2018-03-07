@@ -28,4 +28,7 @@ dependencies {
     implementation 'org.jsoup:jsoup:1.11.2'
     implementation 'com.android.support:preference-v7:25.4.0'
     implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
+    implementation 'com.google.firebase:firebase-crash:11.8.0'
 }
+
+apply plugin: 'com.google.gms.google-services'
