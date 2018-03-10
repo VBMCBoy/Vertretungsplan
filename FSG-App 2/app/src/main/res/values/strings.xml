@@ -38,6 +38,10 @@ Wir setzen Google Analytics nur mit aktivierter IP-Anonymisierung ein. Das bedeu
 Die Nutzer können die Speicherung der Cookies durch eine entsprechende Einstellung ihrer Browser-Software verhindern; die Nutzer können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf ihre Nutzung des Onlineangebotes bezogenen Daten an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: http://tools.google.com/dlpage/gaoptout?hl=de.\n
 \n
 Weitere Informationen zur Datennutzung zu Werbezwecken durch Google, Einstellungs- und Widerspruchsmöglichkeiten erfahren Sie auf den Webseiten von Google: https://www.google.com/intl/de/policies/privacy/partners/ („Datennutzung durch Google bei Ihrer Nutzung von Websites oder Apps unserer Partner“), http://www.google.com/policies/technologies/ads („Datennutzung zu Werbezwecken“), http://www.google.de/settings/ads („Informationen verwalten, die Google verwendet, um Ihnen Werbung einzublenden“) und http://www.google.com/ads/preferences/ („Bestimmen Sie, welche Werbung Google Ihnen zeigt“).\n</string>
+  <string name="BenachrichtigungAusSummary">Sie werden keine Benachrichtigungen erhalten</string>
+  <string name="BenachrichtigungAnSummary">Sie werden etwa stündlich von Änderungen des morgigen Vertretungsplanes benachrichtigt, wenn für Sie etwas Wichtiges drinsteht.</string>
+  <string name="AnalyticsAusSummary">Schade! Es werden keine Crash-Reports und Nutzungsinformationen an den Entwickler gesendet.</string>
+  <string name="AnalyticsAnSummary">Crashes und Nutzungsinformationen werden an den Entwickler gesendet. Dankeschön!</string>
 
 
 </resources>

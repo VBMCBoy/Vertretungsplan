@@ -26,9 +26,9 @@
     <SwitchPreference
       android:key="Benachrichtigungan"
       android:persistent="true"
-      android:summaryOff="Sie werden keine Benachrichtigungen erhalten"
-      android:summaryOn="Sie werden etwa stündlich von Änderungen des morgigen Vertretungsplanes benachrichtigt, wenn für Sie etwas Wichtiges drinsteht."
-      android:title="Benachrichtigungen">
+      android:summaryOff="@string/BenachrichtigungAusSummary"
+      android:summaryOn="@string/BenachrichtigungAnSummary"
+      android:title="@string/Kategorie_Notification">
     </SwitchPreference>
 
   </PreferenceCategory>
@@ -38,8 +38,8 @@
       android:defaultValue="true"
       android:key="Datenschutz"
       android:persistent="true"
-      android:summaryOff="Schade! Es werden keine Crash-Reports und Nutzungsinformationen an den Entwickler gesendet."
-      android:summaryOn="Crashes und Nutzungsinformationen werden an den Entwickler gesendet. Dankeschön!"
+      android:summaryOff="@string/AnalyticsAusSummary"
+      android:summaryOn="@string/AnalyticsAnSummary"
       android:title="Anonyme Datensammlung aktivieren">
     </SwitchPreference>
 

@@ -15,6 +15,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Toast;
+import com.crashlytics.android.Crashlytics;
 import com.firebase.jobdispatcher.Constraint;
 import com.firebase.jobdispatcher.FirebaseJobDispatcher;
 import com.firebase.jobdispatcher.GooglePlayDriver;
@@ -318,7 +319,7 @@ public class ViewerActivity extends Activity {
 
 
           } catch (Exception e) {
-            e.printStackTrace();
+            Crashlytics.logException(e);
             runOnUiThread(new Runnable() {
               @Override
               public void run() {
@@ -431,7 +432,7 @@ public class ViewerActivity extends Activity {
 
 
           } catch (Exception e) {
-            e.printStackTrace();
+            Crashlytics.logException(e);
             runOnUiThread(new Runnable() {
               @Override
               public void run() {

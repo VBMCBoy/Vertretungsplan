@@ -177,7 +177,6 @@ public class MyJobService extends JobService {
               }
 
             } catch (Exception e) {
-              e.printStackTrace();
               MyJobService.this
                   .notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1,
                   1);
