@@ -41,7 +41,6 @@ public class MyJobService extends JobService {
     final Boolean Lehrer = !(wert_klasse.matches(".*\\d+.*")); // true = Lehrer
 
 
-
     // nur für morgen
     if (aktiv) {  // nur wenn an
       if ((!("".equals(wert_PW))) || (!("".equals(wert_name))) || (!("".equals(wert_klasse)
@@ -140,7 +139,7 @@ public class MyJobService extends JobService {
               Pattern p = Pattern.compile(regex);
               Matcher m = p.matcher(Plan);
 
-              if (MyJobService.this.PlanRichtig(day, Plan)) { // Stimmt das Datum?
+              if (PlanRichtig(day, Plan)) { // Stimmt das Datum?
                 if (!(b.equals(d))) { // ist der Plan neu? --> nur 1x benachrichtigen reicht
                   // Plan neu: Benachrichtigung wenn nötig (Plan ist wichtig)
                   if (Lehrer) { // Lehrer?
@@ -186,6 +185,9 @@ public class MyJobService extends JobService {
                 urlConnection.disconnect();
 
               }
+
+
+
             }
           }
 
@@ -196,7 +198,8 @@ public class MyJobService extends JobService {
 
 
     }
-    this.jobFinished(job, false);
+
+    jobFinished(job, false);
     return false;
   }
 
