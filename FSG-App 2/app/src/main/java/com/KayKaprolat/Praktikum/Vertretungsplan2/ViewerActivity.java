@@ -9,13 +9,20 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
+import android.util.Base64;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 import android.widget.Toast;
-import com.crashlytics.android.Crashlytics;
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.firebase.jobdispatcher.Constraint;
 import com.firebase.jobdispatcher.FirebaseJobDispatcher;
 import com.firebase.jobdispatcher.GooglePlayDriver;
@@ -24,17 +31,12 @@ import com.firebase.jobdispatcher.Lifetime;
 import com.firebase.jobdispatcher.RetryStrategy;
 import com.firebase.jobdispatcher.Trigger;
 import com.google.firebase.analytics.FirebaseAnalytics;
-import java.io.BufferedInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.net.Authenticator;
-import java.net.HttpURLConnection;
-import java.net.PasswordAuthentication;
-import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
@@ -59,7 +61,7 @@ public class ViewerActivity extends Activity {
     Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
     Boolean datacollection = prefs.getBoolean("Datenschutz", true);
 
-    FirebaseAnalytics.getInstance(this.getApplicationContext())
+    FirebaseAnalytics.getInstance(getApplicationContext())
         .setAnalyticsCollectionEnabled(datacollection);
 
     if (syncable) {
@@ -93,7 +95,7 @@ public class ViewerActivity extends Activity {
 
       setContentView(R.layout.viewer); //Layout starten
       //Variablen festlegen
-      WebView webView = (WebView) findViewById(R.id.webView1);
+      WebView webView = findViewById(R.id.webView1);
 
       Laden(webView, true, wert_klasse, wert_name, wert_PW);
 
@@ -110,7 +112,7 @@ public class ViewerActivity extends Activity {
     Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
     Boolean datacollection = prefs.getBoolean("Datenschutz", true);
 
-    FirebaseAnalytics.getInstance(this.getApplicationContext())
+    FirebaseAnalytics.getInstance(getApplicationContext())
         .setAnalyticsCollectionEnabled(datacollection);
 
     FirebaseJobDispatcher dispatcher = new FirebaseJobDispatcher(
@@ -168,7 +170,7 @@ public class ViewerActivity extends Activity {
     String wert_klasse = prefs.getString("KL", " ");
 
     setContentView(R.layout.viewer);
-    WebView webView = (WebView) findViewById(R.id.webView1);
+    WebView webView = findViewById(R.id.webView1);
 
     Laden(webView, true, wert_klasse, wert_name, wert_PW);
 
@@ -182,7 +184,7 @@ public class ViewerActivity extends Activity {
     String wert_klasse = prefs.getString("KL", " ");
 
     setContentView(R.layout.viewer);
-    WebView webView = (WebView) findViewById(R.id.webView1);
+    WebView webView = findViewById(R.id.webView1);
 
     Laden(webView, false, wert_klasse, wert_name, wert_PW);
   }
@@ -207,7 +209,6 @@ public class ViewerActivity extends Activity {
 
     Intent intent = new Intent(this, LicenseActivity.class);
     startActivity(intent);
-
   }
 
 
@@ -224,244 +225,149 @@ public class ViewerActivity extends Activity {
 
   }
 
-  private void Laden(final WebView webView, Boolean heute, final String wert_klasse,
+  private void Laden(final WebView webView, final Boolean heute, final String wert_klasse,
       final String wert_name, final String wert_PW) {
 
+    Calendar calendar = Calendar.getInstance();
+    final int day = calendar.get(Calendar.DAY_OF_WEEK);
+
+    String url;
     if (heute) {
-      new Thread() {
+      // heute
+      switch (day) {
+        case 1: // Sonntag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+          break;
+        case 2:  // Montag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+          break;
+        case 3:// Dienstag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Dienstag.htm";
+          break;
+        case 4:// Mittwoch
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm";
+          break;
+        case 5:  // Donnerstag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Donnerstag.htm";
+          break;
+        case 6: // Freitag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Freitag.htm";
+          break;
+        case 7: // Samstag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+          break;
+        default:
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+          break;
+      }
 
-        @Override
-        public void run() {
-          URL url;
-          HttpURLConnection urlConnection = null;
+    } else {
+      // morgen
 
-          try {
-            Authenticator.setDefault(new Authenticator() {
-              protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(wert_name,
-                    wert_PW.toCharArray());
+      switch (day) {
+        case 1: // Sonntag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+          break;
+        case 2:  // Montag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Dienstag.htm";
+          break;
+        case 3:// Dienstag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm";
+          break;
+        case 4:// Mittwoch
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Donnerstag.htm";
+          break;
+        case 5:  // Donnerstag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Freitag.htm";
+          break;
+        case 6: // Freitag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+          break;
+        case 7: // Samstag
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+          break;
+        default:
+          url =
+              "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+          break;
+      }
+    }
 
-              }
-            });
+    RequestQueue queue = Volley.newRequestQueue(this);
 
-            Calendar calendar = Calendar.getInstance();
-            int day = calendar.get(Calendar.DAY_OF_WEEK);
-
-            // heute
-
-            switch (day) {
-              case 1: // Sonntag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                break;
-              case 2:  // Montag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                break;
-              case 3:// Dienstag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Dienstag.htm");
-                break;
-              case 4:// Mittwoch
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm");
-                break;
-              case 5:  // Donnerstag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Donnerstag.htm");
-                break;
-              case 6: // Freitag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Freitag.htm");
-                break;
-              case 7: // Samstag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                break;
-              default:
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                break;
-            }
-
-            urlConnection = (HttpURLConnection) url.openConnection();
-            InputStream in = new BufferedInputStream(
-                urlConnection.getInputStream());
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            byte[] buffer = new byte[1024];
-            for (int count; (count = in.read(buffer)) != -1; ) {
-              baos.write(buffer, 0, count);
-            }
-
-            String Plan = new String(baos.toByteArray(),
-                "windows-1252");
-            // das ist grauenhaft
-            String a = cache(true).replaceAll(" ", "");
+    StringRequest request = new StringRequest(Request.Method.GET, url,
+        new Response.Listener<String>() {
+          @Override
+          public void onResponse(String response) {
+            //  toWebview(webView, response, wert_klasse, heute, day);
+            String Plan = response;
+            String a = cache(heute).replaceAll(" ", "");
             String b = a.replaceAll("\r", "");
             String c = Plan.replaceAll("\r", "");
             String d = c.replaceAll(" ", "");
             if (!(b.equals(d))) {   // wenn der aktuelle Plan anders als der Alte ist
 
-              ViewerActivity.this.runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                  Toast.makeText(getApplicationContext(),
-                      "Der Vertretungsplan ist neu.",
-                      Toast.LENGTH_LONG).show();
-                }
-              });
+              Toast.makeText(getApplicationContext(),
+                  "Der Vertretungsplan ist neu.",
+                  Toast.LENGTH_LONG).show();
+
 
             }
-            speichern(Plan, true);
 
-            toWebview(webView, Plan, wert_klasse, true,
+            speichern(Plan, heute);
+
+            toWebview(webView, Plan, wert_klasse, heute,
                 day); // WebView, HTML, Klasse bzw Lehrer, heute?, heute Freitag?
 
-
-          } catch (Exception e) {
-            Crashlytics.logException(e);
-            runOnUiThread(new Runnable() {
-              @Override
-              public void run() {
-                Toast.makeText(getApplicationContext(),
-                    "Ein Fehler ist aufgetreten.",
-                    Toast.LENGTH_LONG).show();
-              }
-            });
-
-          } finally {
-            if (urlConnection != null) {
-              urlConnection.disconnect();
-            }
-
-
           }
-
+        }, new Response.ErrorListener() {
+      @Override
+      public void onErrorResponse(VolleyError error) {
+        if (error instanceof AuthFailureError) {
+          Toast.makeText(ViewerActivity.this, "Nutzername oder Passwort ist falsch.",
+              Toast.LENGTH_SHORT).show();
+        } else {
+          Toast.makeText(ViewerActivity.this, "Verbindungsfehler", Toast.LENGTH_SHORT).show();
         }
+      }
+    }) {
 
-      }.
+      @Override
+      public Map<String, String> getHeaders() {
+        Map<String, String> headers = new HashMap<>();
+        // add headers <key,value>
+        String credentials = wert_name + ":" + wert_PW;
+        String auth = "Basic "
+            + Base64.encodeToString(credentials.getBytes(),
+            Base64.NO_WRAP);
+        headers.put("Authorization", auth);
+        return headers;
+      }
+    };
 
-          start();
-    } else {
-// morgen
-      new Thread() {
-
-        @Override
-        public void run() {
-          URL url;
-          HttpURLConnection urlConnection = null;
-
-          try {
-            Authenticator.setDefault(new Authenticator() {
-              protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(wert_name,
-                    wert_PW.toCharArray());
-
-              }
-            });
-
-            Calendar calendar = Calendar.getInstance();
-            int day = calendar.get(Calendar.DAY_OF_WEEK);
-
-            switch (day) {
-              case 1: // Sonntag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                break;
-              case 2:  // Montag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Dienstag.htm");
-                break;
-              case 3:// Dienstag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm");
-                break;
-              case 4:// Mittwoch
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Donnerstag.htm");
-                break;
-              case 5:  // Donnerstag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Freitag.htm");
-                break;
-              case 6: // Freitag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                break;
-              case 7: // Samstag
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                break;
-              default:
-                url = new URL(
-                    "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                break;
-            }
-
-            urlConnection = (HttpURLConnection) url.openConnection();
-            InputStream in = new BufferedInputStream(
-                urlConnection.getInputStream());
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            byte[] buffer = new byte[1024];
-            for (int count; (count = in.read(buffer)) != -1; ) {
-              baos.write(buffer, 0, count);
-            }
-
-            String Plan = new String(baos.toByteArray(),
-                "windows-1252");
-
-            String a = cache(false).replaceAll(" ", "");
-            String b = a.replaceAll("\r", "");
-            String c = Plan.replaceAll("\r", "");
-            String d = c.replaceAll(" ", "");
-            if (!(b.equals(d))) {   // wenn der aktuelle Plan anders als der Alte ist
-
-              ViewerActivity.this.runOnUiThread(new Runnable() {
-                @Override
-                public void run() {
-                  Toast.makeText(getApplicationContext(),
-                      "Der Vertretungsplan ist neu.",
-                      Toast.LENGTH_LONG).show();
-                }
-              });
-
-            }
-            speichern(Plan, false);
-
-            toWebview(webView, Plan, wert_klasse, false, day);
+    queue.add(request);
 
 
-          } catch (Exception e) {
-            Crashlytics.logException(e);
-            runOnUiThread(new Runnable() {
-              @Override
-              public void run() {
-                Toast.makeText(getApplicationContext(),
-                    "Ein Fehler ist aufgetreten.",
-                    Toast.LENGTH_LONG).show();
-              }
-            });
-
-          } finally {
-            if (urlConnection != null) {
-              urlConnection.disconnect();
-            }
-
-          }
-
-        }
-
-      }.
-
-          start();
-
-
-    }
   }
 
 
   private void speichern(String string, Boolean heute) {
-    SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
+    SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
     SharedPreferences.Editor editor = sharedPref.edit();
     if (heute) {
       editor.putString("cache_website_heute", string);
@@ -475,7 +381,7 @@ public class ViewerActivity extends Activity {
   }
 
   private String cache(Boolean heute) {
-    SharedPreferences sharedPref = this.getPreferences(Context.MODE_PRIVATE);
+    SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
     if (heute) {
       return sharedPref.getString("cache_website_heute", "");
     } else {
@@ -493,7 +399,7 @@ public class ViewerActivity extends Activity {
         String Klassenkuerzel;
         String Klassenstufe;
 
-        if (Character.isLetter(wert_klasse  // TODO: das hier in die If-Schleife unten verlagern
+        if (Character.isLetter(wert_klasse
             .charAt(wert_klasse.length()
                 - 1))) {   // wenn das letzte Zeichen ein Buchstabe ist -- String wird bei Lehrer nicht benutzt, nur bei Schüler
           Klassenkuerzel = Character.toString(wert_klasse.charAt(wert_klasse.length() - 1));

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.KayKaprolat.Praktikum.Vertretungsplan2"
-    android:versionCode="5"
-    android:versionName="v1.6.2" >
+    android:versionCode="6"
+    android:versionName="v1.7" >
 
     <uses-sdk
         android:minSdkVersion="17"
-        android:targetSdkVersion="25" />
+        android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -66,7 +66,7 @@
 
         <meta-data
             android:name="android.support.VERSION"
-            android:value="25.4.0" />
+            android:value="26.1.0" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
@@ -142,6 +142,11 @@
             android:authorities="com.KayKaprolat.Praktikum.Vertretungsplan2.crashlyticsinitprovider"
             android:exported="false"
             android:initOrder="100" />
+
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+
         <provider
             android:name="com.android.tools.ir.server.InstantRunContentProvider"
             android:authorities="com.KayKaprolat.Praktikum.Vertretungsplan2.com.android.tools.ir.server.InstantRunContentProvider"
