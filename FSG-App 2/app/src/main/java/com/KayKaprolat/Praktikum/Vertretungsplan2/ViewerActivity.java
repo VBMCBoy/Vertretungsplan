@@ -17,6 +17,7 @@ import android.view.View;
 import android.webkit.WebView;
 import android.widget.Toast;
 import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -359,6 +360,8 @@ public class ViewerActivity extends Activity {
         return headers;
       }
     };
+
+    request.setRetryPolicy(new DefaultRetryPolicy(5000, 5, 1.5f));
 
     queue.add(request);
 

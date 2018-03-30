@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 import android.util.Base64;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -182,6 +183,8 @@ public class MyJobService extends JobService {
             return headers;
           }
         };
+
+        request.setRetryPolicy(new DefaultRetryPolicy(5000, 5, 1.5f));
 
         queue.add(request);
 
