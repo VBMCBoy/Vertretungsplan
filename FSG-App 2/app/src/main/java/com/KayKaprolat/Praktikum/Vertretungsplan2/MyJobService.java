@@ -7,20 +7,22 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
+import android.util.Base64;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.crashlytics.android.Crashlytics;
 import com.firebase.jobdispatcher.JobParameters;
 import com.firebase.jobdispatcher.JobService;
-import java.io.BufferedInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
-import java.net.Authenticator;
-import java.net.HttpURLConnection;
-import java.net.PasswordAuthentication;
-import java.net.URL;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -28,178 +30,165 @@ import java.util.regex.Pattern;
 public class MyJobService extends JobService {
 
   @Override
-  public boolean onStartJob(JobParameters job) {
+  public boolean onStartJob(final JobParameters job) {
 
     // hier arbeiten
 
     final SharedPreferences prefs = PreferenceManager
-        .getDefaultSharedPreferences(this.getApplicationContext());
+        .getDefaultSharedPreferences(getApplicationContext());
     Boolean aktiv = prefs.getBoolean("Benachrichtigungan", false);
     final String wert_PW = prefs.getString("PW", "");
     final String wert_name = prefs.getString("BN", "");
     final String wert_klasse = prefs.getString("KL", "");
     final Boolean Lehrer = !(wert_klasse.matches(".*\\d+.*")); // true = Lehrer
+    String url;
 
+    Calendar calendar = Calendar.getInstance();
+    final int day = calendar.get(Calendar.DAY_OF_WEEK);
 
-    // nur für morgen
+    // nur morgen
+    switch (day) {
+      case 1: // Sonntag
+        url =
+            "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+        break;
+      case 2:  // Montag
+        url =
+            "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Dienstag.htm";
+        break;
+      case 3:// Dienstag
+        url =
+            "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm";
+        break;
+      case 4:// Mittwoch
+        url =
+            "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Donnerstag.htm";
+        break;
+      case 5:  // Donnerstag
+        url =
+            "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Freitag.htm";
+        break;
+      case 6: // Freitag
+        url =
+            "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+        break;
+      case 7: // Samstag
+        url =
+            "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+        break;
+      default:
+        url =
+            "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm";
+        break;
+    }
+
     if (aktiv) {  // nur wenn an
       if ((!("".equals(wert_PW))) || (!("".equals(wert_name))) || (!("".equals(wert_klasse)
       ))) { // nur wenn alles eingestellt
 
-        this.notification("Info", "Sync gestartet...", 1, 0); // wird in der Zwischenzeit angezeigt
+        notification("Info", "Sync gestartet...", 1, 0); // wird in der Zwischenzeit angezeigt
 
-        // asynchron, weil Netzwerk
+        RequestQueue queue = Volley.newRequestQueue(this);
 
-        new Thread() {
-          @Override
-          public void run() {
-            URL url;
-            HttpURLConnection urlConnection = null;
+        StringRequest request = new StringRequest(Request.Method.GET, url,
+            new Response.Listener<String>() {
+              @Override
+              public void onResponse(String response) {
 
-            try {
-              java.net.Authenticator.setDefault(new Authenticator() {
-                protected PasswordAuthentication getPasswordAuthentication() {
-                  return new PasswordAuthentication(wert_name,
-                      wert_PW.toCharArray());
+                String Plan = response;
 
-                }
-              });
-
-              Calendar calendar = Calendar.getInstance();
-              int day = calendar.get(Calendar.DAY_OF_WEEK);
-
-              // morgen
-
-              switch (day) {
-                case 1: // Sonntag
-                  url = new URL(
-                      "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                  break;
-                case 2:  // Montag
-                  url = new URL(
-                      "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Dienstag.htm");
-                  break;
-                case 3:// Dienstag
-                  url = new URL(
-                      "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Mittwoch.htm");
-                  break;
-                case 4:// Mittwoch
-                  url = new URL(
-                      "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Donnerstag.htm");
-                  break;
-                case 5:  // Donnerstag
-                  url = new URL(
-                      "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Freitag.htm");
-                  break;
-                case 6: // Freitag
-                  url = new URL(
-                      "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                  break;
-                case 7: // Samstag
-                  url = new URL(
-                      "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                  break;
-                default:
-                  url = new URL(
-                      "https://www.sachsen.schule/~gym-grossroehrsdorf/docs/vt/Montag.htm");
-                  break;
-              }
-
-              urlConnection = (HttpURLConnection) url.openConnection();
-              InputStream in = new BufferedInputStream(
-                  urlConnection.getInputStream());
-              ByteArrayOutputStream baos = new ByteArrayOutputStream();
-              byte[] buffer = new byte[1024];
-              for (int count; (count = in.read(buffer)) != -1; ) {
-                baos.write(buffer, 0, count);
-              }
-
-              String Plan = new String(baos.toByteArray(),
-                  "windows-1252");
-
-              String morgen_alt = prefs.getString("cache_website_morgen", "");
-              String a = morgen_alt.replaceAll(" ", "");
-              String b = a.replaceAll("\r", ""); // gereinigter alter String
-              String c = Plan.replaceAll(" ", "");
-              String d = c.replaceAll("\r", ""); // gereinigter neuer String
-              String Klassenstufe;
-              String Klassenkuerzel;
-              if (Character.isLetter(wert_klasse
-                  .charAt(wert_klasse.length()
-                      - 1))) {   // wenn das letzte Zeichen ein Buchstabe ist -- String wird bei Lehrer nicht benutzt, nur bei Schüler
-                Klassenkuerzel = Character.toString(wert_klasse.charAt(wert_klasse.length() - 1));
-                Klassenstufe = wert_klasse.substring(0, wert_klasse.length() - 1);
-              } else {
-                Klassenstufe = wert_klasse;
-                Klassenkuerzel = "";
-              }
-
-              String regex = ">" + Klassenstufe + ".*" + Klassenkuerzel + ".*<";
-
-              Pattern p = Pattern.compile(regex);
-              Matcher m = p.matcher(Plan);
-
-              if (PlanRichtig(day, Plan)) { // Stimmt das Datum?
-                if (!(b.equals(d))) { // ist der Plan neu? --> nur 1x benachrichtigen reicht
-                  // Plan neu: Benachrichtigung wenn nötig (Plan ist wichtig)
-                  if (Lehrer) { // Lehrer?
-                    if (Plan
-                        .contains(
-                            wert_klasse)) { // Lehrer in Plan?  // Regex bei Lehrern nicht nötig
-                      // Benachrichtigung an Lehrer --> neu und wichtig
-                      MyJobService.this
-                          .notification("Achtung", "Sie haben morgen Vertretung oder Aufsicht!", 1,
-                              1);
-                    } else {
-                      MyJobService.this.notification("Keine Vertretung",
-                          "Sie haben morgen keine Vertretung oder Aufsicht.", 1, 0);
-                    }
-                  } else {
-                    if (m.find()) {
-                      // Benachrichtigung an Schüler --> neu und wichtig
-                      MyJobService.this
-                          .notification("Achtung", "Sie haben morgen Vertretung!", 1, 1);
-                    } else {
-                      MyJobService.this
-                          .notification("Keine Vertretung", "Sie haben morgen keine Vertretung.", 1,
-                              0);
-                    }
-                  }
-
-
+                String morgen_alt = prefs.getString("cache_website_morgen", "");
+                String a = morgen_alt.replaceAll(" ", "");
+                String b = a.replaceAll("\r", ""); // gereinigter alter String
+                String c = Plan.replaceAll(" ", "");
+                String d = c.replaceAll("\r", ""); // gereinigter neuer String
+                String Klassenstufe;
+                String Klassenkuerzel;
+                if (Character.isLetter(wert_klasse
+                    .charAt(wert_klasse.length()
+                        - 1))) {   // wenn das letzte Zeichen ein Buchstabe ist -- String wird bei Lehrer nicht benutzt, nur bei Schüler
+                  Klassenkuerzel = Character.toString(wert_klasse.charAt(wert_klasse.length() - 1));
+                  Klassenstufe = wert_klasse.substring(0, wert_klasse.length() - 1);
                 } else {
-                  MyJobService.this.closeNotification(1);
+                  Klassenstufe = wert_klasse;
+                  Klassenkuerzel = "";
                 }
-                MyJobService.this.speichern(Plan);
-              } else {
-                MyJobService.this.closeNotification(1);
+
+                String regex = ">" + Klassenstufe + ".*" + Klassenkuerzel + ".*<";
+
+                Pattern p = Pattern.compile(regex);
+                Matcher m = p.matcher(Plan);
+
+                if (PlanRichtig(day, Plan)) { // Stimmt das Datum?
+                  if (!(b.equals(d))) { // ist der Plan neu? --> nur 1x benachrichtigen reicht
+                    // Plan neu: Benachrichtigung wenn nötig (Plan ist wichtig)
+                    if (Lehrer) { // Lehrer?
+                      if (Plan
+                          .contains(
+                              wert_klasse)) { // Lehrer in Plan?  // Regex bei Lehrern nicht nötig
+                        // Benachrichtigung an Lehrer --> neu und wichtig
+                        notification("Achtung", "Sie haben morgen Vertretung oder Aufsicht!", 1,
+                            1);
+                      } else {
+                        notification("Keine Vertretung",
+                            "Sie haben morgen keine Vertretung oder Aufsicht.", 1, 0);
+                      }
+                    } else {
+                      if (m.find()) {
+                        // Benachrichtigung an Schüler --> neu und wichtig
+                        notification("Achtung", "Sie haben morgen Vertretung!", 1, 1);
+                      } else {
+                        notification("Keine Vertretung", "Sie haben morgen keine Vertretung.", 1,
+                            0);
+                      }
+                    }
+
+
+                  } else {
+                    closeNotification(1);
+                  }
+                  speichern(Plan);
+                } else {
+                  closeNotification(1);
+                }
+
+                // Response i.O.
+                jobFinished(job, false);
+
+
               }
-
-            } catch (Exception e) {
-              MyJobService.this
-                  .notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1,
-                  1);
-              Crashlytics.logException(e);
-            } finally {
-              if (urlConnection != null) {
-                urlConnection.disconnect();
-
-              }
-
-
-
-            }
+            }, new Response.ErrorListener() {
+          @Override
+          public void onErrorResponse(VolleyError error) {
+            // Fehler
+            notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1,
+                1);
+            // Job wird wegen Fehler erneut ausgeführt
+            jobFinished(job, true);
+            // funktioniert das?
+            Crashlytics.logException(error.fillInStackTrace());
           }
+        }) {
 
-        }.start();
+          @Override
+          public Map<String, String> getHeaders() {
+            Map<String, String> headers = new HashMap<>();
+            // add headers <key,value>
+            String credentials = wert_name + ":" + wert_PW;
+            String auth = "Basic "
+                + Base64.encodeToString(credentials.getBytes(),
+                Base64.NO_WRAP);
+            headers.put("Authorization", auth);
+            return headers;
+          }
+        };
 
+        queue.add(request);
 
       }
-
-
     }
 
-    jobFinished(job, false);
+    // jobFinished(job, false);
     return false;
   }
 
@@ -209,7 +198,7 @@ public class MyJobService extends JobService {
   }
 
   public void notification(String title, String text, Integer ID, Integer priority) {
-    Context context = this.getApplicationContext();
+    Context context = getApplicationContext();
     NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
         .setSmallIcon(R.drawable.ic_stat_name).setContentTitle(title).setContentText(text);
     Intent resultIntent = new Intent(context, ViewerActivity.class);
@@ -227,7 +216,7 @@ public class MyJobService extends JobService {
   }
 
   public void closeNotification(Integer ID) {
-    Context context = this.getApplicationContext();
+    Context context = getApplicationContext();
     NotificationManager notimanager = (NotificationManager) context
         .getSystemService(Context.NOTIFICATION_SERVICE);
     notimanager.cancel(ID);
@@ -276,12 +265,13 @@ public class MyJobService extends JobService {
 
   private void speichern(String string) {
     SharedPreferences sharedPref = PreferenceManager
-        .getDefaultSharedPreferences(this.getApplicationContext());
+        .getDefaultSharedPreferences(getApplicationContext());
     SharedPreferences.Editor editor = sharedPref.edit();
 
     editor.putString("cache_website_morgen", string);
 
     editor.commit();
   }
+
 
 }

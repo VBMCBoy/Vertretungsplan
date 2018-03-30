@@ -4,24 +4,7 @@
             "outputFile": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-am\\values-am.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.8.0.aar\\c8564ac18b7521fcb1cfc3392a45c605\\res\\values-am\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "283",
-                        "endColumns": "190",
-                        "endOffsets": "473"
-                    },
-                    "to": {
-                        "startLines": "21",
-                        "startColumns": "4",
-                        "startOffsets": "1997",
-                        "endColumns": "190",
-                        "endOffsets": "2183"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\9493f15f11237a894dc768d28cc7e5b3\\res\\values-am\\values-am.xml",
+                    "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\values-am\\values-am.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,207,315,438,537,643,729,832,945,1023,1101,1180,1280,1380,1476,1579,1678,1785,1901,2188,2267",
                         "endColumns": "101,107,122,98,105,85,102,112,77,77,78,99,99,95,102,98,106,115,95,78,100",
                         "endOffsets": "202,310,433,532,638,724,827,940,1018,1096,1175,1275,1375,1471,1574,1673,1780,1896,1992,2262,2363"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-12.0.1.aar\\a71699dd85b7e6a60cd501ffdfba2bc9\\res\\values-am\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "190",
+                        "endOffsets": "437"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "1997",
+                        "endColumns": "190",
+                        "endOffsets": "2183"
                     }
                 }
             ]
