@@ -1,4 +1,4 @@
-#Fri Mar 30 19:59:31 CEST 2018
+#Fri Mar 30 21:30:28 CEST 2018
 base.0=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56
 path.1=classes.dex
 renamed.1=classes2.dex

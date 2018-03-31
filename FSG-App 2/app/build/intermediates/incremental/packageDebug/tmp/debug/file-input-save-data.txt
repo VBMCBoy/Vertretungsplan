@@ -1,15 +1,11 @@
 #Internal package file, do not edit.
-#Fri Mar 30 18:42:20 CEST 2018
-1.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56
-2.path=classes.dex
+#Fri Mar 30 21:30:29 CEST 2018
+1.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\49
 0.baseType=DIRECTORY
-2.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\49
-2.set=DEX
 1.baseType=DIRECTORY
-count=3
+count=2
 1.set=DEX
-0.path=crashlytics-build.properties
-0.set=ASSET
-0.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
-2.baseType=DIRECTORY
+0.path=classes.dex
+0.set=DEX
+0.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\56
 1.path=classes.dex
