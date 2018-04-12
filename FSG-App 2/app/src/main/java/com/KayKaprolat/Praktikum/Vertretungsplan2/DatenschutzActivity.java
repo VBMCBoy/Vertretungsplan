@@ -1,14 +1,18 @@
 package com.KayKaprolat.Praktikum.Vertretungsplan2;
 
-import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 
-public class DatenschutzActivity extends Activity {
+public class DatenschutzActivity extends AppCompatActivity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    this.setContentView(R.layout.datenschutz_activity);
+    setContentView(R.layout.datenschutz_activity);
+    Toolbar toolbar = findViewById(R.id.toolbar);
+    setSupportActionBar(toolbar);
+    getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
   }
 }

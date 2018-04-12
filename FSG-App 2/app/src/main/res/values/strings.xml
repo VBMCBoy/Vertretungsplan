@@ -24,9 +24,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   <string name="abouttext">Eine Android-App, welche den Vertretungsplan des FSG in Großröhrsdorf abruft und formatiert. \n
 \n
 Website des FSG: http://ferdinand-sauerbruch-gymnasium.de \n</string>
-  <string name="textview">TextView</string>
-  <string name="heute">Heute</string>
-  <string name="morgen">Morgen</string>
   <string name="Kategorie_Main">Anmeldung</string>
   <string name="Kategorie_Notification">Benachrichtigungen</string>
   <string name="datenschutz">Datenschutz</string>

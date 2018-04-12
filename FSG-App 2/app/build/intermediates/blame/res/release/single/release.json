@@ -4,6 +4,10 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-v23\\abc_control_background_material.xml"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_layout_tab_icon.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_media_action.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f1cfcbcfe4a1bdbfb1820e6f56340187\\res\\layout\\notification_media_action.xml"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\color-v23_abc_tint_switch_track.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-xhdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_screen_content_include.xml.flat",
@@ -168,6 +176,10 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_text_input_password_icon.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_btn_check_material.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable\\abc_btn_check_material.xml"
     },
@@ -184,16 +196,16 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-hdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\color_abc_primary_text_disable_only_material_dark.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
     },
     {
-        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\color_abc_primary_text_disable_only_material_dark.xml.flat",
-        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -240,8 +252,16 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21_design_bottom_navigation_item_background.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\color-v23_abc_tint_edittext.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_design_ic_visibility_off.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_text_cursor_material.xml.flat",
@@ -260,6 +280,10 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\4f94da97c6c5169cf551922d1519efb0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable_design_bottom_navigation_item_background.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
@@ -274,6 +298,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_layout_tab_text.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
@@ -340,8 +368,16 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\4f94da97c6c5169cf551922d1519efb0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_navigation_item.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_navigation_item.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\anim_design_bottom_sheet_slide_in.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -370,6 +406,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_ic_ab_back_material.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-xxxhdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_btn_default_mtrl_shape.xml.flat",
@@ -408,6 +448,10 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21_design_ic_visibility.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
@@ -420,12 +464,20 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_menu_item_action_area.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_navigation_menu_item.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
@@ -450,6 +502,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-mdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
@@ -492,12 +548,16 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\4f94da97c6c5169cf551922d1519efb0\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
-        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_navigation_item_separator.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\color-v23_abc_color_highlight_material.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\anim_abc_slide_in_bottom.xml.flat",
@@ -532,6 +592,10 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\color_design_tint_password_toggle.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
@@ -542,6 +606,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_text_select_handle_middle_mtrl_dark.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-hdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\anim-v21_design_bottom_sheet_slide_out.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -586,6 +654,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_media_cancel_action.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f1cfcbcfe4a1bdbfb1820e6f56340187\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -724,8 +796,16 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21_design_password_eye.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_fragmentheute.xml.flat",
+        "source": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\src\\main\\res\\layout\\fragmentheute.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_text_select_handle_middle_mtrl_light.png.flat",
@@ -734,6 +814,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi_ic_stat_name.png.flat",
         "source": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\src\\main\\res\\drawable-xxxhdpi\\ic_stat_name.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_activity_chooser_view.xml.flat",
@@ -764,6 +848,10 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21_avd_show_password.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\anim_abc_fade_in.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\anim\\abc_fade_in.xml"
     },
@@ -772,12 +860,16 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
-        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21_avd_hide_password.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -790,6 +882,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-hdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable_design_fab_background.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
@@ -810,6 +906,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-xxhdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
@@ -852,12 +952,16 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_about.xml.flat",
+        "source": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_notification_template_lines_media.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\f1cfcbcfe4a1bdbfb1820e6f56340187\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_activity_about.xml.flat",
-        "source": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\src\\main\\res\\layout\\activity_about.xml"
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-mdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-v21_notification_action_background.xml.flat",
@@ -882,6 +986,14 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\anim-v21_design_bottom_sheet_slide_in.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_navigation_item_header.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -930,6 +1042,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\anim_abc_slide_out_top.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-xxxhdpi-v4\\design_ic_visibility_off.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable_abc_vector_test.xml.flat",
@@ -996,6 +1112,10 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\color\\abc_tint_edittext.xml"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\anim_design_snackbar_out.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
@@ -1010,6 +1130,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_settings.xml.flat",
+        "source": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\src\\main\\res\\layout\\settings.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_list_focused_holo.9.png.flat",
@@ -1044,6 +1168,14 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_design_ic_visibility_off.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable-hdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
@@ -1072,6 +1204,10 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable_design_password_eye.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable\\design_password_eye.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
@@ -1082,6 +1218,14 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_layout_snackbar_include.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_fragmentmorgen.xml.flat",
+        "source": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\src\\main\\res\\layout\\fragmentmorgen.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_ic_stat_name.png.flat",
@@ -1106,6 +1250,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\color_abc_primary_text_material_light.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\anim_design_bottom_sheet_slide_out.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_screen_toolbar.xml.flat",
@@ -1160,12 +1308,20 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable_navigation_empty_icon.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-hdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -1228,12 +1384,16 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\color_design_error.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\color\\design_error.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_preference_widget_switch_compat.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-26.1.0.aar\\306fabcfae432d73b708838b6c6cb219\\res\\layout\\preference_widget_switch_compat.xml"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-hdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\anim_abc_shrink_fade_out_from_bottom.xml.flat",
@@ -1266,6 +1426,10 @@
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_bottom_navigation_item.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -1364,6 +1528,10 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_bottom_sheet_dialog.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_abc_action_menu_layout.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\layout\\abc_action_menu_layout.xml"
     },
@@ -1372,8 +1540,16 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\color-v23_design_tint_password_toggle.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\anim_design_snackbar_in.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\anim\\design_snackbar_in.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\color-v23_abc_tint_btn_checkable.xml.flat",
@@ -1520,6 +1696,10 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_navigation_menu.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-mdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
@@ -1552,12 +1732,28 @@
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-ldrtl-xxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable_design_snackbar_background.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout-v21_notification_action.xml.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\4f94da97c6c5169cf551922d1519efb0\\res\\layout-v21\\notification_action.xml"
     },
     {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\animator-v21_design_appbar_state_list_animator.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\484c934ded6da5f7f51df5cf2f08546b\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_navigation_item_subheader.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\layout_design_layout_snackbar.xml.flat",
+        "source": "C:\\Users\\kakao_000\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\4cec1e0b5aa5cdb8b868cbfdea3fcadb\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "D:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_ic_stat_name.png.flat",

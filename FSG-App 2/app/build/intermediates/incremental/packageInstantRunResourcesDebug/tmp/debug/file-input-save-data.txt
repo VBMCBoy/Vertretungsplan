@@ -1,3 +1,7 @@
 #Internal package file, do not edit.
-#Fri Mar 30 21:30:20 CEST 2018
-count=0
+#Sat Mar 31 17:42:53 CEST 2018
+0.baseType=DIRECTORY
+0.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.path=crashlytics-build.properties
+0.set=ASSET
+count=1

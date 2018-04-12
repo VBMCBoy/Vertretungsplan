@@ -2,11 +2,11 @@
 <resources>
 
 
-    <style name="AppBaseTheme" parent="android:Theme.Material.Light">
+  <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- API 21 theme customizations can go here. -->
-        <item name="android:colorPrimary">#ff5722</item>
-        <item name="android:colorPrimaryDark">#c41c00</item>
-        <item name="android:colorAccent">#c41c00</item>
+    <item name="colorPrimary">#ff5722</item>
+    <item name="colorPrimaryDark">#c41c00</item>
+    <item name="colorAccent">#c41c00</item>
 
     </style>
 
