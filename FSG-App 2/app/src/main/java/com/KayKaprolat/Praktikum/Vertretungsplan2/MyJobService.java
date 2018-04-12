@@ -5,17 +5,19 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 import android.util.Base64;
 import com.android.volley.DefaultRetryPolicy;
+import com.android.volley.NoConnectionError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
+import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.crashlytics.android.Crashlytics;
 import com.firebase.jobdispatcher.JobParameters;
 import com.firebase.jobdispatcher.JobService;
 import java.text.DateFormat;
@@ -29,6 +31,8 @@ import java.util.regex.Pattern;
 
 
 public class MyJobService extends JobService {
+
+  int counter;
 
   @Override
   public boolean onStartJob(final JobParameters job) {
@@ -154,6 +158,7 @@ public class MyJobService extends JobService {
                 }
 
                 // Response i.O.
+                counter = 0;
                 jobFinished(job, false);
 
 
@@ -165,9 +170,15 @@ public class MyJobService extends JobService {
             notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1,
                 1);
             // Job wird wegen Fehler erneut ausgeführt
-            jobFinished(job, true);
-            // funktioniert das?
-            Crashlytics.logException(error.fillInStackTrace());
+            if (5 > counter) {
+              SystemClock.sleep(100);
+              if ((error instanceof TimeoutError) || (error instanceof NoConnectionError)) {
+                counter++;
+                onStartJob(job);
+              }
+              // funktioniert das?
+              // Crashlytics.logException(error.fillInStackTrace());
+            }
           }
         }) {
 
@@ -202,7 +213,8 @@ public class MyJobService extends JobService {
 
   public void notification(String title, String text, Integer ID, Integer priority) {
     Context context = getApplicationContext();
-    NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
+    NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context,
+        "ID_Vertretungsplan")
         .setSmallIcon(R.drawable.ic_stat_name).setContentTitle(title).setContentText(text);
     Intent resultIntent = new Intent(context, ViewerActivity.class);
     PendingIntent resultPendingIntent = PendingIntent
@@ -210,7 +222,7 @@ public class MyJobService extends JobService {
     mBuilder.setContentIntent(resultPendingIntent);
     NotificationManager notificationManager = (NotificationManager) context
         .getSystemService(Context.NOTIFICATION_SERVICE);
-    if (priority == 1) {
+    if (1 == priority) {
       // hohe Priorität
       mBuilder.setVibrate(new long[]{1000, 1000, 1000});
     }
