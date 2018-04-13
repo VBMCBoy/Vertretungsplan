@@ -74,7 +74,7 @@ public class ViewerActivity extends AppCompatActivity {
     String wert_name = prefs.getString("BN", "");
     String wert_klasse = prefs.getString("KL", "");
     Boolean syncable = prefs.getBoolean("Benachrichtigungan", false);
-    Boolean datacollection = prefs.getBoolean("Datenschutz", true);
+    Boolean datacollection = prefs.getBoolean("Datenschutz", false);
 
     FirebaseAnalytics.getInstance(getApplicationContext())
         .setAnalyticsCollectionEnabled(datacollection);
