@@ -19,10 +19,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import org.jsoup.Jsoup;
@@ -220,109 +217,9 @@ public class FragmentHeute extends Fragment {
     webView.loadData(doc2.html(), "text/html; charset=UTF-8",
         null);
 
-    Datum_richtig(Plan, heute, day);    // macht einen Toast wenn das Datum nicht stimmt
+    // Datum_richtig bei heute nicht nötig
 
   }
 
-
-  private void Datum_richtig(String Plan, Boolean heute, Integer day) {
-    DateFormat dateFormat = new SimpleDateFormat("dd.MM");
-
-    Calendar c = Calendar.getInstance();
-    Date date = c.getTime();
-
-    if (heute) {
-      switch (day) {
-        case 1: // Sonntag -- Datum +1
-          c.setTime(date);
-          c.add(Calendar.DATE, 1);
-          date = c.getTime();
-          if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(getContext(),
-                "Der Vertretungsplan scheint falsch zu sein.",
-                Toast.LENGTH_LONG).show();
-          }
-          break;
-        case 2: // Montag -- heute
-
-        case 3: // Dienstag
-
-        case 4: // Mittwoch
-
-        case 5: // Donnerstag
-
-        case 6: // Freitag -- heute
-          if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(getContext(),
-                "Der Vertretungsplan scheint falsch zu sein.",
-                Toast.LENGTH_LONG).show();
-          }
-          break;
-        case 7: // Samstag -- Datum +2
-          c.setTime(date);
-          c.add(Calendar.DATE, 2);
-          date = c.getTime();
-          if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(getContext(),
-                "Der Vertretungsplan scheint falsch zu sein.",
-                Toast.LENGTH_LONG).show();
-          }
-          break;
-        default: // Default
-          Toast.makeText(getContext(), "Ein Fehler ist aufgetreten.",
-              Toast.LENGTH_LONG)
-              .show();
-          break;
-      }
-    } else {
-      switch (day) {
-        case 1: // Sonntag -- Datum +1
-
-        case 2: // Montag -- Datum +1
-
-        case 3: // Dienstag -- +1
-
-        case 4: // Mittwoch -- +1
-
-        case 5: // Donnerstag -- Datum +1
-          c.setTime(date);
-          c.add(Calendar.DATE, 1);
-          date = c.getTime();
-          if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(getContext(),
-                "Der Vertretungsplan scheint falsch zu sein.",
-                Toast.LENGTH_LONG).show();
-          }
-          break;
-        case 6: // Freitag -- Datum +3
-          c.setTime(date);
-          c.add(Calendar.DATE, 3);
-          date = c.getTime();
-          if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(getContext(),
-                "Der Vertretungsplan scheint falsch zu sein.",
-                Toast.LENGTH_LONG).show();
-          }
-          break;
-        case 7: // Samstag -- Datum +2
-          c.setTime(date);
-          c.add(Calendar.DATE, 2);
-          date = c.getTime();
-          if (!(Plan.contains(dateFormat.format(date)))) {
-            Toast.makeText(getContext(),
-                "Der Vertretungsplan scheint falsch zu sein.",
-                Toast.LENGTH_LONG).show();
-          }
-          break;
-        default: // Default
-          Toast.makeText(getContext(), "Ein Fehler ist aufgetreten.",
-              Toast.LENGTH_LONG)
-              .show();
-          break;
-      }
-    }
-
-
-  }
 
 }
