@@ -222,6 +222,7 @@ public class MyJobService extends JobService {
     mBuilder.setContentIntent(resultPendingIntent);
     NotificationManager notificationManager = (NotificationManager) context
         .getSystemService(Context.NOTIFICATION_SERVICE);
+    mBuilder.setAutoCancel(true);
     if (1 == priority) {
       // hohe Priorität
       mBuilder.setVibrate(new long[]{1000, 1000, 1000});
