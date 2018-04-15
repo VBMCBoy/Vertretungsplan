@@ -26,9 +26,12 @@
   <component name="ChangeListManager">
     <list default="true" id="ce1aa1ca-427f-4dce-b51e-64deabc8026d" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/MyJobService.class" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/MyJobService.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute$2.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute$3.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute.class" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentMorgen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentMorgen.class" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentMorgen.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentMorgen.java" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -129,17 +132,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentHeute.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FragmentHeute.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
+            <state relative-caret-position="172">
+              <caret line="111" column="35" lean-forward="false" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FragmentMorgen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FragmentMorgen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentMorgen.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
@@ -2406,8 +2409,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/ViewerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/MyJobService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentMorgen.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute.java" />
       </list>
     </option>
   </component>
@@ -3252,7 +3255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1523775027566</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Toast für falschen Vertretungsplan heute unnötig, für morgen geputzt">
+      <created>1523775491980</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1523775491980</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TodoView">
@@ -3341,8 +3351,6 @@
     <option name="SHOW_UNVERSIONED_FILES_WHILE_COMMIT" value="false" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Benachrichtigungen und Sync funktionieren einwandfrei" />
-    <MESSAGE value="alle URLs sind jetzt für HTTPS&#10;closes #14" />
     <MESSAGE value="Suche nach Klassen funktioniert auch bei 7abcd usw., Benachrichtigung für Schüler ebenso" />
     <MESSAGE value="Bugfixes, Benachrichtigung funktioniert für Klassen besser, Syncfrequenz festgesetzt, da sie eh nicht exakt ist, Funktionen entschlackt, Account verschönert, Provider nicht mehr exportiert" />
     <MESSAGE value="Vibration hinzugefügt" />
@@ -3366,7 +3374,9 @@
     <MESSAGE value="Bei Verbindungsfehler rekursiver Aufruf, Cleanup" />
     <MESSAGE value="Rest" />
     <MESSAGE value="schließt Benachrichtigung beim Tippen" />
-    <option name="LAST_COMMIT_MESSAGE" value="schließt Benachrichtigung beim Tippen" />
+    <MESSAGE value="Toast für falschen Vertretungsplan heute unnötig, für morgen geputzt" />
+    <MESSAGE value="Toast für neuen Vertretungsplan heute nicht nötig" />
+    <option name="LAST_COMMIT_MESSAGE" value="Toast für neuen Vertretungsplan heute nicht nötig" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -3637,18 +3647,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="223" column="0" lean-forward="false" selection-start-line="223" selection-start-column="0" selection-end-line="223" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentMorgen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="221" column="24" lean-forward="false" selection-start-line="221" selection-start-column="24" selection-end-line="221" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/KayKaprolat/Praktikum/Vertretungsplan2/FragmentHeute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="111" column="35" lean-forward="false" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
           <folding />
         </state>
       </provider>

@@ -110,18 +110,6 @@ public class FragmentHeute extends Fragment {
           @Override
           public void onResponse(String response) {
             String Plan = response;
-            String a = cache(true).replaceAll(" ", "");
-            String b = a.replaceAll("\r", "");
-            String c = Plan.replaceAll("\r", "");
-            String d = c.replaceAll(" ", "");
-            if (!(b.equals(d))) {   // wenn der aktuelle Plan anders als der Alte ist
-
-              Toast.makeText(getContext(),
-                  "Der Vertretungsplan ist neu.",
-                  Toast.LENGTH_LONG).show();
-
-
-            }
 
             speichern(Plan, true);
 
