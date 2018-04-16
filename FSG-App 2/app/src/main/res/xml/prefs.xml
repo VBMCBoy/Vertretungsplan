@@ -43,6 +43,15 @@
       android:title="Anonyme Datensammlung aktivieren">
     </SwitchPreference>
 
+    <PreferenceScreen
+      android:title="Datenschutzerklärung">
+      <intent
+        android:action="android.intent.action.VIEW"
+        android:targetClass="com.KayKaprolat.Praktikum.Vertretungsplan2.DatenschutzActivity"
+        android:targetPackage="com.KayKaprolat.Praktikum.Vertretungsplan2"/>
+    </PreferenceScreen>
+
+
   </PreferenceCategory>
 
 </PreferenceScreen>

@@ -28,8 +28,7 @@ Website des FSG: http://ferdinand-sauerbruch-gymnasium.de \n</string>
   <string name="Kategorie_Notification">Benachrichtigungen</string>
   <string name="datenschutz">Datenschutz</string>
   <string name="datenschutzInhalt">Diese App verwendet Firebase. Firebase ist eine Möglichkeit, Fehler der App an den Entwickler zu schicken. Hierbei werden die Nutzerdaten anonymisiert an Firebase übermittelt. Firebase ist eine Google-Tochter und hat seinen Sitz in San Francisco (CA), USA. Die Datenschutzerklärung von Firebase finden Sie unter https://www.firebase.com/terms/privacy-policy.html.
- \n \n
-Sie können die Datenerfassung in den App-Einstellungen abschalten. Es werden keine anderen Daten über die App erhoben.</string>
+ </string>
   <string name="BenachrichtigungAusSummary">Sie werden keine Benachrichtigungen erhalten</string>
   <string name="BenachrichtigungAnSummary">Sie werden etwa stündlich von Änderungen des morgigen Vertretungsplanes benachrichtigt, wenn für Sie etwas Wichtiges drinsteht.</string>
   <string name="AnalyticsAusSummary">Schade! Es werden keine Crash-Reports und Nutzungsinformationen an den Entwickler gesendet.</string>
