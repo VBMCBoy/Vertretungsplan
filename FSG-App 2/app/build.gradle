@@ -5,8 +5,8 @@ android {
 
     defaultConfig {
         applicationId "com.KayKaprolat.Praktikum.Vertretungsplan2"
-        versionCode 8
-        versionName "v1.8"
+        versionCode 9
+        versionName "v1.8.1"
         minSdkVersion 17
         targetSdkVersion 26
         vectorDrawables.useSupportLibrary = true

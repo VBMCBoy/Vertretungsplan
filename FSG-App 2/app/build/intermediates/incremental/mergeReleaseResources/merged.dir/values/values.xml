@@ -790,7 +790,7 @@ Website des FSG: http://ferdinand-sauerbruch-gymnasium.de \n</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">6b32ff5a-c4de-4265-9354-cfe0e9140c2e</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">3be39425-5634-4adf-8533-ce49c088d921</string>
     <string name="common_google_play_services_unknown_issue"><ns2:g id="app_name">%1$s</ns2:g> is having trouble with Google Play services. Please try again.</string>
     <string name="datenschutz">Datenschutz</string>
     <string name="datenschutzInhalt">Diese App verwendet Firebase. Firebase ist eine Möglichkeit, Fehler der App an den Entwickler zu schicken. Hierbei werden die Nutzerdaten anonymisiert an Firebase übermittelt. Firebase ist eine Google-Tochter und hat seinen Sitz in San Francisco (CA), USA. Die Datenschutzerklärung von Firebase finden Sie unter https://www.firebase.com/terms/privacy-policy.html.

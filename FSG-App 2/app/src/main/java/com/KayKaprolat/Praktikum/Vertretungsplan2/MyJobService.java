@@ -202,7 +202,7 @@ public class MyJobService extends JobService {
       }
     }
 
-    // jobFinished(job, false);
+    jobFinished(job, false);
     return false;
   }
 
