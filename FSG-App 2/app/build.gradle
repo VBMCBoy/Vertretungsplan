@@ -1,14 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
+    compileSdkVersion 27
 
     defaultConfig {
         applicationId "com.KayKaprolat.Praktikum.Vertretungsplan2"
         versionCode 9
         versionName "v1.8.1"
         minSdkVersion 17
-        targetSdkVersion 26
+        targetSdkVersion 27
         vectorDrawables.useSupportLibrary = true
     }
 
@@ -22,22 +22,23 @@ android {
 }
 
 dependencies {
-    implementation 'com.android.support:support-vector-drawable:26.1.0'
-    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
-    implementation 'com.android.support:support-v13:26.1.0'
-    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.android.support:support-vector-drawable:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.support:support-v13:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:support-compat:27.1.1'
     implementation 'org.jsoup:jsoup:1.11.2'
-    implementation 'com.android.support:preference-v7:26.1.0'
+    implementation 'com.android.support:preference-v7:27.1.1'
     implementation 'com.firebase:firebase-jobdispatcher:0.8.5'
     
 
     implementation('com.crashlytics.sdk.android:crashlytics:2.9.1@aar') {
         transitive = true
     }
-    implementation 'com.google.firebase:firebase-core:12.0.1'
+    implementation 'com.google.firebase:firebase-core:15.0.0'
     implementation 'com.android.volley:volley:1.1.0'
-    implementation 'com.android.support:design:26.1.0'
-    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
 
 
 }

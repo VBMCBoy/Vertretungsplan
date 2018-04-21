@@ -1,10 +1,12 @@
 package com.KayKaprolat.Praktikum.Vertretungsplan2;
 
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.design.widget.TabLayout;
@@ -30,6 +32,21 @@ public class ViewerActivity extends AppCompatActivity {
   @Override
   public void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+      // Create the NotificationChannel, but only on API 26+ because
+      // the NotificationChannel class is new and not in the support library
+      CharSequence name = "Vertretungsplan";
+      String description = "Erinnert an den Vertretungsplan";
+      int importance = NotificationManager.IMPORTANCE_DEFAULT;
+      NotificationChannel channel = new NotificationChannel("ID_Vertretungsplan", name, importance);
+      channel.setDescription(description);
+      // Register the channel with the system
+      NotificationManager notificationManager = (NotificationManager) getSystemService(
+          Context.NOTIFICATION_SERVICE);
+      notificationManager.createNotificationChannel(channel);
+    }
+
 
     FirebaseJobDispatcher dispatcher = new FirebaseJobDispatcher(
         new GooglePlayDriver(getApplicationContext()));
@@ -86,7 +103,8 @@ public class ViewerActivity extends AppCompatActivity {
               Lifetime.FOREVER).setReplaceCurrent(true)
           .setRetryStrategy(RetryStrategy.DEFAULT_LINEAR).setConstraints(
               Constraint.ON_ANY_NETWORK).setTrigger(
-              Trigger.executionWindow(3600, 3600 + 1800)) // jede Stunde mit einem Fenster von 1/2 h
+              Trigger.executionWindow(900, 900
+                  + 180)) // jede Stunde mit einem Fenster von 1/2 h //TODO wieder 3600, 3600 + 1800
           .build();
 
       dispatcher.mustSchedule(myJob);
@@ -144,26 +162,6 @@ public class ViewerActivity extends AppCompatActivity {
   }
 
 
-  public void notification(String title, String text) {
-    NotificationCompat.Builder mBuilder =
-        new NotificationCompat.Builder(this, "ID_Vertretungsplan")
-            .setSmallIcon(R.drawable.ic_stat_name)
-            .setContentTitle(title)
-            .setContentText(text);
-    Intent resultIntent = new Intent(this, ViewerActivity.class);
-    PendingIntent resultPendingIntent =
-        PendingIntent.getActivity(
-            this,
-            0,
-            resultIntent,
-            PendingIntent.FLAG_UPDATE_CURRENT
-        );
-    mBuilder.setContentIntent(resultPendingIntent);
-    int ID = 1;
-    NotificationManager notificationManager = (NotificationManager) getSystemService(
-        Context.NOTIFICATION_SERVICE);
-    notificationManager.notify(ID, mBuilder.build());
-  }
 
 
   @Override
@@ -199,6 +197,26 @@ public class ViewerActivity extends AppCompatActivity {
     Intent intent = new Intent(this, DatenschutzActivity.class);
     startActivity(intent);
 
+  }
+
+  public void notification(String title, String text, Integer ID, Integer priority) {
+    Context context = getApplicationContext();
+    NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context,
+        "ID_Vertretungsplan")
+        .setSmallIcon(R.drawable.ic_stat_name).setContentTitle(title).setContentText(text);
+    Intent resultIntent = new Intent(context, ViewerActivity.class);
+    PendingIntent resultPendingIntent = PendingIntent
+        .getActivity(context, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+    mBuilder.setContentIntent(resultPendingIntent);
+    NotificationManager notificationManager = (NotificationManager) context
+        .getSystemService(Context.NOTIFICATION_SERVICE);
+    mBuilder.setAutoCancel(true);
+    if (1 == priority) {
+      // hohe Priorität
+      mBuilder.setVibrate(new long[]{1000, 1000, 1000});
+    }
+
+    notificationManager.notify(ID, mBuilder.build());
   }
 
 

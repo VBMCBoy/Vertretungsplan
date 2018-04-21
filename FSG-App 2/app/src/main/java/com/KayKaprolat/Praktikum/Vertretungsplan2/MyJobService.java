@@ -5,19 +5,17 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.SystemClock;
 import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 import android.util.Base64;
 import com.android.volley.DefaultRetryPolicy;
-import com.android.volley.NoConnectionError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
-import com.android.volley.TimeoutError;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.crashlytics.android.Crashlytics;
 import com.firebase.jobdispatcher.JobParameters;
 import com.firebase.jobdispatcher.JobService;
 import java.text.DateFormat;
@@ -32,12 +30,103 @@ import java.util.regex.Pattern;
 
 public class MyJobService extends JobService {
 
-  int counter;
+  // int counter;
 
   @Override
-  public boolean onStartJob(final JobParameters job) {
+  public boolean onStartJob(JobParameters job) {
 
     // hier arbeiten
+
+    runjob();
+
+    jobFinished(job, false);
+    return false;
+  }
+
+  @Override
+  public boolean onStopJob(JobParameters job) {
+    return false; // Answers the question: "Should this job be retried?"
+  }
+
+  public void notification(String title, String text, Integer ID, Integer priority) {
+    Context context = getApplicationContext();
+    NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context,
+        "ID_Vertretungsplan")
+        .setSmallIcon(R.drawable.ic_stat_name).setContentTitle(title).setContentText(text);
+    Intent resultIntent = new Intent(context, ViewerActivity.class);
+    PendingIntent resultPendingIntent = PendingIntent
+        .getActivity(context, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT);
+    mBuilder.setContentIntent(resultPendingIntent);
+    NotificationManager notificationManager = (NotificationManager) context
+        .getSystemService(Context.NOTIFICATION_SERVICE);
+    mBuilder.setAutoCancel(true);
+    if (1 == priority) {
+      // hohe Priorität
+      mBuilder.setVibrate(new long[]{1000, 1000, 1000});
+    }
+
+    notificationManager.notify(ID, mBuilder.build());
+  }
+
+  public void closeNotification(Integer ID) {
+    Context context = getApplicationContext();
+    NotificationManager notimanager = (NotificationManager) context
+        .getSystemService(Context.NOTIFICATION_SERVICE);
+    notimanager.cancel(ID);
+
+  }
+
+  public Boolean PlanRichtig(Integer day, String Plan) {
+
+    DateFormat dateFormat = new SimpleDateFormat("dd.MM");
+
+    Calendar c = Calendar.getInstance();
+    Date date = c.getTime();
+
+    switch (day) {
+      case 1: // Sonntag -- Datum +1
+
+      case 2: // Montag -- Datum +1
+
+      case 3: // Dienstag -- +1
+
+      case 4: // Mittwoch -- +1
+
+      case 5: // Donnerstag -- Datum +1
+        c.setTime(date);
+        c.add(Calendar.DATE, 1);
+        date = c.getTime();
+        return Plan.contains(dateFormat.format(date));
+      //break;
+      case 6: // Freitag -- Datum +3
+        c.setTime(date);
+        c.add(Calendar.DATE, 3);
+        date = c.getTime();
+        return Plan.contains(dateFormat.format(date));
+      // break;
+      case 7: // Samstag -- Datum +2
+        c.setTime(date);
+        c.add(Calendar.DATE, 2);
+        date = c.getTime();
+        return Plan.contains(dateFormat.format(date));
+      //   break;
+      default: // Default
+        return false;
+      //   break;
+    }
+  }
+
+  private void speichern(String string) {
+    SharedPreferences sharedPref = PreferenceManager
+        .getDefaultSharedPreferences(getApplicationContext());
+    SharedPreferences.Editor editor = sharedPref.edit();
+
+    editor.putString("cache_website_morgen", string);
+
+    editor.commit();
+  }
+
+  public void runjob() {
 
     final SharedPreferences prefs = PreferenceManager
         .getDefaultSharedPreferences(getApplicationContext());
@@ -150,6 +239,7 @@ public class MyJobService extends JobService {
 
 
                   } else {
+                    notification("es hat funktioniert", "jaja", 2, 1);
                     closeNotification(1);
                   }
                   speichern(Plan);
@@ -158,9 +248,7 @@ public class MyJobService extends JobService {
                 }
 
                 // Response i.O.
-                counter = 0;
-                jobFinished(job, false);
-
+                //     counter = 0;
 
               }
             }, new Response.ErrorListener() {
@@ -170,15 +258,17 @@ public class MyJobService extends JobService {
             notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1,
                 1);
             // Job wird wegen Fehler erneut ausgeführt
-            if (5 > counter) {
-              SystemClock.sleep(100);
+       /*     if (5 > counter) {
+              SystemClock.sleep(1000);
               if ((error instanceof TimeoutError) || (error instanceof NoConnectionError)) {
                 counter++;
-                onStartJob(job);
+                Crashlytics.logException(error.fillInStackTrace());
+                runjob();
               }
               // funktioniert das?
-              // Crashlytics.logException(error.fillInStackTrace());
-            }
+
+            } */
+            Crashlytics.logException(error.fillInStackTrace());
           }
         }) {
 
@@ -199,94 +289,11 @@ public class MyJobService extends JobService {
 
         queue.add(request);
 
+      } else {
+        notification("Fehler", "In den Einstellungen fehlt etwas", 1, 1);
       }
     }
 
-    jobFinished(job, false);
-    return false;
-  }
-
-  @Override
-  public boolean onStopJob(JobParameters job) {
-    return false; // Answers the question: "Should this job be retried?"
-  }
-
-  public void notification(String title, String text, Integer ID, Integer priority) {
-    Context context = getApplicationContext();
-    NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context,
-        "ID_Vertretungsplan")
-        .setSmallIcon(R.drawable.ic_stat_name).setContentTitle(title).setContentText(text);
-    Intent resultIntent = new Intent(context, ViewerActivity.class);
-    PendingIntent resultPendingIntent = PendingIntent
-        .getActivity(context, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT);
-    mBuilder.setContentIntent(resultPendingIntent);
-    NotificationManager notificationManager = (NotificationManager) context
-        .getSystemService(Context.NOTIFICATION_SERVICE);
-    mBuilder.setAutoCancel(true);
-    if (1 == priority) {
-      // hohe Priorität
-      mBuilder.setVibrate(new long[]{1000, 1000, 1000});
-    }
-
-    notificationManager.notify(ID, mBuilder.build());
-  }
-
-  public void closeNotification(Integer ID) {
-    Context context = getApplicationContext();
-    NotificationManager notimanager = (NotificationManager) context
-        .getSystemService(Context.NOTIFICATION_SERVICE);
-    notimanager.cancel(ID);
-
-  }
-
-  public Boolean PlanRichtig(Integer day, String Plan) {
-
-    DateFormat dateFormat = new SimpleDateFormat("dd.MM");
-
-    Calendar c = Calendar.getInstance();
-    Date date = c.getTime();
-
-    switch (day) {
-      case 1: // Sonntag -- Datum +1
-
-      case 2: // Montag -- Datum +1
-
-      case 3: // Dienstag -- +1
-
-      case 4: // Mittwoch -- +1
-
-      case 5: // Donnerstag -- Datum +1
-        c.setTime(date);
-        c.add(Calendar.DATE, 1);
-        date = c.getTime();
-        return Plan.contains(dateFormat.format(date));
-      //break;
-      case 6: // Freitag -- Datum +3
-        c.setTime(date);
-        c.add(Calendar.DATE, 3);
-        date = c.getTime();
-        return Plan.contains(dateFormat.format(date));
-      // break;
-      case 7: // Samstag -- Datum +2
-        c.setTime(date);
-        c.add(Calendar.DATE, 2);
-        date = c.getTime();
-        return Plan.contains(dateFormat.format(date));
-      //   break;
-      default: // Default
-        return false;
-      //   break;
-    }
-  }
-
-  private void speichern(String string) {
-    SharedPreferences sharedPref = PreferenceManager
-        .getDefaultSharedPreferences(getApplicationContext());
-    SharedPreferences.Editor editor = sharedPref.edit();
-
-    editor.putString("cache_website_morgen", string);
-
-    editor.commit();
   }
 
 
