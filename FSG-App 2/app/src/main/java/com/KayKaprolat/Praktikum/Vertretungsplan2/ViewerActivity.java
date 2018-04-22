@@ -18,13 +18,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
-import com.firebase.jobdispatcher.Constraint;
-import com.firebase.jobdispatcher.FirebaseJobDispatcher;
-import com.firebase.jobdispatcher.GooglePlayDriver;
-import com.firebase.jobdispatcher.Job;
-import com.firebase.jobdispatcher.Lifetime;
-import com.firebase.jobdispatcher.RetryStrategy;
-import com.firebase.jobdispatcher.Trigger;
+import com.evernote.android.job.JobManager;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 public class ViewerActivity extends AppCompatActivity {
@@ -48,8 +42,6 @@ public class ViewerActivity extends AppCompatActivity {
     }
 
 
-    FirebaseJobDispatcher dispatcher = new FirebaseJobDispatcher(
-        new GooglePlayDriver(getApplicationContext()));
 
     // ActionBar bauen
 
@@ -98,20 +90,13 @@ public class ViewerActivity extends AppCompatActivity {
 
     if (syncable) {
 
-      Job myJob = dispatcher.newJobBuilder().setService(MyJobService.class).setTag("mytag")
-          .setRecurring(true).setLifetime(
-              Lifetime.FOREVER).setReplaceCurrent(true)
-          .setRetryStrategy(RetryStrategy.DEFAULT_LINEAR).setConstraints(
-              Constraint.ON_ANY_NETWORK).setTrigger(
-              Trigger.executionWindow(900, 900
-                  + 180)) // jede Stunde mit einem Fenster von 1/2 h //TODO wieder 3600, 3600 + 1800
-          .build();
+      JobManager.create(this).addJobCreator(new MyJobCreator());
+      MySyncJob.scheduleJob();
 
-      dispatcher.mustSchedule(myJob);
 
 
     } else {
-      dispatcher.cancelAll();
+
     }
 
     //prüfen ob leer
@@ -139,24 +124,13 @@ public class ViewerActivity extends AppCompatActivity {
     FirebaseAnalytics.getInstance(getApplicationContext())
         .setAnalyticsCollectionEnabled(datacollection);
 
-    FirebaseJobDispatcher dispatcher = new FirebaseJobDispatcher(
-        new GooglePlayDriver(getApplicationContext()));
-
     if (syncable) {
 
-      Job myJob = dispatcher.newJobBuilder().setService(MyJobService.class).setTag("mytag")
-          .setRecurring(true).setLifetime(
-              Lifetime.FOREVER).setReplaceCurrent(true)
-          .setRetryStrategy(RetryStrategy.DEFAULT_LINEAR).setConstraints(
-              Constraint.ON_ANY_NETWORK).setTrigger(
-              Trigger.executionWindow(3600, 3600 + 1800)) // jede Stunde mit einem Fenster von 1/2 h
-          .build();
-
-      dispatcher.mustSchedule(myJob);
+      JobManager.create(this).addJobCreator(new MyJobCreator());
 
 
     } else {
-      dispatcher.cancelAll();
+
     }
 
   }
