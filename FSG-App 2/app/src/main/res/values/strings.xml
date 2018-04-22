@@ -8,7 +8,7 @@
   <string name="name">Benutzername</string>
   <string name="about">Über&#8230;</string>
   <string name="licenses">Lizenzen</string>
-  <string name="license">License for Jsoup only: \n
+  <string name="license">License for Jsoup: \n
         \n
 The jsoup code-base (include source and compiled packages) are distributed under the open source MIT license as described below. \n
 \n
@@ -20,6 +20,22 @@ The above copyright notice and this permission notice shall be included in all c
 \n
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n
 \n
+
+    License for Evernote JobDispatcher: \n
+
+    Copyright (c) 2007-2017 by Evernote Corporation, All rights reserved. \n
+ \n
+Licensed under the Apache License, Version 2.0 (the "License"); \n
+you may not use this file except in compliance with the License. \n
+You may obtain a copy of the License at \n
+ \n
+    http://www.apache.org/licenses/LICENSE-2.0 \n
+ \n
+Unless required by applicable law or agreed to in writing, software \n
+distributed under the License is distributed on an "AS IS" BASIS, \n
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. \n
+See the License for the specific language governing permissions and \n
+limitations under the License. \n
     </string>
   <string name="abouttext">Eine Android-App, welche den Vertretungsplan des FSG in Großröhrsdorf abruft und formatiert. \n
 \n
@@ -27,7 +43,7 @@ Website des FSG: http://ferdinand-sauerbruch-gymnasium.de \n</string>
   <string name="Kategorie_Main">Anmeldung</string>
   <string name="Kategorie_Notification">Benachrichtigungen</string>
   <string name="datenschutz">Datenschutz</string>
-  <string name="datenschutzInhalt">Diese App verwendet Firebase. Firebase ist eine Möglichkeit, Fehler der App an den Entwickler zu schicken. Hierbei werden die Nutzerdaten anonymisiert an Firebase übermittelt. Firebase ist eine Google-Tochter und hat seinen Sitz in San Francisco (CA), USA. Die Datenschutzerklärung von Firebase finden Sie unter https://www.firebase.com/terms/privacy-policy.html.
+  <string name="datenschutzInhalt">Diese App verwendet Firebase. Firebase ist eine Möglichkeit, Fehler der App an den Entwickler zu schicken. Hierbei werden die Nutzerdaten anonymisiert an Firebase übermittelt. Firebase ist eine Google-Tochter und hat seinen Sitz in San Francisco (CA), USA. Die Datenschutzerklärung von Firebase finden Sie unter \n https://www.firebase.com/terms/privacy-policy.html.
  </string>
   <string name="BenachrichtigungAusSummary">Sie werden keine Benachrichtigungen erhalten</string>
   <string name="BenachrichtigungAnSummary">Sie werden etwa stündlich von Änderungen des morgigen Vertretungsplanes benachrichtigt, wenn für Sie etwas Wichtiges drinsteht.</string>

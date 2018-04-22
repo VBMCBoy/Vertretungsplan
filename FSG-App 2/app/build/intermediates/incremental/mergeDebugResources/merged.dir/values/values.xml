@@ -834,10 +834,10 @@ Website des FSG: http://ferdinand-sauerbruch-gymnasium.de \n</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">ad480e57-4ea5-4eb2-bc84-ef6fd30e6f03</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">b44b14d6-12c6-42f5-8a0a-344f65f3723e</string>
     <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
     <string name="datenschutz">Datenschutz</string>
-    <string name="datenschutzInhalt">Diese App verwendet Firebase. Firebase ist eine Möglichkeit, Fehler der App an den Entwickler zu schicken. Hierbei werden die Nutzerdaten anonymisiert an Firebase übermittelt. Firebase ist eine Google-Tochter und hat seinen Sitz in San Francisco (CA), USA. Die Datenschutzerklärung von Firebase finden Sie unter https://www.firebase.com/terms/privacy-policy.html.
+    <string name="datenschutzInhalt">Diese App verwendet Firebase. Firebase ist eine Möglichkeit, Fehler der App an den Entwickler zu schicken. Hierbei werden die Nutzerdaten anonymisiert an Firebase übermittelt. Firebase ist eine Google-Tochter und hat seinen Sitz in San Francisco (CA), USA. Die Datenschutzerklärung von Firebase finden Sie unter \n https://www.firebase.com/terms/privacy-policy.html.
  </string>
     <string name="default_web_client_id" translatable="false">913602219633-bkb9pgkrcss1p1gj1a5tncqct3gdbgn5.apps.googleusercontent.com</string>
     <string name="einst_klasse">Klasse / Lehrer</string>
@@ -849,7 +849,7 @@ Website des FSG: http://ferdinand-sauerbruch-gymnasium.de \n</string>
     <string name="google_app_id" translatable="false">1:913602219633:android:2eed6cd6b63e4088</string>
     <string name="google_crash_reporting_api_key" translatable="false">AIzaSyChuwqepNBPd8ubEzeO9qM3cQYpByYOKvw</string>
     <string name="google_storage_bucket" translatable="false">vertretungsplan-e4dfd.appspot.com</string>
-    <string name="license">License for Jsoup only: \n
+    <string name="license">License for Jsoup: \n
         \n
 The jsoup code-base (include source and compiled packages) are distributed under the open source MIT license as described below. \n
 \n
@@ -861,6 +861,22 @@ The above copyright notice and this permission notice shall be included in all c
 \n
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n
 \n
+
+    License for Evernote JobDispatcher: \n
+
+    Copyright (c) 2007-2017 by Evernote Corporation, All rights reserved. \n
+ \n
+Licensed under the Apache License, Version 2.0 (the "License"); \n
+you may not use this file except in compliance with the License. \n
+You may obtain a copy of the License at \n
+ \n
+    http://www.apache.org/licenses/LICENSE-2.0 \n
+ \n
+Unless required by applicable law or agreed to in writing, software \n
+distributed under the License is distributed on an "AS IS" BASIS, \n
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. \n
+See the License for the specific language governing permissions and \n
+limitations under the License. \n
     </string>
     <string name="licenses">Lizenzen</string>
     <string name="name">Benutzername</string>

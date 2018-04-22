@@ -21,7 +21,7 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-tasks:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.0.aar\ff6318fb54b9636ece6efa92fc3f1a2f\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\123800d83fbafbe3655949d180faef43\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5d8758f737a7b4fa8727d861f66bad86\AndroidManifest.xml:17:1-22:12
-MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:17:1-42:12
+MERGED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:2:1-65:12
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0f3f03712b224bf76838545afcdc8dbf\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\04785832196db7b8ff930a6840040271\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\4445f49c4ef5e2b7f0ab57dce7beeb0c\AndroidManifest.xml:17:1-22:12
@@ -79,6 +79,8 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\kakao_000\.gradle\cach
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:7:20-62
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
 ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:8:3-78
+MERGED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:14:5-81
+MERGED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:14:5-81
 	android:name
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:8:20-76
 uses-permission#android.permission.VIBRATE
@@ -111,8 +113,8 @@ MERGED from [com.google.android.gms:play-services-tasks:15.0.0] C:\Users\kakao_0
 MERGED from [com.google.android.gms:play-services-tasks:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.0.aar\ff6318fb54b9636ece6efa92fc3f1a2f\AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\123800d83fbafbe3655949d180faef43\AndroidManifest.xml:22:5-26:19
 MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\123800d83fbafbe3655949d180faef43\AndroidManifest.xml:22:5-26:19
-MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:26:5-40:19
-MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:26:5-40:19
+MERGED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:16:5-63:19
+MERGED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:16:5-63:19
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\0acac997694c95d75c7f5b003d222c36\AndroidManifest.xml:11:5-17:19
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\0acac997694c95d75c7f5b003d222c36\AndroidManifest.xml:11:5-17:19
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\0dfecb3cdbfb926416c8fde5d9eb5ace\AndroidManifest.xml:9:5-20
@@ -129,6 +131,8 @@ MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.0.aar\d2dfe12cb6879e4279eec676066f20f8\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:16:5-37
+	tools:ignore
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:16:18-44
 	android:icon
 		ADDED from D:\Bibliotheken\Dokumente\GitHub\Vertretungsplan\FSG-App 2\app\src\main\AndroidManifest.xml:15:5-41
 	android:allowBackup
@@ -233,8 +237,8 @@ MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\kaka
 MERGED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\123800d83fbafbe3655949d180faef43\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5d8758f737a7b4fa8727d861f66bad86\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\5d8758f737a7b4fa8727d861f66bad86\AndroidManifest.xml:20:5-44
-MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:22:5-24:41
-MERGED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:22:5-24:41
+MERGED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:8:5-10:41
+MERGED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0f3f03712b224bf76838545afcdc8dbf\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\0f3f03712b224bf76838545afcdc8dbf\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\04785832196db7b8ff930a6840040271\AndroidManifest.xml:20:5-44
@@ -287,6 +291,8 @@ MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] C:\Users\kakao_
 MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-15.0.0.aar\e3feaeef5f9a88371e205d7086d49486\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-iid:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.0.0.aar\a0889e5043189217e7b6d1b4d5afc9ab\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.0.0.aar\a0889e5043189217e7b6d1b4d5afc9ab\AndroidManifest.xml:22:5-79
+MERGED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:13:5-79
+MERGED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:13:5-79
 	android:name
 		ADDED from [com.google.firebase:firebase-analytics:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-15.0.0.aar\0d3721ffdff1ba5839a38c554a968179\AndroidManifest.xml:24:22-76
 uses-permission#android.permission.WAKE_LOCK
@@ -295,6 +301,8 @@ MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] C:\Users\kakao_
 MERGED from [com.google.firebase:firebase-analytics-impl:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-impl-15.0.0.aar\e3feaeef5f9a88371e205d7086d49486\AndroidManifest.xml:25:5-68
 MERGED from [com.google.firebase:firebase-iid:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.0.0.aar\a0889e5043189217e7b6d1b4d5afc9ab\AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-iid-15.0.0.aar\a0889e5043189217e7b6d1b4d5afc9ab\AndroidManifest.xml:24:5-68
+MERGED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:12:5-68
+MERGED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:12:5-68
 	android:name
 		ADDED from [com.google.firebase:firebase-analytics:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-analytics-15.0.0.aar\0d3721ffdff1ba5839a38c554a968179\AndroidManifest.xml:25:22-65
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
@@ -427,20 +435,92 @@ ADDED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\kakao
 		ADDED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\123800d83fbafbe3655949d180faef43\AndroidManifest.xml:25:13-66
 	android:name
 		ADDED from [com.google.android.gms:play-services-basement:15.0.0] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.0.aar\123800d83fbafbe3655949d180faef43\AndroidManifest.xml:24:13-58
-service#com.firebase.jobdispatcher.GooglePlayReceiver
-ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:32:9-39:19
+service#com.evernote.android.job.v21.PlatformJobService
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:17:9-20:72
 	android:exported
-		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:34:13-36
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:19:13-37
 	android:permission
-		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:35:13-93
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:20:13-69
 	android:name
-		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:33:13-73
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:18:13-75
+service#com.evernote.android.job.v14.PlatformAlarmService
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:21:9-24:72
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:23:13-37
+	android:permission
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:24:13-69
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:22:13-77
+service#com.evernote.android.job.v14.PlatformAlarmServiceExact
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:26:13-82
+receiver#com.evernote.android.job.v14.PlatformAlarmReceiver
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:29:9-38:20
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:30:13-78
+intent-filter#action:name:com.evernote.android.job.v14.RUN_JOB+action:name:net.vrallev.android.job.v14.RUN_JOB
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:32:13-37:29
+action#com.evernote.android.job.v14.RUN_JOB
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:35:17-79
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:35:25-76
+action#net.vrallev.android.job.v14.RUN_JOB
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:36:17-78
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:36:25-75
+receiver#com.evernote.android.job.JobBootReceiver
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:39:9-48:20
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:40:13-68
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:42:13-47:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:43:17-79
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:43:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:44:17-82
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:44:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:45:17-82
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:45:25-79
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:46:17-84
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:46:25-81
+service#com.evernote.android.job.gcm.PlatformGcmService
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:50:9-58:19
+	android:enabled
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:52:13-36
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:53:13-36
+	android:permission
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:54:13-93
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:51:13-75
 intent-filter#action:name:com.google.android.gms.gcm.ACTION_TASK_READY
-ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:36:13-38:29
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:55:13-57:29
 action#com.google.android.gms.gcm.ACTION_TASK_READY
-ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:37:17-87
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:56:17-87
 	android:name
-		ADDED from [com.firebase:firebase-jobdispatcher:0.8.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\firebase-jobdispatcher-0.8.5.aar\877a195faf9149d746bedb31516c08a7\AndroidManifest.xml:37:25-84
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:56:25-84
+service#com.evernote.android.job.JobRescheduleService
+ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:59:9-62:72
+	android:exported
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:61:13-37
+	android:permission
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:62:13-69
+	android:name
+		ADDED from [com.evernote:android-job:1.2.5] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\android-job-1.2.5.aar\e67fd3489b43731ec77e84710bfcc8d3\AndroidManifest.xml:60:13-73
 provider#com.crashlytics.android.CrashlyticsInitProvider
 ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\kakao_000\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\0acac997694c95d75c7f5b003d222c36\AndroidManifest.xml:12:9-16:39
 	android:authorities
