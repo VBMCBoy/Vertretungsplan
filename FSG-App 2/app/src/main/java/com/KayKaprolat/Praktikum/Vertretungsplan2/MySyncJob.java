@@ -270,7 +270,6 @@ public class MySyncJob extends Job {
               SystemClock.sleep(1000);
               if ((error instanceof TimeoutError) || (error instanceof NoConnectionError)) {
                 Crashlytics.logException(error.fillInStackTrace());
-                notification("Achtung", "I tried again.", counter, 1); // TODO entfernen
                 runjob(counter + 1);
               }
               // funktioniert das?

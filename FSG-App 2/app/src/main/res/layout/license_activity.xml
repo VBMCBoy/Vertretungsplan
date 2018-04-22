@@ -28,7 +28,7 @@
       android:layout_height="wrap_content"
       android:text="@string/license"
 
-      />
+      android:textSize="18sp"/>
 
   </ScrollView>
 
