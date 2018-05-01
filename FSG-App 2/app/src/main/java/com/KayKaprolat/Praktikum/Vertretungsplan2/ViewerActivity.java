@@ -95,8 +95,6 @@ public class ViewerActivity extends AppCompatActivity {
 
 
 
-    } else {
-
     }
 
     //prüfen ob leer
@@ -128,8 +126,6 @@ public class ViewerActivity extends AppCompatActivity {
 
       JobManager.create(this).addJobCreator(new MyJobCreator());
 
-
-    } else {
 
     }
 

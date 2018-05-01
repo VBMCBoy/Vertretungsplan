@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Mar 30 21:06:34 CEST 2018
+#Tue May 01 12:38:03 CEST 2018
 1.base=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\merged_assets\\release\\mergeReleaseAssets\\out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

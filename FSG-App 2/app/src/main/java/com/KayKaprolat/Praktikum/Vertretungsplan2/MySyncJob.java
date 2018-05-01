@@ -248,7 +248,6 @@ public class MySyncJob extends Job {
 
 
                   } else {
-                    notification("es hat funktioniert", "jaja", 2, 1);
                     closeNotification(1);
                   }
                   speichern(Plan);
