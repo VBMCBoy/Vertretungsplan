@@ -1,7 +1,4 @@
-#Sat Apr 21 20:09:14 CEST 2018
-base.0=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\129
-path.1=classes.dex
-renamed.1=classes2.dex
+#Fri Oct 11 09:48:25 CEST 2019
+base.0=/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=D\:\\Bibliotheken\\Dokumente\\GitHub\\Vertretungsplan\\FSG-App 2\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\130
