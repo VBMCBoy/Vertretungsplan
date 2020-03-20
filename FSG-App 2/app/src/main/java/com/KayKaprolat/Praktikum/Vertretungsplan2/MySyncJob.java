@@ -7,9 +7,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.SystemClock;
 import android.preference.PreferenceManager;
-import androidx.annotation.NonNull;
-import androidx.core.app.NotificationCompat;
 import android.util.Base64;
+
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.NoConnectionError;
 import com.android.volley.Request;
@@ -22,6 +21,7 @@ import com.android.volley.toolbox.Volley;
 import com.crashlytics.android.Crashlytics;
 import com.evernote.android.job.Job;
 import com.evernote.android.job.JobRequest;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -31,6 +31,9 @@ import java.util.Map;
 import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.NotificationCompat;
 
 public class MySyncJob extends Job {
 
@@ -49,7 +52,7 @@ public class MySyncJob extends Job {
 
   @Override
   @NonNull
-  protected Job.Result onRunJob(Job.Params params) {
+  protected Job.Result onRunJob(final Job.Params params) {
     // run job here
 
     runjob(0);
@@ -57,16 +60,16 @@ public class MySyncJob extends Job {
     return Job.Result.SUCCESS;
   }
 
-  public void notification(String title, String text, Integer ID, Integer priority) {
-    Context context = getContext();
-    NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context,
+  public void notification(final String title, final String text, final Integer ID, final Integer priority) {
+    final Context context = getContext();
+    final NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context,
         "ID_Vertretungsplan")
         .setSmallIcon(R.drawable.ic_stat_name).setContentTitle(title).setContentText(text);
-    Intent resultIntent = new Intent(context, ViewerActivity.class);
-    PendingIntent resultPendingIntent = PendingIntent
+    final Intent resultIntent = new Intent(context, ViewerActivity.class);
+    final PendingIntent resultPendingIntent = PendingIntent
         .getActivity(context, 0, resultIntent, PendingIntent.FLAG_UPDATE_CURRENT);
     mBuilder.setContentIntent(resultPendingIntent);
-    NotificationManager notificationManager = (NotificationManager) context
+    final NotificationManager notificationManager = (NotificationManager) context
         .getSystemService(Context.NOTIFICATION_SERVICE);
     mBuilder.setAutoCancel(true);
     if (1 == priority) {
@@ -77,19 +80,19 @@ public class MySyncJob extends Job {
     notificationManager.notify(ID, mBuilder.build());
   }
 
-  public void closeNotification(Integer ID) {
-    Context context = getContext();
-    NotificationManager notimanager = (NotificationManager) context
+  public void closeNotification(final Integer ID) {
+    final Context context = getContext();
+    final NotificationManager notimanager = (NotificationManager) context
         .getSystemService(Context.NOTIFICATION_SERVICE);
     notimanager.cancel(ID);
 
   }
 
-  public Boolean PlanRichtig(Integer day, String Plan) {
+  public Boolean PlanRichtig(final Integer day, final String Plan) {
 
-    DateFormat dateFormat = new SimpleDateFormat("dd.MM");
+    final DateFormat dateFormat = new SimpleDateFormat("dd.MM");
 
-    Calendar c = Calendar.getInstance();
+    final Calendar c = Calendar.getInstance();
     Date date = c.getTime();
 
     switch (day) {
@@ -125,29 +128,29 @@ public class MySyncJob extends Job {
     }
   }
 
-  private void speichern(String string) {
-    SharedPreferences sharedPref = PreferenceManager
+  private void speichern(final String string) {
+    final SharedPreferences sharedPref = PreferenceManager
         .getDefaultSharedPreferences(getContext());
-    SharedPreferences.Editor editor = sharedPref.edit();
+    final SharedPreferences.Editor editor = sharedPref.edit();
 
     editor.putString("cache_website_morgen", string);
 
-    editor.commit();
+    editor.apply();
   }
 
-  public void runjob(final int counter) {
+  public void runjob(int counter) {
 
-    final SharedPreferences prefs = PreferenceManager
+    SharedPreferences prefs = PreferenceManager
         .getDefaultSharedPreferences(getContext());
-    Boolean aktiv = prefs.getBoolean("Benachrichtigungan", false);
-    final String wert_PW = prefs.getString("PW", "");
-    final String wert_name = prefs.getString("BN", "");
-    final String wert_klasse = prefs.getString("KL", "");
-    final Boolean Lehrer = !(wert_klasse.matches(".*\\d+.*")); // true = Lehrer
-    String url;
+    final Boolean aktiv = prefs.getBoolean("Benachrichtigungan", false);
+    String wert_PW = prefs.getString("PW", "");
+    String wert_name = prefs.getString("BN", "");
+    String wert_klasse = prefs.getString("KL", "");
+    Boolean Lehrer = !(wert_klasse.matches(".*\\d+.*")); // true = Lehrer
+    final String url;
 
-    Calendar calendar = Calendar.getInstance();
-    final int day = calendar.get(Calendar.DAY_OF_WEEK);
+    final Calendar calendar = Calendar.getInstance();
+    int day = calendar.get(Calendar.DAY_OF_WEEK);
 
     // nur morgen
     switch (day) {
@@ -191,22 +194,22 @@ public class MySyncJob extends Job {
 
         notification("Info", "Sync gestartet...", 1, 0); // wird in der Zwischenzeit angezeigt
 
-        RequestQueue queue = Volley.newRequestQueue(getContext());
+        final RequestQueue queue = Volley.newRequestQueue(getContext());
 
-        StringRequest request = new StringRequest(Request.Method.GET, url,
+        final StringRequest request = new StringRequest(Request.Method.GET, url,
             new Response.Listener<String>() {
               @Override
-              public void onResponse(String response) {
+              public void onResponse(final String response) {
 
-                String Plan = response;
+                final String Plan = response;
 
-                String morgen_alt = prefs.getString("cache_website_morgen", "");
-                String a = morgen_alt.replaceAll(" ", "");
-                String b = a.replaceAll("\r", ""); // gereinigter alter String
-                String c = Plan.replaceAll(" ", "");
-                String d = c.replaceAll("\r", ""); // gereinigter neuer String
-                String Klassenstufe;
-                String Klassenkuerzel;
+                final String morgen_alt = prefs.getString("cache_website_morgen", "");
+                final String a = morgen_alt.replaceAll(" ", "");
+                final String b = a.replaceAll("\r", ""); // gereinigter alter String
+                final String c = Plan.replaceAll(" ", "");
+                final String d = c.replaceAll("\r", ""); // gereinigter neuer String
+                final String Klassenstufe;
+                final String Klassenkuerzel;
                 if (Character.isLetter(wert_klasse
                     .charAt(wert_klasse.length()
                         - 1))) {   // wenn das letzte Zeichen ein Buchstabe ist -- String wird bei Lehrer nicht benutzt, nur bei Schüler
@@ -217,10 +220,10 @@ public class MySyncJob extends Job {
                   Klassenkuerzel = "";
                 }
 
-                String regex = ">" + Klassenstufe + ".*" + Klassenkuerzel + ".*<";
+                final String regex = ">" + Klassenstufe + ".*" + Klassenkuerzel + ".*<";
 
-                Pattern p = Pattern.compile(regex);
-                Matcher m = p.matcher(Plan);
+                final Pattern p = Pattern.compile(regex);
+                final Matcher m = p.matcher(Plan);
 
                 if (PlanRichtig(day, Plan)) { // Stimmt das Datum?
                   if (!(b.equals(d))) { // ist der Plan neu? --> nur 1x benachrichtigen reicht
@@ -260,7 +263,7 @@ public class MySyncJob extends Job {
               }
             }, new Response.ErrorListener() {
           @Override
-          public void onErrorResponse(VolleyError error) {
+          public void onErrorResponse(final VolleyError error) {
             // Fehler
             notification("Fehler", "Ein Fehler beim Abrufen des Planes ist aufgetreten.", 1,
                 1);
@@ -280,10 +283,10 @@ public class MySyncJob extends Job {
 
           @Override
           public Map<String, String> getHeaders() {
-            Map<String, String> headers = new HashMap<>();
+            final Map<String, String> headers = new HashMap<>();
             // add headers <key,value>
-            String credentials = wert_name + ":" + wert_PW;
-            String auth = "Basic "
+            final String credentials = wert_name + ":" + wert_PW;
+            final String auth = "Basic "
                 + Base64.encodeToString(credentials.getBytes(),
                 Base64.NO_WRAP);
             headers.put("Authorization", auth);

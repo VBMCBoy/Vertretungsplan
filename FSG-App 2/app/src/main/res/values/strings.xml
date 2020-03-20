@@ -8,7 +8,7 @@
   <string name="name">Benutzername</string>
   <string name="about">Über&#8230;</string>
   <string name="licenses">Lizenzen</string>
-  <string name="license">License for Jsoup: \n
+    <string name="license" translatable="false">License for Jsoup: \n
         \n
 The jsoup code-base (include source and compiled packages) are distributed under the open source MIT license as described below. \n
 \n

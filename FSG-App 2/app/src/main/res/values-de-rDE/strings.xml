@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vertretungsplan</string>
+    <string name="passwort">Passwort</string>
+    <string name="name">Benutzername</string>
+    <string name="about">Über&#8230;</string>
+    <string name="licenses">Lizenzen</string>
+    <string name="abouttext">"Eine Android-App, welche den Vertretungsplan des FSG in Großröhrsdorf abruft und formatiert. "</string>
+    <string name="datenschutzInhalt">"Diese App verwendet Firebase. Firebase ist eine Möglichkeit, Fehler der App an den Entwickler zu schicken. Hierbei werden die Nutzerdaten anonymisiert an Firebase übermittelt. Firebase ist eine Google-Tochter und hat seinen Sitz in San Francisco (CA), USA. Die Datenschutzerklärung von Firebase finden Sie unter "</string>
+    <string name="Kategorie_Main">Anmeldung</string>
+    <string name="Kategorie_Notification">Benachrichtigungen</string>
+    <string name="datenschutz">Datenschutz</string>
+    <string name="BenachrichtigungAusSummary">Sie werden keine Benachrichtigungen erhalten</string>
+    <string name="BenachrichtigungAnSummary">Sie werden etwa stündlich von Änderungen des morgigen Vertretungsplanes benachrichtigt, wenn für Sie etwas Wichtiges drinsteht.</string>
+    <string name="AnalyticsAusSummary">Schade! Es werden keine Crash-Reports und Nutzungsinformationen an den Entwickler gesendet.</string>
+    <string name="AnalyticsAnSummary">Crashes und Nutzungsinformationen werden an den Entwickler gesendet. Die Datenschutzerklärung trifft zu! Dankeschön!</string>
+    <string name="einst_klasse">Klasse / Lehrer</string>
+    <string name="einstellungen">Einstellungen</string>
+</resources>

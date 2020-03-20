@@ -1,0 +1,15 @@
+*.apk
++.ap_
+*.class
+bin/
+gen/
+local.properties
+*.iml
+.idea
+.gradle
+build/
+.navigation
+captures/
+output.json
+obj/
+.externalNativeBuild

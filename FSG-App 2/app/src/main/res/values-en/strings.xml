@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vertretungsplan</string>
+    <string name="passwort">password</string>
+    <string name="name">username</string>
+    <string name="about">about</string>
+    <string name="licenses">licenses</string>
+    <string name="Kategorie_Main">login</string>
+    <string name="Kategorie_Notification">notifications</string>
+    <string name="datenschutz">privacy</string>
+    <string name="einstellungen">settings</string>
+    <string name="einst_klasse">class / teacher</string>
+</resources>

@@ -4,7 +4,7 @@
             "outputFile": "/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw360dp-v13/values-sw360dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/kay/.gradle/caches/transforms-2/files-2.1/6c8209fb0fb069b368fabfb8a75f0f80/preference-1.1.0/res/values-sw360dp-v13/values-sw360dp-v13.xml",
+                    "source": "/home/kay/.gradle/caches/transforms-2/files-2.1/957436e9a2a73a2694de707cd5873003/preference-1.1.0/res/values-sw360dp-v13/values-sw360dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

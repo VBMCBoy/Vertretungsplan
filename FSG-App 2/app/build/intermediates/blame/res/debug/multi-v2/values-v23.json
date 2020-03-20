@@ -4,7 +4,7 @@
             "outputFile": "/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/kay/.gradle/caches/transforms-2/files-2.1/db7aaa572e8ec303f60b5433651e83ba/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "/home/kay/.gradle/caches/transforms-2/files-2.1/75dddd257691e491715c705ceda69213/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "/home/kay/.gradle/caches/transforms-2/files-2.1/8ac2f428448d6097aeb9a3f81060653b/appcompat-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "/home/kay/.gradle/caches/transforms-2/files-2.1/15c89fa01274bc419f973ec03c02ab1e/material-1.1.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,320",
+                        "endLines": "5,9",
+                        "endColumns": "10,10",
+                        "endOffsets": "315,588"
+                    },
+                    "to": {
+                        "startLines": "51,55",
+                        "startColumns": "4,4",
+                        "startOffsets": "3557,3822",
+                        "endLines": "54,58",
+                        "endColumns": "10,10",
+                        "endOffsets": "3817,4090"
+                    }
+                },
+                {
+                    "source": "/home/kay/.gradle/caches/transforms-2/files-2.1/8c3940e1080b0d5335229a6de74f85c8/appcompat-1.1.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,37,41,42,43,44",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

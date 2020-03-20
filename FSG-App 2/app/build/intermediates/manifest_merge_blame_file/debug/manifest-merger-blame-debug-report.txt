@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.KayKaprolat.Praktikum.Vertretungsplan2"
-4    android:versionCode="11"
-5    android:versionName="v1.9.1" >
+4    android:versionCode="12"
+5    android:versionName="v1.9.2" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="17"
@@ -23,291 +23,292 @@
 14-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:10:3-77
 14-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:10:20-75
 15    <uses-permission android:name="android.permission.WAKE_LOCK" />
-15-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:12:5-68
-15-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:12:22-65
+15-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:12:5-68
+15-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:12:22-65
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-16-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:13:5-79
-16-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:13:22-76
+16-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:13:5-79
+16-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:13:22-76
 17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-17-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:26:5-110
-17-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:26:22-107
+17-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:26:22-107
 18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-18-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:26:5-82
-18-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:26:22-79
+18-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:26:22-79
 19
 20    <application
 20-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:13:3-46:17
 21        android:allowBackup="true"
 21-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:14:5-31
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.1.0] /home/kay/.gradle/caches/transforms-2/files-2.1/0cc7950be5f751a227c4d1101243d285/core-1.1.0/AndroidManifest.xml:24:18-86
+22-->[androidx.core:core:1.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/0f1f5fb30cc03386706fada164ebd2bb/core-1.2.0/AndroidManifest.xml:24:18-86
 23        android:debuggable="true"
 24        android:icon="@drawable/ic_launcher"
 24-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:15:5-41
 25        android:label="@string/app_name"
 25-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:16:5-37
-26        android:testOnly="true"
-27        android:theme="@style/AppTheme" >
-27-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:17:5-36
-28        <meta-data
-28-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:18:5-20:30
-29            android:name="firebase_analytics_collection_enabled"
-29-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:19:7-59
-30            android:value="false" />
-30-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:20:7-28
-31
-32        <activity
-32-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:22:5-30:16
-33            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity"
-33-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:24:7-37
-34            android:label="Vertretungsplan" >
-34-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:23:7-38
-35            <intent-filter>
-35-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:25:7-29:23
-36                <action android:name="android.intent.action.MAIN" />
-36-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:26:9-60
-36-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:26:17-58
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:28:9-68
-38-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:28:19-66
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:31:5-34:53
-42            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.SettingsActivity"
-42-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:33:7-39
-43            android:label="Vertretungsplaneinstellungen"
-43-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:32:7-51
-44            android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
-44-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:34:7-51
-45        <activity
-45-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:35:5-37:53
-46            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.LicenseActivity"
-46-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:36:7-38
-47            android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
-47-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:37:7-51
-48        <activity
-48-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:38:5-40:53
-49            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.AboutActivity"
-49-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:39:7-36
-50            android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
-50-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:40:7-51
-51        <activity
-51-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:41:5-43:53
-52            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.DatenschutzActivity"
-52-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:42:7-42
-53            android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
-53-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:43:7-51
-54
-55        <service
-55-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:17:9-20:72
-56            android:name="com.evernote.android.job.v21.PlatformJobService"
-56-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:18:13-75
-57            android:exported="false"
-57-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:19:13-37
-58            android:permission="android.permission.BIND_JOB_SERVICE" />
-58-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:20:13-69
-59        <service
-59-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:21:9-24:72
-60            android:name="com.evernote.android.job.v14.PlatformAlarmService"
-60-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:22:13-77
-61            android:exported="false"
-61-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:23:13-37
-62            android:permission="android.permission.BIND_JOB_SERVICE" />
-62-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:24:13-69
-63        <service
-63-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:25:9-27:40
-64            android:name="com.evernote.android.job.v14.PlatformAlarmServiceExact"
-64-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:26:13-82
-65            android:exported="false" />
-65-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:27:13-37
-66
-67        <receiver
-67-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:29:9-38:20
-68            android:name="com.evernote.android.job.v14.PlatformAlarmReceiver"
-68-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:30:13-78
-69            android:exported="false" >
-69-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:31:13-37
-70            <intent-filter>
-70-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:32:13-37:29
-71
-72                <!-- Keep the filter for legacy intents -->
-73                <action android:name="com.evernote.android.job.v14.RUN_JOB" />
-73-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:35:17-79
-73-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:35:25-76
-74                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
-74-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:36:17-78
-74-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:36:25-75
-75            </intent-filter>
-76        </receiver>
-77        <receiver
-77-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:39:9-48:20
-78            android:name="com.evernote.android.job.JobBootReceiver"
-78-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:40:13-68
-79            android:exported="false" >
-79-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:41:13-37
-80            <intent-filter>
-80-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:42:13-47:29
-81                <action android:name="android.intent.action.BOOT_COMPLETED" />
-81-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:43:17-79
-81-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:43:25-76
-82                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
-82-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:44:17-82
-82-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:44:25-79
-83                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
-83-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:45:17-82
-83-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:45:25-79
-84                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-84-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:46:17-84
-84-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:46:25-81
-85            </intent-filter>
-86        </receiver>
-87
-88        <service
-88-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:50:9-58:19
-89            android:name="com.evernote.android.job.gcm.PlatformGcmService"
-89-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:51:13-75
-90            android:enabled="false"
-90-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:52:13-36
-91            android:exported="true"
-91-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:53:13-36
-92            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
-92-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:54:13-93
-93            <intent-filter>
-93-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:55:13-57:29
-94                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
-94-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:56:17-87
-94-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:56:25-84
-95            </intent-filter>
-96        </service>
-97        <service
-97-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:59:9-62:72
-98            android:name="com.evernote.android.job.JobRescheduleService"
-98-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:60:13-73
-99            android:exported="false"
-99-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:61:13-37
-100            android:permission="android.permission.BIND_JOB_SERVICE" />
-100-->[com.evernote:android-job:1.2.5] /home/kay/.gradle/caches/transforms-2/files-2.1/4e1ff9d64cd26540215a4f4b0bf636e2/jetified-android-job-1.2.5/AndroidManifest.xml:62:13-69
-101
-102        <receiver
-102-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:29:9-33:20
-103            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-103-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:30:13-85
-104            android:enabled="true"
-104-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:31:13-35
-105            android:exported="false" >
-105-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:32:13-37
-106        </receiver>
-107        <receiver
-107-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:34:9-42:20
-108            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-108-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:35:13-100
-109            android:enabled="true"
-109-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:36:13-35
-110            android:exported="true"
-110-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:37:13-36
-111            android:permission="android.permission.INSTALL_PACKAGES" >
-111-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:38:13-69
-112            <intent-filter>
-112-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:39:13-41:29
-113                <action android:name="com.android.vending.INSTALL_REFERRER" />
-113-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:40:17-79
-113-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:40:25-76
-114            </intent-filter>
-115        </receiver>
-116
-117        <service
-117-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:44:9-47:40
-118            android:name="com.google.android.gms.measurement.AppMeasurementService"
-118-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:45:13-84
-119            android:enabled="true"
-119-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:46:13-35
-120            android:exported="false" />
-120-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:47:13-37
-121        <service
-121-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:48:9-52:72
-122            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-122-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:49:13-87
-123            android:enabled="true"
-123-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:50:13-35
-124            android:exported="false"
-124-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:51:13-37
-125            android:permission="android.permission.BIND_JOB_SERVICE" />
-125-->[com.google.android.gms:play-services-measurement:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/9256c05f2c06712878cda04a61843097/play-services-measurement-17.2.0/AndroidManifest.xml:52:13-69
-126        <service
-126-->[com.google.android.gms:play-services-measurement-api:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/34705eeb4797ecbf4d9e60d4a2b245b2/play-services-measurement-api-17.2.0/AndroidManifest.xml:27:9-33:19
-127            android:name="com.google.firebase.components.ComponentDiscoveryService"
-127-->[com.google.android.gms:play-services-measurement-api:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/34705eeb4797ecbf4d9e60d4a2b245b2/play-services-measurement-api-17.2.0/AndroidManifest.xml:28:13-84
+26        android:theme="@style/AppTheme" >
+26-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:17:5-36
+27        <meta-data
+27-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:18:5-20:30
+28            android:name="firebase_analytics_collection_enabled"
+28-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:19:7-59
+29            android:value="false" />
+29-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:20:7-28
+30
+31        <activity
+31-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:22:5-30:16
+32            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity"
+32-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:24:7-37
+33            android:label="Vertretungsplan" >
+33-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:23:7-38
+34            <intent-filter>
+34-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:25:7-29:23
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:26:9-60
+35-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:26:17-58
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:28:9-68
+37-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:28:19-66
+38            </intent-filter>
+39        </activity>
+40        <activity
+40-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:31:5-34:53
+41            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.SettingsActivity"
+41-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:33:7-39
+42            android:label="Vertretungsplaneinstellungen"
+42-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:32:7-51
+43            android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
+43-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:34:7-51
+44        <activity
+44-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:35:5-37:53
+45            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.LicenseActivity"
+45-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:36:7-38
+46            android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
+46-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:37:7-51
+47        <activity
+47-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:38:5-40:53
+48            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.AboutActivity"
+48-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:39:7-36
+49            android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
+49-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:40:7-51
+50        <activity
+50-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:41:5-43:53
+51            android:name="com.KayKaprolat.Praktikum.Vertretungsplan2.DatenschutzActivity"
+51-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:42:7-42
+52            android:parentActivityName="com.KayKaprolat.Praktikum.Vertretungsplan2.ViewerActivity" />
+52-->/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/src/main/AndroidManifest.xml:43:7-51
+53
+54        <service
+54-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:17:9-20:72
+55            android:name="com.evernote.android.job.v21.PlatformJobService"
+55-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:18:13-75
+56            android:exported="false"
+56-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:19:13-37
+57            android:permission="android.permission.BIND_JOB_SERVICE" />
+57-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:20:13-69
+58        <service
+58-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:21:9-24:72
+59            android:name="com.evernote.android.job.v14.PlatformAlarmService"
+59-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:22:13-77
+60            android:exported="false"
+60-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:23:13-37
+61            android:permission="android.permission.BIND_JOB_SERVICE" />
+61-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:24:13-69
+62        <service
+62-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:25:9-27:40
+63            android:name="com.evernote.android.job.v14.PlatformAlarmServiceExact"
+63-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:26:13-82
+64            android:exported="false" />
+64-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:27:13-37
+65
+66        <receiver
+66-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:29:9-38:20
+67            android:name="com.evernote.android.job.v14.PlatformAlarmReceiver"
+67-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:30:13-78
+68            android:exported="false" >
+68-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:31:13-37
+69            <intent-filter>
+69-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:32:13-37:29
+70
+71                <!-- Keep the filter for legacy intents -->
+72                <action android:name="com.evernote.android.job.v14.RUN_JOB" />
+72-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:35:17-79
+72-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:35:25-76
+73                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
+73-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:36:17-78
+73-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:36:25-75
+74            </intent-filter>
+75        </receiver>
+76        <receiver
+76-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:39:9-48:20
+77            android:name="com.evernote.android.job.JobBootReceiver"
+77-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:40:13-68
+78            android:exported="false" >
+78-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:41:13-37
+79            <intent-filter>
+79-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:42:13-47:29
+80                <action android:name="android.intent.action.BOOT_COMPLETED" />
+80-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:43:17-79
+80-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:43:25-76
+81                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+81-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:44:17-82
+81-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:44:25-79
+82                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+82-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:45:17-82
+82-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:45:25-79
+83                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+83-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:46:17-84
+83-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:46:25-81
+84            </intent-filter>
+85        </receiver>
+86
+87        <service
+87-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:50:9-58:19
+88            android:name="com.evernote.android.job.gcm.PlatformGcmService"
+88-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:51:13-75
+89            android:enabled="false"
+89-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:52:13-36
+90            android:exported="true"
+90-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:53:13-36
+91            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+91-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:54:13-93
+92            <intent-filter>
+92-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:55:13-57:29
+93                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+93-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:56:17-87
+93-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:56:25-84
+94            </intent-filter>
+95        </service>
+96        <service
+96-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:59:9-62:72
+97            android:name="com.evernote.android.job.JobRescheduleService"
+97-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:60:13-73
+98            android:exported="false"
+98-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:61:13-37
+99            android:permission="android.permission.BIND_JOB_SERVICE" />
+99-->[com.evernote:android-job:1.4.2] /home/kay/.gradle/caches/transforms-2/files-2.1/538b3d53f7485ec1064c9340b3d09be2/jetified-android-job-1.4.2/AndroidManifest.xml:62:13-69
+100
+101        <receiver
+101-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:29:9-33:20
+102            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+102-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:30:13-85
+103            android:enabled="true"
+103-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:31:13-35
+104            android:exported="false" >
+104-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:32:13-37
+105        </receiver>
+106        <receiver
+106-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:34:9-42:20
+107            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+107-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:35:13-100
+108            android:enabled="true"
+108-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:36:13-35
+109            android:exported="true"
+109-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:37:13-36
+110            android:permission="android.permission.INSTALL_PACKAGES" >
+110-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:38:13-69
+111            <intent-filter>
+111-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:39:13-41:29
+112                <action android:name="com.android.vending.INSTALL_REFERRER" />
+112-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:40:17-79
+112-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:40:25-76
+113            </intent-filter>
+114        </receiver>
+115
+116        <service
+116-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:44:9-47:40
+117            android:name="com.google.android.gms.measurement.AppMeasurementService"
+117-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:45:13-84
+118            android:enabled="true"
+118-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:46:13-35
+119            android:exported="false" />
+119-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:47:13-37
+120        <service
+120-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:48:9-52:72
+121            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+121-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:49:13-87
+122            android:enabled="true"
+122-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:50:13-35
+123            android:exported="false"
+123-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:51:13-37
+124            android:permission="android.permission.BIND_JOB_SERVICE" />
+124-->[com.google.android.gms:play-services-measurement:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/d4690b110768b959802a35d3c7f24ee8/jetified-play-services-measurement-17.2.3/AndroidManifest.xml:52:13-69
+125        <service
+125-->[com.google.android.gms:play-services-measurement-api:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/ee213f792fb1cddf4d8c7bf3134d18aa/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:27:9-33:19
+126            android:name="com.google.firebase.components.ComponentDiscoveryService"
+126-->[com.google.android.gms:play-services-measurement-api:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/ee213f792fb1cddf4d8c7bf3134d18aa/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:28:13-84
+127            android:directBootAware="true"
+127-->[com.google.firebase:firebase-common:19.3.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b6fa883d0564f39485d50c02d96caf89/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
 128            android:exported="false" >
-128-->[com.google.android.gms:play-services-measurement-api:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/34705eeb4797ecbf4d9e60d4a2b245b2/play-services-measurement-api-17.2.0/AndroidManifest.xml:29:13-37
+128-->[com.google.android.gms:play-services-measurement-api:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/ee213f792fb1cddf4d8c7bf3134d18aa/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:29:13-37
 129            <meta-data
-129-->[com.google.android.gms:play-services-measurement-api:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/34705eeb4797ecbf4d9e60d4a2b245b2/play-services-measurement-api-17.2.0/AndroidManifest.xml:30:13-32:85
+129-->[com.google.android.gms:play-services-measurement-api:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/ee213f792fb1cddf4d8c7bf3134d18aa/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:30:13-32:85
 130                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-130-->[com.google.android.gms:play-services-measurement-api:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/34705eeb4797ecbf4d9e60d4a2b245b2/play-services-measurement-api-17.2.0/AndroidManifest.xml:31:17-139
+130-->[com.google.android.gms:play-services-measurement-api:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/ee213f792fb1cddf4d8c7bf3134d18aa/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:31:17-139
 131                android:value="com.google.firebase.components.ComponentRegistrar" />
-131-->[com.google.android.gms:play-services-measurement-api:17.2.0] /home/kay/.gradle/caches/transforms-2/files-2.1/34705eeb4797ecbf4d9e60d4a2b245b2/play-services-measurement-api-17.2.0/AndroidManifest.xml:32:17-82
+131-->[com.google.android.gms:play-services-measurement-api:17.2.3] /home/kay/.gradle/caches/transforms-2/files-2.1/ee213f792fb1cddf4d8c7bf3134d18aa/jetified-play-services-measurement-api-17.2.3/AndroidManifest.xml:32:17-82
 132            <meta-data
-132-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:32:13-34:85
+132-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:32:13-34:85
 133                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-133-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:33:17-96
+133-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:33:17-96
 134                android:value="com.google.firebase.components.ComponentRegistrar" />
-134-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:34:17-82
+134-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:34:17-82
 135        </service>
 136
 137        <receiver
-137-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:37:9-44:20
+137-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:37:9-44:20
 138            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-138-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:38:13-78
+138-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:38:13-78
 139            android:exported="true"
-139-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:39:13-36
+139-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:39:13-36
 140            android:permission="com.google.android.c2dm.permission.SEND" >
-140-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:40:13-73
+140-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:40:13-73
 141            <intent-filter>
-141-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:41:13-43:29
+141-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:41:13-43:29
 142                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-142-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:42:17-81
-142-->[com.google.firebase:firebase-iid:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b5ecf1249b4007dced0123bfa9b73872/firebase-iid-19.0.0/AndroidManifest.xml:42:25-78
+142-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:17-81
+142-->[com.google.firebase:firebase-iid:20.0.2] /home/kay/.gradle/caches/transforms-2/files-2.1/096039647dda08a11f27a95d922b6501/jetified-firebase-iid-20.0.2/AndroidManifest.xml:42:25-78
 143            </intent-filter>
 144        </receiver>
 145
 146        <provider
-146-->[com.google.firebase:firebase-common:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/1e88544c50b84eb46cfe2afee61047ea/firebase-common-19.0.0/AndroidManifest.xml:12:9-16:39
+146-->[com.google.firebase:firebase-common:19.3.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b6fa883d0564f39485d50c02d96caf89/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
 147            android:name="com.google.firebase.provider.FirebaseInitProvider"
-147-->[com.google.firebase:firebase-common:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/1e88544c50b84eb46cfe2afee61047ea/firebase-common-19.0.0/AndroidManifest.xml:13:13-77
+147-->[com.google.firebase:firebase-common:19.3.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b6fa883d0564f39485d50c02d96caf89/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
 148            android:authorities="com.KayKaprolat.Praktikum.Vertretungsplan2.firebaseinitprovider"
-148-->[com.google.firebase:firebase-common:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/1e88544c50b84eb46cfe2afee61047ea/firebase-common-19.0.0/AndroidManifest.xml:14:13-72
+148-->[com.google.firebase:firebase-common:19.3.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b6fa883d0564f39485d50c02d96caf89/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
 149            android:exported="false"
-149-->[com.google.firebase:firebase-common:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/1e88544c50b84eb46cfe2afee61047ea/firebase-common-19.0.0/AndroidManifest.xml:15:13-37
+149-->[com.google.firebase:firebase-common:19.3.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b6fa883d0564f39485d50c02d96caf89/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
 150            android:initOrder="100" />
-150-->[com.google.firebase:firebase-common:19.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/1e88544c50b84eb46cfe2afee61047ea/firebase-common-19.0.0/AndroidManifest.xml:16:13-36
+150-->[com.google.firebase:firebase-common:19.3.0] /home/kay/.gradle/caches/transforms-2/files-2.1/b6fa883d0564f39485d50c02d96caf89/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
 151
 152        <activity
-152-->[com.google.android.gms:play-services-base:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/fc3488a6f5ffce5c424e2f6efeca4c4a/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+152-->[com.google.android.gms:play-services-base:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/5e431127cde43dac5f678774c3e54cd6/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 153            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-153-->[com.google.android.gms:play-services-base:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/fc3488a6f5ffce5c424e2f6efeca4c4a/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+153-->[com.google.android.gms:play-services-base:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/5e431127cde43dac5f678774c3e54cd6/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 154            android:exported="false"
-154-->[com.google.android.gms:play-services-base:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/fc3488a6f5ffce5c424e2f6efeca4c4a/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+154-->[com.google.android.gms:play-services-base:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/5e431127cde43dac5f678774c3e54cd6/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-155-->[com.google.android.gms:play-services-base:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/fc3488a6f5ffce5c424e2f6efeca4c4a/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+155-->[com.google.android.gms:play-services-base:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/5e431127cde43dac5f678774c3e54cd6/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 156
 157        <meta-data
-157-->[com.google.android.gms:play-services-basement:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/ccbb62b7c60b8838860154cc4efb3559/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+157-->[com.google.android.gms:play-services-basement:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/fd6ca4a64addf83d90850efce1877526/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 158            android:name="com.google.android.gms.version"
-158-->[com.google.android.gms:play-services-basement:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/ccbb62b7c60b8838860154cc4efb3559/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+158-->[com.google.android.gms:play-services-basement:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/fd6ca4a64addf83d90850efce1877526/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 159            android:value="@integer/google_play_services_version" />
-159-->[com.google.android.gms:play-services-basement:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/ccbb62b7c60b8838860154cc4efb3559/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+159-->[com.google.android.gms:play-services-basement:17.0.0] /home/kay/.gradle/caches/transforms-2/files-2.1/fd6ca4a64addf83d90850efce1877526/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 160
 161        <provider
-161-->[com.crashlytics.sdk.android:crashlytics:2.9.1] /home/kay/.gradle/caches/transforms-2/files-2.1/2e19c93dc43cb0588dc6472fa494821c/crashlytics-2.9.1/AndroidManifest.xml:12:9-16:39
+161-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/kay/.gradle/caches/transforms-2/files-2.1/4a811bf1b31a683ff477b3d314afd553/jetified-crashlytics-2.10.1/AndroidManifest.xml:19:9-23:38
 162            android:name="com.crashlytics.android.CrashlyticsInitProvider"
-162-->[com.crashlytics.sdk.android:crashlytics:2.9.1] /home/kay/.gradle/caches/transforms-2/files-2.1/2e19c93dc43cb0588dc6472fa494821c/crashlytics-2.9.1/AndroidManifest.xml:13:13-75
+162-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/kay/.gradle/caches/transforms-2/files-2.1/4a811bf1b31a683ff477b3d314afd553/jetified-crashlytics-2.10.1/AndroidManifest.xml:20:13-75
 163            android:authorities="com.KayKaprolat.Praktikum.Vertretungsplan2.crashlyticsinitprovider"
-163-->[com.crashlytics.sdk.android:crashlytics:2.9.1] /home/kay/.gradle/caches/transforms-2/files-2.1/2e19c93dc43cb0588dc6472fa494821c/crashlytics-2.9.1/AndroidManifest.xml:14:13-75
+163-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/kay/.gradle/caches/transforms-2/files-2.1/4a811bf1b31a683ff477b3d314afd553/jetified-crashlytics-2.10.1/AndroidManifest.xml:21:13-75
 164            android:exported="false"
-164-->[com.crashlytics.sdk.android:crashlytics:2.9.1] /home/kay/.gradle/caches/transforms-2/files-2.1/2e19c93dc43cb0588dc6472fa494821c/crashlytics-2.9.1/AndroidManifest.xml:15:13-37
-165            android:initOrder="100" />
-165-->[com.crashlytics.sdk.android:crashlytics:2.9.1] /home/kay/.gradle/caches/transforms-2/files-2.1/2e19c93dc43cb0588dc6472fa494821c/crashlytics-2.9.1/AndroidManifest.xml:16:13-36
+164-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/kay/.gradle/caches/transforms-2/files-2.1/4a811bf1b31a683ff477b3d314afd553/jetified-crashlytics-2.10.1/AndroidManifest.xml:22:13-37
+165            android:initOrder="90" />
+165-->[com.crashlytics.sdk.android:crashlytics:2.10.1] /home/kay/.gradle/caches/transforms-2/files-2.1/4a811bf1b31a683ff477b3d314afd553/jetified-crashlytics-2.10.1/AndroidManifest.xml:23:13-35
 166    </application>
 167
 168</manifest>
