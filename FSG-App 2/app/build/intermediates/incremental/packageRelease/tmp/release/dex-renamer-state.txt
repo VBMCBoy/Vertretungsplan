@@ -1,4 +1,0 @@
-#Fri Oct 11 18:42:14 CEST 2019
-base.0=/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex

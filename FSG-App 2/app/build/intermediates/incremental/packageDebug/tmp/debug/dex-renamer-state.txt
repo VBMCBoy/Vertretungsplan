@@ -1,4 +1,0 @@
-#Fri Mar 20 17:28:31 CET 2020
-base.0=/home/kay/AndroidStudioProjects/Vertretungsplan/FSG-App 2/app/build/intermediates/dex/debug/out/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
