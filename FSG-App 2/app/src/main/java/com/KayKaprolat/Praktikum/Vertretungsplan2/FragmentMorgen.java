@@ -179,7 +179,6 @@ public class FragmentMorgen extends Fragment {
 
     editor.apply();
 
-
   }
 
   private String cache(final Boolean heute) {
